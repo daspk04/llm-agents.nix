@@ -281,6 +281,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>opendev</strong> - Open-source AI coding agent that spawns parallel agents</summary>
+
+- **Source**: source
+- **License**: MIT
+- **Homepage**: https://github.com/opendev-to/opendev
+- **Usage**: `nix run github:numtide/llm-agents.nix#opendev -- --help`
+- **Nix**: [packages/opendev/package.nix](packages/opendev/package.nix)
+
+</details>
+<details>
 <summary><strong>pi</strong> - A terminal-based coding agent with multi-model support</summary>
 
 - **Source**: bytecode
