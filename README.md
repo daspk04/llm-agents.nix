@@ -460,6 +460,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 ### ACP Ecosystem
 
 <details>
+<summary><strong>chrome-acp</strong> - Chrome extension and proxy server to connect ACP agents to your browser</summary>
+
+- **Source**: bytecode
+- **License**: MIT
+- **Homepage**: https://github.com/Areo-Joe/chrome-acp
+- **Usage**: `nix run github:numtide/llm-agents.nix#chrome-acp -- --help`
+- **Nix**: [packages/chrome-acp/package.nix](packages/chrome-acp/package.nix)
+
+</details>
+<details>
 <summary><strong>claude-code-acp</strong> - An ACP-compatible coding agent powered by the Claude Code SDK (TypeScript)</summary>
 
 - **Source**: source
