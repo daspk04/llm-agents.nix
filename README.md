@@ -60,6 +60,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>cli-proxy-api-plus</strong> - Unified proxy providing OpenAI/Gemini/Claude/Codex and others compatible APIs for AI coding CLI tools</summary>
+
+- **Source**: source
+- **License**: MIT
+- **Homepage**: https://github.com/router-for-me/CLIProxyAPIPlus
+- **Usage**: `nix run github:numtide/llm-agents.nix#cli-proxy-api-plus -- --help`
+- **Nix**: [packages/cli-proxy-api-plus/package.nix](packages/cli-proxy-api-plus/package.nix)
+
+</details>
+<details>
 <summary><strong>code</strong> - Fork of codex. Orchestrate agents from OpenAI, Claude, Gemini or any provider.</summary>
 
 - **Source**: source
