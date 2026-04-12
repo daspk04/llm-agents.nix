@@ -943,6 +943,19 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 - **Nix**: [packages/zat/package.nix](packages/zat/package.nix)
 
 </details>
+
+### Uncategorized
+
+<details>
+<summary><strong>camoufox</strong> - Camoufox browser built from a patched Firefox source tree</summary>
+
+- **Source**: source
+- **License**: MPL-2.0
+- **Homepage**: https://github.com/CloverLabsAI/camoufox
+- **Usage**: `nix run github:numtide/llm-agents.nix#camoufox -- --help`
+- **Nix**: [packages/camoufox/package.nix](packages/camoufox/package.nix)
+
+</details>
 <!-- END GENERATED PACKAGE DOCS -->
 
 ## Installation
