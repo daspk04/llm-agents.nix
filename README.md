@@ -794,6 +794,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>camofox-jo</strong> - Headless browser automation server for AI agents to visit blocked sites</summary>
+
+- **Source**: bytecode
+- **License**: MIT
+- **Homepage**: https://github.com/jo-inc/camofox-browser
+- **Usage**: `nix run github:numtide/llm-agents.nix#camofox-jo -- --help`
+- **Nix**: [packages/camofox-jo/package.nix](packages/camofox-jo/package.nix)
+
+</details>
+<details>
 <summary><strong>ck</strong> - Local first semantic and hybrid BM25 grep / search tool for use by AI and humans!</summary>
 
 - **Source**: source
