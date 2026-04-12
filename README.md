@@ -854,6 +854,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>camofox-cli</strong> - Anti-detect browser automation CLI for AI agents powered by Camoufox</summary>
+
+- **Source**: bytecode
+- **License**: MIT
+- **Homepage**: https://github.com/Bin-Huang/camoufox-cli
+- **Usage**: `nix run github:numtide/llm-agents.nix#camofox-cli -- --help`
+- **Nix**: [packages/camofox-cli/package.nix](packages/camofox-cli/package.nix)
+
+</details>
+<details>
 <summary><strong>ck</strong> - Local first semantic and hybrid BM25 grep / search tool for use by AI and humans!</summary>
 
 - **Source**: source
