@@ -5,6 +5,7 @@ result-*
 
 # Editor
 .vscode
+.idea
 *.swp
 *~
 
