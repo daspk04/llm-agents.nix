@@ -191,6 +191,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>goose-desktop</strong> - Desktop app for Goose - a local, extensible, open source AI agent</summary>
+
+- **Source**: source
+- **License**: Apache-2.0
+- **Homepage**: https://github.com/block/goose
+- **Usage**: `nix run github:numtide/llm-agents.nix#goose-desktop -- --help`
+- **Nix**: [packages/goose-desktop/package.nix](packages/goose-desktop/package.nix)
+
+</details>
+<details>
 <summary><strong>goose-server</strong> - HTTP server for Goose - a local, extensible, open source AI agent</summary>
 
 - **Source**: source
