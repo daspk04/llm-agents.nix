@@ -804,6 +804,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>camofox-mcp</strong> - Anti-detection browser MCP server for AI agents</summary>
+
+- **Source**: bytecode
+- **License**: MIT
+- **Homepage**: https://github.com/redf0x1/camofox-mcp
+- **Usage**: `nix run github:numtide/llm-agents.nix#camofox-mcp -- --help`
+- **Nix**: [packages/camofox-mcp/package.nix](packages/camofox-mcp/package.nix)
+
+</details>
+<details>
 <summary><strong>ck</strong> - Local first semantic and hybrid BM25 grep / search tool for use by AI and humans!</summary>
 
 - **Source**: source
