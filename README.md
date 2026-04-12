@@ -191,6 +191,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>goose-server</strong> - HTTP server for Goose - a local, extensible, open source AI agent</summary>
+
+- **Source**: source
+- **License**: Apache-2.0
+- **Homepage**: https://github.com/block/goose
+- **Usage**: `nix run github:numtide/llm-agents.nix#goose-server -- --help`
+- **Nix**: [packages/goose-server/package.nix](packages/goose-server/package.nix)
+
+</details>
+<details>
 <summary><strong>iflow-cli</strong> - AI coding agent for the terminal with free model access via the iFlow platform</summary>
 
 - **Source**: bytecode
