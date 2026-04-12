@@ -404,6 +404,26 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>openfang</strong> - Open-source Agent Operating System built in Rust</summary>
+
+- **Source**: source
+- **License**: Apache-2.0 / MIT
+- **Homepage**: https://openfang.sh
+- **Usage**: `nix run github:numtide/llm-agents.nix#openfang -- --help`
+- **Nix**: [packages/openfang/package.nix](packages/openfang/package.nix)
+
+</details>
+<details>
+<summary><strong>openfang-desktop</strong> - Native desktop application for the OpenFang Agent OS (Tauri 2.0)</summary>
+
+- **Source**: source
+- **License**: Apache-2.0 / MIT
+- **Homepage**: https://openfang.sh
+- **Usage**: `nix run github:numtide/llm-agents.nix#openfang-desktop -- --help`
+- **Nix**: [packages/openfang-desktop/package.nix](packages/openfang-desktop/package.nix)
+
+</details>
+<details>
 <summary><strong>picoclaw</strong> - Tiny, fast, and deployable anywhere — automate the mundane, unleash your creativity</summary>
 
 - **Source**: source
