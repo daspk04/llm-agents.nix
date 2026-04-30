@@ -219,6 +219,7 @@ python.pkgs.buildPythonApplication rec {
     "pydantic"
     "pydantic-settings"
     "pyyaml"
+    "textual"
     "watchfiles"
     "zstandard"
   ];
