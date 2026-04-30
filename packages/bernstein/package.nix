@@ -67,6 +67,7 @@ python3.pkgs.buildPythonApplication rec {
     defusedxml
     fastapi
     httpx
+    keyring
     mcp
     openai
     opentelemetry-api
