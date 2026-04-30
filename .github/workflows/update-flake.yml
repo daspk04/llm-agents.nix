@@ -70,6 +70,8 @@ jobs:
         uses: actions/checkout@v6
         with:
           token: ${{ steps.app-token.outputs.token }}
+          # Full history needed so we can rebase existing update/* branches onto main.
+          fetch-depth: 0
       - name: Setup Nix
         uses: cachix/install-nix-action@v31
         with:
@@ -80,6 +82,27 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Prepare update branch
+        # Reuse the existing update/* branch (if any) so manual fixup commits on the
+        # open PR are preserved. Rebase it onto main and let the updater commit on top.
+        run: |
+          if [[ "${{ matrix.type }}" = package ]]; then
+            branch="update/${{ matrix.name }}"
+          else
+            branch="update-${{ matrix.name }}"
+          fi
+          git fetch origin main
+          if git fetch origin "$branch"; then
+            echo "Reusing existing branch $branch"
+            git checkout -B "$branch" "origin/$branch"
+            if ! git rebase origin/main; then
+              echo "::warning::Rebase of $branch onto main failed, discarding stale branch"
+              git rebase --abort
+              git reset --hard origin/main
+            fi
+          else
+            git checkout -B "$branch" origin/main
+          fi
       - name: Perform update
         id: update
         env:
