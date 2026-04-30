@@ -64,7 +64,9 @@ stdenv.mkDerivation (finalAttrs: {
     # network access.  Patch it out for the sandbox build — plugin runtime
     # deps are not needed for the main openclaw CLI.
     substituteInPlace scripts/runtime-postbuild.mjs \
-      --replace-fail 'stageBundledPluginRuntimeDeps(params);' '/* stageBundledPluginRuntimeDeps(params); — disabled in Nix build */'
+      --replace-fail \
+        'runPhase("bundled plugin runtime deps", () => stageBundledPluginRuntimeDeps(params));' \
+        '/* runPhase("bundled plugin runtime deps", () => stageBundledPluginRuntimeDeps(params)); — disabled in Nix build */'
   '';
 
   buildPhase = ''
