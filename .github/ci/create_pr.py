@@ -82,11 +82,15 @@ def build_config(
 
 
 def create_or_update_pr(config: PrConfig, *, labels: str, auto_merge: bool) -> None:
-    """Stage, commit, push, and create/update the PR."""
+    """Stage, commit, push, and create/update the PR.
+
+    The workflow's "Prepare update branch" step has already checked out
+    ``config.branch`` (rebased onto main if it existed), so we only need to
+    commit the updater's changes on top and force-push.
+    """
     run(["git", "add", "."])
-    run(["git", "checkout", "-b", config.branch])
     run(["git", "commit", "-m", config.commit_message, "--signoff"])
-    run(["git", "push", "--force", "origin", config.branch])
+    run(["git", "push", "--force", "origin", f"HEAD:{config.branch}"])
 
     pr_number = gh_get_pr_number(config.branch)
 
