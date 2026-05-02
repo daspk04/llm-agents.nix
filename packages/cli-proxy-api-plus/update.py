@@ -26,7 +26,7 @@ def main() -> None:
     """Update the cli-proxy-api-plus package."""
     data = load_hashes(HASHES_FILE)
     current = data["version"]
-    latest = fetch_github_latest_release("router-for-me", "CLIProxyAPIPlus")
+    latest = fetch_github_latest_release("kaitranntt", "CLIProxyAPIPlus")
 
     print(f"Current: {current}, Latest: {latest}")
 
@@ -34,7 +34,7 @@ def main() -> None:
         print("Already up to date")
         return
 
-    url = f"https://github.com/router-for-me/CLIProxyAPIPlus/archive/refs/tags/v{latest}.tar.gz"
+    url = f"https://github.com/kaitranntt/CLIProxyAPIPlus/archive/refs/tags/v{latest}.tar.gz"
 
     print("Calculating source hash...")
     source_hash = calculate_url_hash(url, unpack=True)
