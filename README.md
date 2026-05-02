@@ -467,6 +467,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>ccs</strong> - Switch between Claude accounts, Gemini, Copilot, OpenRouter (300+ models) via CLIProxyAPI OAuth proxy</summary>
+
+- **Source**: source
+- **License**: MIT
+- **Homepage**: https://github.com/kaitranntt/ccs
+- **Usage**: `nix run github:numtide/llm-agents.nix#ccs -- --help`
+- **Nix**: [packages/ccs/package.nix](packages/ccs/package.nix)
+
+</details>
+<details>
 <summary><strong>ccstatusline</strong> - A highly customizable status line formatter for Claude Code CLI</summary>
 
 - **Source**: bytecode
@@ -820,7 +830,6 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 - **Homepage**: https://github.com/redf0x1/camofox-browser
 - **Usage**: `nix run github:numtide/llm-agents.nix#camofox-browser -- --help`
 - **Nix**: [packages/camofox-browser/package.nix](packages/camofox-browser/package.nix)
-
 
 </details>
 <details>
