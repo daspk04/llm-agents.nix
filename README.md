@@ -64,7 +64,7 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 - **Source**: source
 - **License**: MIT
-- **Homepage**: https://github.com/router-for-me/CLIProxyAPIPlus
+- **Homepage**: https://github.com/kaitranntt/CLIProxyAPIPlus
 - **Usage**: `nix run github:numtide/llm-agents.nix#cli-proxy-api-plus -- --help`
 - **Nix**: [packages/cli-proxy-api-plus/package.nix](packages/cli-proxy-api-plus/package.nix)
 
@@ -890,7 +890,6 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 - **Homepage**: https://github.com/redf0x1/camofox-browser
 - **Usage**: `nix run github:numtide/llm-agents.nix#camofox-browser -- --help`
 - **Nix**: [packages/camofox-browser/package.nix](packages/camofox-browser/package.nix)
-
 
 </details>
 <details>

@@ -16,7 +16,7 @@ buildGoModule.override { go = go_1_26; } {
   inherit version vendorHash;
 
   src = fetchFromGitHub {
-    owner = "router-for-me";
+    owner = "kaitranntt";
     repo = "CLIProxyAPIPlus";
     rev = "v${version}";
     inherit hash;
@@ -45,8 +45,8 @@ buildGoModule.override { go = go_1_26; } {
 
   meta = with lib; {
     description = "Unified proxy providing OpenAI/Gemini/Claude/Codex and others compatible APIs for AI coding CLI tools";
-    homepage = "https://github.com/router-for-me/CLIProxyAPIPlus";
-    changelog = "https://github.com/router-for-me/CLIProxyAPIPlus/releases";
+    homepage = "https://github.com/kaitranntt/CLIProxyAPIPlus";
+    changelog = "https://github.com/kaitranntt/CLIProxyAPIPlus/releases";
     license = licenses.mit;
     sourceProvenance = with lib.sourceTypes; [ fromSource ];
     maintainers = with lib.maintainers; [ daspk04 ];
