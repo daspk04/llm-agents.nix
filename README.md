@@ -321,6 +321,16 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 </details>
 <details>
+<summary><strong>opendev</strong> - Open-source AI coding agent that spawns parallel agents</summary>
+
+- **Source**: source
+- **License**: MIT
+- **Homepage**: https://github.com/opendev-to/opendev
+- **Usage**: `nix run github:numtide/llm-agents.nix#opendev -- --help`
+- **Nix**: [packages/opendev/package.nix](packages/opendev/package.nix)
+
+</details>
+<details>
 <summary><strong>openfang</strong> - Open-source Agent OS built in Rust — CLI for the OpenFang platform</summary>
 
 - **Source**: source
@@ -401,16 +411,6 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 - **Homepage**: https://openclaw.ai
 - **Usage**: `nix run github:numtide/llm-agents.nix#openclaw -- --help`
 - **Nix**: [packages/openclaw/package.nix](packages/openclaw/package.nix)
-
-</details>
-<details>
-<summary><strong>openfang</strong> - Open-source Agent Operating System built in Rust</summary>
-
-- **Source**: source
-- **License**: Apache-2.0 / MIT
-- **Homepage**: https://openfang.sh
-- **Usage**: `nix run github:numtide/llm-agents.nix#openfang -- --help`
-- **Nix**: [packages/openfang/package.nix](packages/openfang/package.nix)
 
 </details>
 <details>
