@@ -22,7 +22,7 @@ from updater.nix import NixCommandError
 
 SCRIPT_DIR = Path(__file__).parent
 HASHES_FILE = SCRIPT_DIR / "hashes.json"
-NPM_PACKAGE = "@mariozechner/pi-coding-agent"
+NPM_PACKAGE = "@earendil-works/pi-coding-agent"
 
 
 def main() -> None:
