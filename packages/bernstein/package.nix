@@ -36,14 +36,14 @@ let
 in
 python3.pkgs.buildPythonApplication rec {
   pname = "bernstein";
-  version = "1.10.2";
+  version = "1.10.3";
   pyproject = true;
 
   src = fetchFromGitHub {
     owner = "chernistry";
     repo = "bernstein";
     tag = "v${version}";
-    hash = "sha256-V/z/bElK1StM3H64bEJJZSCFwwIWTb/TYo6Q1FOdjHc=";
+    hash = "sha256-R1nIsOv88j2aFxfFLYiqurxsxB3hoEuBkZuhA5FqKss=";
   };
 
   # Upstream sometimes tags a release without bumping the version in
