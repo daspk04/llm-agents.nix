@@ -36,14 +36,14 @@ let
 in
 python3.pkgs.buildPythonApplication rec {
   pname = "bernstein";
-  version = "1.10.8";
+  version = "1.11.0";
   pyproject = true;
 
   src = fetchFromGitHub {
     owner = "chernistry";
     repo = "bernstein";
     tag = "v${version}";
-    hash = "sha256-8/MzCgs9hf1zQQg8hokV33C7jtE0l/H2JaSadzN1ivE=";
+    hash = "sha256-N+z8tWWAkKpjl12WLndSV+Wph0klAQUeWiuKOgoV92I=";
   };
 
   # Upstream sometimes tags a release without bumping the version in
@@ -81,6 +81,7 @@ python3.pkgs.buildPythonApplication rec {
     pyfiglet
     python-dotenv
     pyyaml
+    reportlab
     rich
     setproctitle
     signxml
