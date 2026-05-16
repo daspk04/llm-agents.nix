@@ -52,13 +52,13 @@ in
 
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "gitbutler";
-  version = "0.19.11";
+  version = "0.19.12";
 
   src = fetchFromGitHub {
     owner = "gitbutlerapp";
     repo = "gitbutler";
     tag = "release/${finalAttrs.version}";
-    hash = "sha256-43XtLd8WMt8ty2R1Tcu5++zP40nkKs9qa2GJKo+7t2A=";
+    hash = "sha256-MIrr/HeUIHdf8DtMMjEsZI6ZdDsZochBWanddncEa+o=";
   };
 
   # Pin the user-facing version into the Tauri release config and disable the
