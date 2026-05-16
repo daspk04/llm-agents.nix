@@ -28,6 +28,7 @@
   kdePackages,
   webkitgtk_4_1,
   wrapGAppsHook4,
+  unpinCargoMsrvHook,
 }:
 let
   pnpm = pnpm_10;
@@ -52,13 +53,13 @@ in
 
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "gitbutler";
-  version = "0.19.10";
+  version = "0.19.12";
 
   src = fetchFromGitHub {
     owner = "gitbutlerapp";
     repo = "gitbutler";
     tag = "release/${finalAttrs.version}";
-    hash = "sha256-s4ZLwWWkfreNX6pDIz3LoSBTCLV5hOyHujw4DVpI08k=";
+    hash = "sha256-MIrr/HeUIHdf8DtMMjEsZI6ZdDsZochBWanddncEa+o=";
   };
 
   # Pin the user-facing version into the Tauri release config and disable the
@@ -74,18 +75,20 @@ rustPlatform.buildRustPackage (finalAttrs: {
 
     substituteInPlace apps/desktop/src/lib/backend/tauri.ts \
       --replace-fail 'checkUpdate = tauriCheck;' 'checkUpdate = () => null;'
+
   '';
 
-  cargoHash = "sha256-SRo8Eiv6fZVF5Y8vghNUBdnPvKK/IkirJRqvj26iTko=";
+  cargoHash = "sha256-CxjZeIzrQuRXGc6FKt3dDhsR7MwO1un75A7D5GqVdCI=";
 
   pnpmDeps = fetchPnpmDeps {
     inherit (finalAttrs) pname version src;
     inherit pnpm;
     fetcherVersion = 2;
-    hash = "sha256-/jIt0adSoKfL+4p/Y2oZTa41bHliG1wZr8sUGan9D2w=";
+    hash = "sha256-xH+6f3dGwpUFOFRgAmebZEWpz5ep2upPSbsEqekw/74=";
   };
 
   nativeBuildInputs = [
+    unpinCargoMsrvHook
     cacert # required by turbo
     cargo-tauri.hook
     cmake # required by the `zlib-sys` crate
