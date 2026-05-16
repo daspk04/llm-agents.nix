@@ -8,13 +8,13 @@
 
 buildGoModule rec {
   pname = "beads-viewer";
-  version = "0.16.1";
+  version = "0.16.2";
 
   src = fetchFromGitHub {
     owner = "Dicklesworthstone";
     repo = "beads_viewer";
     rev = "v${version}";
-    hash = "sha256-TPYaYvoTGdfcrm3EoBu5PfKQgZ8PVT2o1SEt05YRFOw=";
+    hash = "sha256-qGXhbaNfH6oXdsGYiFEKAeCwp/GrZkDoX61F/YrET1A=";
   };
 
   vendorHash = null;
