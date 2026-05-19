@@ -13,16 +13,20 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "nono";
-  version = "0.54.0";
+  version = "0.57.0";
 
   src = fetchFromGitHub {
     owner = "always-further";
     repo = "nono";
     rev = "v${version}";
-    hash = "sha256-ER/hJ4YQf+anxhXVq7RNvkvw02gU7JtLI+SZwr/a+ZU=";
+    hash = "sha256-EoxKq8aEfc0XoSm92mZgxc2Zoc9B7Oo6NAjcFOlSZfw=";
   };
 
-  cargoHash = "sha256-OhuCW5mYthC/MVhfbwhro8hnVWmiQUuIDPMn/auBDcQ=";
+  cargoHash = "sha256-MBTUSNbOWOhrYL18+yPCg6Ydjym50JMuqTt/U0kQiL4=";
+
+  # `if let` guards in match arms require Rust >= 1.95; rewrite the single
+  # use until nixpkgs ships a new enough rustc.
+  patches = [ ./no-if-let-guard.patch ];
 
   # keyring uses sync-secret-service (dbus) on Linux, apple-native on Darwin
   buildInputs = lib.optionals stdenv.hostPlatform.isLinux [ dbus ];
