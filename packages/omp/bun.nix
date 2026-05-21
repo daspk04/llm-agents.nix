@@ -12,2623 +12,2091 @@
 {
   # Workspace packages are in the source tree, resolved at build time
   "@agentclientprotocol/sdk@0.21.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@agentclientprotocol/sdk/-/sdk-0.21.0.tgz";
+    url = "https://registry.npmjs.org/@agentclientprotocol/sdk/-/sdk-0.21.0.tgz";
     hash = "sha512-ONj+Q8qOdNQp5XbH5jnMwzT9IKZJsSN0p0lkceS4GtUtNOPVLpNzSS8gqQdGMKfBvA0ESbkL8BTaSN1Rc9miEw==";
-    name = "sdk-0.21.0.tgz";
   };
   "@anthropic-ai/sdk@0.94.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@anthropic-ai/sdk/-/sdk-0.94.0.tgz";
+    url = "https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.94.0.tgz";
     hash = "sha512-OVlCttk5MyeTGtrWX5+F3MJOfEMDuEjK8+rm9aQMDfRPWndVMbhk37QG8WLnVbcc7huyUGngVMjT7iMN2llySA==";
-    name = "sdk-0.94.0.tgz";
   };
   "@babel/code-frame@7.29.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/code-frame/-/code-frame-7.29.0.tgz";
+    url = "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.29.0.tgz";
     hash = "sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==";
-    name = "code-frame-7.29.0.tgz";
   };
   "@babel/compat-data@7.29.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/compat-data/-/compat-data-7.29.3.tgz";
+    url = "https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.3.tgz";
     hash = "sha512-LIVqM46zQWZhj17qA8wb4nW/ixr2y1Nw+r1etiAWgRM6U1IqP+LNhL1yg440jYZR72jCWcWbLWzIosH+uP1fqg==";
-    name = "compat-data-7.29.3.tgz";
   };
   "@babel/core@7.29.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/core/-/core-7.29.0.tgz";
+    url = "https://registry.npmjs.org/@babel/core/-/core-7.29.0.tgz";
     hash = "sha512-CGOfOJqWjg2qW/Mb6zNsDm+u5vFQ8DxXfbM09z69p5Z6+mE1ikP2jUXw+j42Pf1XTYED2Rni5f95npYeuwMDQA==";
-    name = "core-7.29.0.tgz";
   };
   "@babel/generator@7.29.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/generator/-/generator-7.29.1.tgz";
+    url = "https://registry.npmjs.org/@babel/generator/-/generator-7.29.1.tgz";
     hash = "sha512-qsaF+9Qcm2Qv8SRIMMscAvG4O3lJ0F1GuMo5HR/Bp02LopNgnZBC/EkbevHFeGs4ls/oPz9v+Bsmzbkbe+0dUw==";
-    name = "generator-7.29.1.tgz";
   };
   "@babel/helper-compilation-targets@7.28.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-compilation-targets/-/helper-compilation-targets-7.28.6.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-compilation-targets/-/helper-compilation-targets-7.28.6.tgz";
     hash = "sha512-JYtls3hqi15fcx5GaSNL7SCTJ2MNmjrkHXg4FSpOA/grxK8KwyZ5bubHsCq8FXCkua6xhuaaBit+3b7+VZRfcA==";
-    name = "helper-compilation-targets-7.28.6.tgz";
   };
   "@babel/helper-globals@7.28.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-globals/-/helper-globals-7.28.0.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-globals/-/helper-globals-7.28.0.tgz";
     hash = "sha512-+W6cISkXFa1jXsDEdYA8HeevQT/FULhxzR99pxphltZcVaugps53THCeiWA8SguxxpSp3gKPiuYfSWopkLQ4hw==";
-    name = "helper-globals-7.28.0.tgz";
   };
   "@babel/helper-module-imports@7.18.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-module-imports/-/helper-module-imports-7.18.6.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.18.6.tgz";
     hash = "sha512-0NFvs3VkuSYbFi1x2Vd6tKrywq+z/cLeYC/RJNFrIX/30Bf5aiGYbtvGXolEktzJH8o5E5KJ3tT+nkxuuZFVlA==";
-    name = "helper-module-imports-7.18.6.tgz";
   };
   "@babel/helper-module-imports@7.28.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-module-imports/-/helper-module-imports-7.28.6.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-module-imports/-/helper-module-imports-7.28.6.tgz";
     hash = "sha512-l5XkZK7r7wa9LucGw9LwZyyCUscb4x37JWTPz7swwFE/0FMQAGpiWUZn8u9DzkSBWEcK25jmvubfpw2dnAMdbw==";
-    name = "helper-module-imports-7.28.6.tgz";
   };
   "@babel/helper-module-transforms@7.28.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-module-transforms/-/helper-module-transforms-7.28.6.tgz";
     hash = "sha512-67oXFAYr2cDLDVGLXTEABjdBJZ6drElUSI7WKp70NrpyISso3plG9SAGEF6y7zbha/wOzUByWWTJvEDVNIUGcA==";
-    name = "helper-module-transforms-7.28.6.tgz";
   };
   "@babel/helper-plugin-utils@7.28.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-plugin-utils/-/helper-plugin-utils-7.28.6.tgz";
     hash = "sha512-S9gzZ/bz83GRysI7gAD4wPT/AI3uCnY+9xn+Mx/KPs2JwHJIz1W8PZkg2cqyt3RNOBM8ejcXhV6y8Og7ly/Dug==";
-    name = "helper-plugin-utils-7.28.6.tgz";
   };
   "@babel/helper-string-parser@7.27.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.27.1.tgz";
     hash = "sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==";
-    name = "helper-string-parser-7.27.1.tgz";
   };
   "@babel/helper-validator-identifier@7.28.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.28.5.tgz";
     hash = "sha512-qSs4ifwzKJSV39ucNjsvc6WVHs6b7S03sOh2OcHF9UHfVPqWWALUsNUVzhSBiItjRZoLHx7nIarVjqKVusUZ1Q==";
-    name = "helper-validator-identifier-7.28.5.tgz";
   };
   "@babel/helper-validator-option@7.27.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz";
+    url = "https://registry.npmjs.org/@babel/helper-validator-option/-/helper-validator-option-7.27.1.tgz";
     hash = "sha512-YvjJow9FxbhFFKDSuFnVCe2WxXk1zWc22fFePVNEaWJEu8IrZVlda6N0uHwzZrUM1il7NC9Mlp4MaJYbYd9JSg==";
-    name = "helper-validator-option-7.27.1.tgz";
   };
   "@babel/helpers@7.29.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/helpers/-/helpers-7.29.2.tgz";
+    url = "https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz";
     hash = "sha512-HoGuUs4sCZNezVEKdVcwqmZN8GoHirLUcLaYVNBK2J0DadGtdcqgr3BCbvH8+XUo4NGjNl3VOtSjEKNzqfFgKw==";
-    name = "helpers-7.29.2.tgz";
   };
   "@babel/parser@7.29.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/parser/-/parser-7.29.3.tgz";
+    url = "https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz";
     hash = "sha512-b3ctpQwp+PROvU/cttc4OYl4MzfJUWy6FZg+PMXfzmt/+39iHVF0sDfqay8TQM3JA2EUOyKcFZt75jWriQijsA==";
-    name = "parser-7.29.3.tgz";
   };
   "@babel/plugin-syntax-jsx@7.28.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.28.6.tgz";
+    url = "https://registry.npmjs.org/@babel/plugin-syntax-jsx/-/plugin-syntax-jsx-7.28.6.tgz";
     hash = "sha512-wgEmr06G6sIpqr8YDwA2dSRTE3bJ+V0IfpzfSY3Lfgd7YWOaAdlykvJi13ZKBt8cZHfgH1IXN+CL656W3uUa4w==";
-    name = "plugin-syntax-jsx-7.28.6.tgz";
   };
   "@babel/runtime@7.29.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/runtime/-/runtime-7.29.2.tgz";
+    url = "https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz";
     hash = "sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==";
-    name = "runtime-7.29.2.tgz";
   };
   "@babel/template@7.28.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/template/-/template-7.28.6.tgz";
+    url = "https://registry.npmjs.org/@babel/template/-/template-7.28.6.tgz";
     hash = "sha512-YA6Ma2KsCdGb+WC6UpBVFJGXL58MDA6oyONbjyF/+5sBgxY/dwkhLogbMT2GXXyU84/IhRw/2D1Os1B/giz+BQ==";
-    name = "template-7.28.6.tgz";
   };
   "@babel/traverse@7.29.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/traverse/-/traverse-7.29.0.tgz";
+    url = "https://registry.npmjs.org/@babel/traverse/-/traverse-7.29.0.tgz";
     hash = "sha512-4HPiQr0X7+waHfyXPZpWPfWL/J7dcN1mx9gL6WdQVMbPnF3+ZhSMs8tCxN7oHddJE9fhNE7+lxdnlyemKfJRuA==";
-    name = "traverse-7.29.0.tgz";
   };
   "@babel/types@7.29.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@babel/types/-/types-7.29.0.tgz";
+    url = "https://registry.npmjs.org/@babel/types/-/types-7.29.0.tgz";
     hash = "sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==";
-    name = "types-7.29.0.tgz";
   };
   "@biomejs/biome@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/biome/-/biome-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/biome/-/biome-2.4.15.tgz";
     hash = "sha512-j5VH3a/h/HXTKBM50MDMxRCzkeLv9S2XJcW2WgnZT1+xyisi+0bISrXR82gCX+8S9lvK0skEvHJRN+3Ktr2hlw==";
-    name = "biome-2.4.15.tgz";
   };
   "@biomejs/cli-darwin-arm64@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-darwin-arm64/-/cli-darwin-arm64-2.4.15.tgz";
     hash = "sha512-rF3PPqLq1yoST79zaQbDjVJwsuIeci/O+9bgNmC5QpgOqz6aqYuzA4abyAGx+mgyiDXn4A049xAN8gijbuR1Qg==";
-    name = "cli-darwin-arm64-2.4.15.tgz";
   };
   "@biomejs/cli-darwin-x64@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-darwin-x64/-/cli-darwin-x64-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-darwin-x64/-/cli-darwin-x64-2.4.15.tgz";
     hash = "sha512-/5KHXYMfSJs1fNXiX30xFtI8JcCFV6zaVVLxOa0M2sfqBKHkpQhRTv94yxQWxeTY2lzo2OuTlNvPC+hDQt2wcQ==";
-    name = "cli-darwin-x64-2.4.15.tgz";
   };
   "@biomejs/cli-linux-arm64-musl@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-linux-arm64-musl/-/cli-linux-arm64-musl-2.4.15.tgz";
     hash = "sha512-ZPcxznxm0pogHBLZhYntyR3sR+MrZjqJIKEr7ZqVen0Rl+P/4upVmfYXjftizi9RoqZntg33fv/1fbdhbYXpEQ==";
-    name = "cli-linux-arm64-musl-2.4.15.tgz";
   };
   "@biomejs/cli-linux-arm64@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-linux-arm64/-/cli-linux-arm64-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-linux-arm64/-/cli-linux-arm64-2.4.15.tgz";
     hash = "sha512-owaAMZD/T4LrD0ELNCk0Km3qrRHuM0X6EAyVE1FSqGY0rbLoiDLrO4Us2tllm6cAeB2Ioa9C2C08NZPdr8+0Ug==";
-    name = "cli-linux-arm64-2.4.15.tgz";
   };
   "@biomejs/cli-linux-x64-musl@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-linux-x64-musl/-/cli-linux-x64-musl-2.4.15.tgz";
     hash = "sha512-CNq/9W38SYSH023lfcQ4KKU8K0YX8T//FZUhcgtMMRABDojx5XsMV7jlweAvGSl389wJQB29Qo6Zb/a+jdvt+w==";
-    name = "cli-linux-x64-musl-2.4.15.tgz";
   };
   "@biomejs/cli-linux-x64@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-linux-x64/-/cli-linux-x64-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-linux-x64/-/cli-linux-x64-2.4.15.tgz";
     hash = "sha512-0jj7THz12GbUOLmMibktK6DZjqz2zV64KFxyBtcFTKPiiOIY0a7vns1elpO1dERvxpsZ5ik0oFfz0oGwFde1+g==";
-    name = "cli-linux-x64-2.4.15.tgz";
   };
   "@biomejs/cli-win32-arm64@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-win32-arm64/-/cli-win32-arm64-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-win32-arm64/-/cli-win32-arm64-2.4.15.tgz";
     hash = "sha512-ouhkYdlhp/1GghEJPdWwD/Vi3gQ1nFxuSpMolWsbq3Lsq3QUR4jl6UdhhscdCugKU5vOEuMiJhvKj66O0OCq+w==";
-    name = "cli-win32-arm64-2.4.15.tgz";
   };
   "@biomejs/cli-win32-x64@2.4.15" = fetchurl {
-    url = "https://registry.zellic.app/npm/@biomejs/cli-win32-x64/-/cli-win32-x64-2.4.15.tgz";
+    url = "https://registry.npmjs.org/@biomejs/cli-win32-x64/-/cli-win32-x64-2.4.15.tgz";
     hash = "sha512-zBrGq5mx5wwpnow4+2BxUvleDM+GNd4sLbPaMapsSLQLD0NGRCquqPBTgN+7XkUteHvj7M+BstuI8tmnV7+HgQ==";
-    name = "cli-win32-x64-2.4.15.tgz";
   };
   "@borewit/text-codec@0.2.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@borewit/text-codec/-/text-codec-0.2.2.tgz";
+    url = "https://registry.npmjs.org/@borewit/text-codec/-/text-codec-0.2.2.tgz";
     hash = "sha512-DDaRehssg1aNrH4+2hnj1B7vnUGEjU6OIlyRdkMd0aUdIUvKXrJfXsy8LVtXAy7DRvYVluWbMspsRhz2lcW0mQ==";
-    name = "text-codec-0.2.2.tgz";
   };
   "@bufbuild/protobuf@2.12.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@bufbuild/protobuf/-/protobuf-2.12.0.tgz";
+    url = "https://registry.npmjs.org/@bufbuild/protobuf/-/protobuf-2.12.0.tgz";
     hash = "sha512-B/XlCaFIP8LOwzo+bz5uFzATYokcwCKQcghqnlfwSmM5eX/qTkvDBnDPs+gXtX/RyjxJ4DRikECcPJbyALA8FA==";
-    name = "protobuf-2.12.0.tgz";
   };
   "@colors/colors@1.6.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@colors/colors/-/colors-1.6.0.tgz";
+    url = "https://registry.npmjs.org/@colors/colors/-/colors-1.6.0.tgz";
     hash = "sha512-Ir+AOibqzrIsL6ajt3Rz3LskB7OiMVHqltZmspbW/TJuTVuyOMirVqAkjfY6JISiLHgyNqicAC8AyHHGzNd/dA==";
-    name = "colors-1.6.0.tgz";
   };
   "@dabh/diagnostics@2.0.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/@dabh/diagnostics/-/diagnostics-2.0.8.tgz";
+    url = "https://registry.npmjs.org/@dabh/diagnostics/-/diagnostics-2.0.8.tgz";
     hash = "sha512-R4MSXTVnuMzGD7bzHdW2ZhhdPC/igELENcq5IjEverBvq5hn1SXCWcsi6eSsdWP0/Ur+SItRRjAktmdoX/8R/Q==";
-    name = "diagnostics-2.0.8.tgz";
   };
   "@emnapi/core@1.10.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@emnapi/core/-/core-1.10.0.tgz";
+    url = "https://registry.npmjs.org/@emnapi/core/-/core-1.10.0.tgz";
     hash = "sha512-yq6OkJ4p82CAfPl0u9mQebQHKPJkY7WrIuk205cTYnYe+k2Z8YBh11FrbRG/H6ihirqcacOgl2BIO8oyMQLeXw==";
-    name = "core-1.10.0.tgz";
   };
   "@emnapi/runtime@1.10.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@emnapi/runtime/-/runtime-1.10.0.tgz";
+    url = "https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz";
     hash = "sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==";
-    name = "runtime-1.10.0.tgz";
   };
   "@emnapi/wasi-threads@1.2.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz";
+    url = "https://registry.npmjs.org/@emnapi/wasi-threads/-/wasi-threads-1.2.1.tgz";
     hash = "sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==";
-    name = "wasi-threads-1.2.1.tgz";
   };
   "@esbuild/aix-ppc64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/aix-ppc64/-/aix-ppc64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.21.5.tgz";
     hash = "sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==";
-    name = "aix-ppc64-0.21.5.tgz";
   };
   "@esbuild/android-arm64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/android-arm64/-/android-arm64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.21.5.tgz";
     hash = "sha512-c0uX9VAUBQ7dTDCjq+wdyGLowMdtR/GoC2U5IYk/7D1H1JYC0qseD7+11iMP2mRLN9RcCMRcjC4YMclCzGwS/A==";
-    name = "android-arm64-0.21.5.tgz";
   };
   "@esbuild/android-arm@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/android-arm/-/android-arm-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.21.5.tgz";
     hash = "sha512-vCPvzSjpPHEi1siZdlvAlsPxXl7WbOVUBBAowWug4rJHb68Ox8KualB+1ocNvT5fjv6wpkX6o/iEpbDrf68zcg==";
-    name = "android-arm-0.21.5.tgz";
   };
   "@esbuild/android-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/android-x64/-/android-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.21.5.tgz";
     hash = "sha512-D7aPRUUNHRBwHxzxRvp856rjUHRFW1SdQATKXH2hqA0kAZb1hKmi02OpYRacl0TxIGz/ZmXWlbZgjwWYaCakTA==";
-    name = "android-x64-0.21.5.tgz";
   };
   "@esbuild/darwin-arm64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/darwin-arm64/-/darwin-arm64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.21.5.tgz";
     hash = "sha512-DwqXqZyuk5AiWWf3UfLiRDJ5EDd49zg6O9wclZ7kUMv2WRFr4HKjXp/5t8JZ11QbQfUS6/cRCKGwYhtNAY88kQ==";
-    name = "darwin-arm64-0.21.5.tgz";
   };
   "@esbuild/darwin-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/darwin-x64/-/darwin-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.21.5.tgz";
     hash = "sha512-se/JjF8NlmKVG4kNIuyWMV/22ZaerB+qaSi5MdrXtd6R08kvs2qCN4C09miupktDitvh8jRFflwGFBQcxZRjbw==";
-    name = "darwin-x64-0.21.5.tgz";
   };
   "@esbuild/freebsd-arm64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/freebsd-arm64/-/freebsd-arm64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.21.5.tgz";
     hash = "sha512-5JcRxxRDUJLX8JXp/wcBCy3pENnCgBR9bN6JsY4OmhfUtIHe3ZW0mawA7+RDAcMLrMIZaf03NlQiX9DGyB8h4g==";
-    name = "freebsd-arm64-0.21.5.tgz";
   };
   "@esbuild/freebsd-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/freebsd-x64/-/freebsd-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.21.5.tgz";
     hash = "sha512-J95kNBj1zkbMXtHVH29bBriQygMXqoVQOQYA+ISs0/2l3T9/kj42ow2mpqerRBxDJnmkUDCaQT/dfNXWX/ZZCQ==";
-    name = "freebsd-x64-0.21.5.tgz";
   };
   "@esbuild/linux-arm64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-arm64/-/linux-arm64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.21.5.tgz";
     hash = "sha512-ibKvmyYzKsBeX8d8I7MH/TMfWDXBF3db4qM6sy+7re0YXya+K1cem3on9XgdT2EQGMu4hQyZhan7TeQ8XkGp4Q==";
-    name = "linux-arm64-0.21.5.tgz";
   };
   "@esbuild/linux-arm@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-arm/-/linux-arm-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.21.5.tgz";
     hash = "sha512-bPb5AHZtbeNGjCKVZ9UGqGwo8EUu4cLq68E95A53KlxAPRmUyYv2D6F0uUI65XisGOL1hBP5mTronbgo+0bFcA==";
-    name = "linux-arm-0.21.5.tgz";
   };
   "@esbuild/linux-ia32@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-ia32/-/linux-ia32-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.21.5.tgz";
     hash = "sha512-YvjXDqLRqPDl2dvRODYmmhz4rPeVKYvppfGYKSNGdyZkA01046pLWyRKKI3ax8fbJoK5QbxblURkwK/MWY18Tg==";
-    name = "linux-ia32-0.21.5.tgz";
   };
   "@esbuild/linux-loong64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-loong64/-/linux-loong64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.21.5.tgz";
     hash = "sha512-uHf1BmMG8qEvzdrzAqg2SIG/02+4/DHB6a9Kbya0XDvwDEKCoC8ZRWI5JJvNdUjtciBGFQ5PuBlpEOXQj+JQSg==";
-    name = "linux-loong64-0.21.5.tgz";
   };
   "@esbuild/linux-mips64el@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-mips64el/-/linux-mips64el-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.21.5.tgz";
     hash = "sha512-IajOmO+KJK23bj52dFSNCMsz1QP1DqM6cwLUv3W1QwyxkyIWecfafnI555fvSGqEKwjMXVLokcV5ygHW5b3Jbg==";
-    name = "linux-mips64el-0.21.5.tgz";
   };
   "@esbuild/linux-ppc64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-ppc64/-/linux-ppc64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.21.5.tgz";
     hash = "sha512-1hHV/Z4OEfMwpLO8rp7CvlhBDnjsC3CttJXIhBi+5Aj5r+MBvy4egg7wCbe//hSsT+RvDAG7s81tAvpL2XAE4w==";
-    name = "linux-ppc64-0.21.5.tgz";
   };
   "@esbuild/linux-riscv64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-riscv64/-/linux-riscv64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.21.5.tgz";
     hash = "sha512-2HdXDMd9GMgTGrPWnJzP2ALSokE/0O5HhTUvWIbD3YdjME8JwvSCnNGBnTThKGEB91OZhzrJ4qIIxk/SBmyDDA==";
-    name = "linux-riscv64-0.21.5.tgz";
   };
   "@esbuild/linux-s390x@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-s390x/-/linux-s390x-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.21.5.tgz";
     hash = "sha512-zus5sxzqBJD3eXxwvjN1yQkRepANgxE9lgOW2qLnmr8ikMTphkjgXu1HR01K4FJg8h1kEEDAqDcZQtbrRnB41A==";
-    name = "linux-s390x-0.21.5.tgz";
   };
   "@esbuild/linux-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/linux-x64/-/linux-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.21.5.tgz";
     hash = "sha512-1rYdTpyv03iycF1+BhzrzQJCdOuAOtaqHTWJZCWvijKD2N5Xu0TtVC8/+1faWqcP9iBCWOmjmhoH94dH82BxPQ==";
-    name = "linux-x64-0.21.5.tgz";
   };
   "@esbuild/netbsd-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/netbsd-x64/-/netbsd-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.21.5.tgz";
     hash = "sha512-Woi2MXzXjMULccIwMnLciyZH4nCIMpWQAs049KEeMvOcNADVxo0UBIQPfSmxB3CWKedngg7sWZdLvLczpe0tLg==";
-    name = "netbsd-x64-0.21.5.tgz";
   };
   "@esbuild/openbsd-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/openbsd-x64/-/openbsd-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.21.5.tgz";
     hash = "sha512-HLNNw99xsvx12lFBUwoT8EVCsSvRNDVxNpjZ7bPn947b8gJPzeHWyNVhFsaerc0n3TsbOINvRP2byTZ5LKezow==";
-    name = "openbsd-x64-0.21.5.tgz";
   };
   "@esbuild/sunos-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/sunos-x64/-/sunos-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.21.5.tgz";
     hash = "sha512-6+gjmFpfy0BHU5Tpptkuh8+uw3mnrvgs+dSPQXQOv3ekbordwnzTVEb4qnIvQcYXq6gzkyTnoZ9dZG+D4garKg==";
-    name = "sunos-x64-0.21.5.tgz";
   };
   "@esbuild/win32-arm64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/win32-arm64/-/win32-arm64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.21.5.tgz";
     hash = "sha512-Z0gOTd75VvXqyq7nsl93zwahcTROgqvuAcYDUr+vOv8uHhNSKROyU961kgtCD1e95IqPKSQKH7tBTslnS3tA8A==";
-    name = "win32-arm64-0.21.5.tgz";
   };
   "@esbuild/win32-ia32@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/win32-ia32/-/win32-ia32-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.21.5.tgz";
     hash = "sha512-SWXFF1CL2RVNMaVs+BBClwtfZSvDgtL//G/smwAc5oVK/UPu2Gu9tIaRgFmYFFKrmg3SyAjSrElf0TiJ1v8fYA==";
-    name = "win32-ia32-0.21.5.tgz";
   };
   "@esbuild/win32-x64@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz";
+    url = "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.21.5.tgz";
     hash = "sha512-tQd/1efJuzPC6rCFwEvLtci/xNFcTZknmXs98FYDfGE4wP9ClFV98nyKrzJKVPMhdDnjzLhdUyMX4PsQAPjwIw==";
-    name = "win32-x64-0.21.5.tgz";
   };
   "@inquirer/ansi@2.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/ansi/-/ansi-2.0.5.tgz";
+    url = "https://registry.npmjs.org/@inquirer/ansi/-/ansi-2.0.5.tgz";
     hash = "sha512-doc2sWgJpbFQ64UflSVd17ibMGDuxO1yKgOgLMwavzESnXjFWJqUeG8saYosqKpHp4kWiM5x1nXvEjbpx90gzw==";
-    name = "ansi-2.0.5.tgz";
   };
   "@inquirer/checkbox@5.1.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/checkbox/-/checkbox-5.1.5.tgz";
+    url = "https://registry.npmjs.org/@inquirer/checkbox/-/checkbox-5.1.5.tgz";
     hash = "sha512-Jmf9tgBHIEK5SAOB7swYfStqmtkZb00xOTpSQmkoGEpdxOTpJi9RS0A8bkfDPHTTItZRJrRdZrEMu25wyj0VfQ==";
-    name = "checkbox-5.1.5.tgz";
   };
   "@inquirer/confirm@6.0.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/confirm/-/confirm-6.0.13.tgz";
+    url = "https://registry.npmjs.org/@inquirer/confirm/-/confirm-6.0.13.tgz";
     hash = "sha512-wkGPC7yJ5WJk1DJ5SX7fzk+gfj4BM8cf5dDDi71B/551xHrdsZVRJOC0WyikXd0pEsb/9cLniuE4atbsMqmFkw==";
-    name = "confirm-6.0.13.tgz";
   };
   "@inquirer/core@11.1.10" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/core/-/core-11.1.10.tgz";
+    url = "https://registry.npmjs.org/@inquirer/core/-/core-11.1.10.tgz";
     hash = "sha512-a4Q5BXHQAHa9eO202sTaFCHFYVB3x5fauDuThEAdZ9gfn76pSxiKU7wWcEH0N1O0XmQvNfQNU6QXpiRxmYQx+A==";
-    name = "core-11.1.10.tgz";
   };
   "@inquirer/editor@5.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/editor/-/editor-5.1.2.tgz";
+    url = "https://registry.npmjs.org/@inquirer/editor/-/editor-5.1.2.tgz";
     hash = "sha512-Y3Nor7S/DhIPo+8Ym/dSY4efwKI4BsflKDwXh0jNeXJsSF3dteS/3Yf+z4wkibVZDvYMyCgknSTQlNahfunGHg==";
-    name = "editor-5.1.2.tgz";
   };
   "@inquirer/expand@5.0.14" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/expand/-/expand-5.0.14.tgz";
+    url = "https://registry.npmjs.org/@inquirer/expand/-/expand-5.0.14.tgz";
     hash = "sha512-qyY9zcIX2eKYwaAUiQo9zORd61Lc3sXeM72fVbeHkYnDkqfr8/armcRbmVAIrExeJhI2puk+uomeKtWrpUVUmQ==";
-    name = "expand-5.0.14.tgz";
   };
   "@inquirer/external-editor@3.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/external-editor/-/external-editor-3.0.0.tgz";
+    url = "https://registry.npmjs.org/@inquirer/external-editor/-/external-editor-3.0.0.tgz";
     hash = "sha512-lDSwMgg+M5rq6JKBYaJwSX6T9e/HK2qqZ1oxmOwn4AQoJE5D+7TumsxLGC02PWS//rkIVqbZv3XA3ejsc9FYvg==";
-    name = "external-editor-3.0.0.tgz";
   };
   "@inquirer/figures@2.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/figures/-/figures-2.0.5.tgz";
+    url = "https://registry.npmjs.org/@inquirer/figures/-/figures-2.0.5.tgz";
     hash = "sha512-NsSs4kzfm12lNetHwAn3GEuH317IzpwrMCbOuMIVytpjnJ90YYHNwdRgYGuKmVxwuIqSgqk3M5qqQt1cDk0tGQ==";
-    name = "figures-2.0.5.tgz";
   };
   "@inquirer/input@5.0.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/input/-/input-5.0.13.tgz";
+    url = "https://registry.npmjs.org/@inquirer/input/-/input-5.0.13.tgz";
     hash = "sha512-0l0jCHlJnXIV8CTxwQC0C+5Ziq8WP22edWgmciW2xYvoeoSck4v5FvCS1ctKdqLLR0dUo93uAHgWHywgBSoRyw==";
-    name = "input-5.0.13.tgz";
   };
   "@inquirer/number@4.0.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/number/-/number-4.0.13.tgz";
+    url = "https://registry.npmjs.org/@inquirer/number/-/number-4.0.13.tgz";
     hash = "sha512-WHmkYnnJAou5gx7RgcvAfUggnHNM1zWfoh0dFPl3dxVssuqt+dK5rIbaOYQXNyOegvFnopbKupjnhw2O8gANNg==";
-    name = "number-4.0.13.tgz";
   };
   "@inquirer/password@5.0.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/password/-/password-5.0.13.tgz";
+    url = "https://registry.npmjs.org/@inquirer/password/-/password-5.0.13.tgz";
     hash = "sha512-XDGu64ROHZjOOXLAANvJN7iIxWKhOSCG5VakrZ5kaScVR+snVJCFglD/hL3/677awtWcu4pXoWa280CDIYcBeg==";
-    name = "password-5.0.13.tgz";
   };
   "@inquirer/prompts@8.4.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/prompts/-/prompts-8.4.3.tgz";
+    url = "https://registry.npmjs.org/@inquirer/prompts/-/prompts-8.4.3.tgz";
     hash = "sha512-ai5LseTw9HhegupIgmo4cn7RpnCGznjjXu4OI+7jMR8vu7T1ZCCNMzFFAovUCjL1fl0cceksIN1++yQE59SmZw==";
-    name = "prompts-8.4.3.tgz";
   };
   "@inquirer/rawlist@5.2.9" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/rawlist/-/rawlist-5.2.9.tgz";
+    url = "https://registry.npmjs.org/@inquirer/rawlist/-/rawlist-5.2.9.tgz";
     hash = "sha512-a1ErXEfgjfPYpyQ89dp+7n2IISjH9oQg3ygvF5adz8B7aHn4n2PjEgu1wpVTp69K3bj3lVLxP0qJ2b1clk1Whw==";
-    name = "rawlist-5.2.9.tgz";
   };
   "@inquirer/search@4.1.9" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/search/-/search-4.1.9.tgz";
+    url = "https://registry.npmjs.org/@inquirer/search/-/search-4.1.9.tgz";
     hash = "sha512-ZlbM28Q9lmLkFPNAIv+ZuY530n5Km8U1WW48oYEvDhe9yc2uL3m3t+JSdRUkQlk5fuIuskgiIVjcb7czFzQpuA==";
-    name = "search-4.1.9.tgz";
   };
   "@inquirer/select@5.1.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/select/-/select-5.1.5.tgz";
+    url = "https://registry.npmjs.org/@inquirer/select/-/select-5.1.5.tgz";
     hash = "sha512-6SRg6kHfK/sjLXOsuqNebuir+sjwrf/iWuRUnXgB2slzEewppI1WfzeS16XxDcOQmXBruMmmB9Cgrz7wsAxqMg==";
-    name = "select-5.1.5.tgz";
   };
   "@inquirer/type@4.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@inquirer/type/-/type-4.0.5.tgz";
+    url = "https://registry.npmjs.org/@inquirer/type/-/type-4.0.5.tgz";
     hash = "sha512-aetVUNeKNc/VriqXlw1NRSW0zhMBB0W4bNbWRJgzRl/3d0QNDQFfk0GO5SDdtjMZVg6o8ZKEiadd7SCCzoOn5Q==";
-    name = "type-4.0.5.tgz";
   };
   "@jridgewell/gen-mapping@0.3.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz";
+    url = "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz";
     hash = "sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==";
-    name = "gen-mapping-0.3.13.tgz";
   };
   "@jridgewell/remapping@2.3.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@jridgewell/remapping/-/remapping-2.3.5.tgz";
+    url = "https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz";
     hash = "sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==";
-    name = "remapping-2.3.5.tgz";
   };
   "@jridgewell/resolve-uri@3.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz";
+    url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz";
     hash = "sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==";
-    name = "resolve-uri-3.1.2.tgz";
   };
   "@jridgewell/sourcemap-codec@1.5.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz";
+    url = "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz";
     hash = "sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==";
-    name = "sourcemap-codec-1.5.5.tgz";
   };
   "@jridgewell/trace-mapping@0.3.31" = fetchurl {
-    url = "https://registry.zellic.app/npm/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz";
+    url = "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz";
     hash = "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==";
-    name = "trace-mapping-0.3.31.tgz";
   };
   "@kurkle/color@0.3.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@kurkle/color/-/color-0.3.4.tgz";
+    url = "https://registry.npmjs.org/@kurkle/color/-/color-0.3.4.tgz";
     hash = "sha512-M5UknZPHRu3DEDWoipU6sE8PdkZ6Z/S+v4dD+Ke8IaNlpdSQah50lz1KtcFBa2vsdOnwbbnxJwVM4wty6udA5w==";
-    name = "color-0.3.4.tgz";
   };
   "@mixmark-io/domino@2.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@mixmark-io/domino/-/domino-2.2.0.tgz";
+    url = "https://registry.npmjs.org/@mixmark-io/domino/-/domino-2.2.0.tgz";
     hash = "sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw==";
-    name = "domino-2.2.0.tgz";
   };
   "@mozilla/readability@0.6.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@mozilla/readability/-/readability-0.6.0.tgz";
+    url = "https://registry.npmjs.org/@mozilla/readability/-/readability-0.6.0.tgz";
     hash = "sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==";
-    name = "readability-0.6.0.tgz";
   };
   "@napi-rs/cli@3.6.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/cli/-/cli-3.6.2.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/cli/-/cli-3.6.2.tgz";
     hash = "sha512-jy5rABUh9tbE/vPRzw9kGzGuqZiVslyDQUV8LkvjzqVX/oJMN7g0U1uhtr9L3W1H+iRM/urXHXUf+CE4n8FvLA==";
-    name = "cli-3.6.2.tgz";
   };
   "@napi-rs/cross-toolchain@1.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/cross-toolchain/-/cross-toolchain-1.0.3.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/cross-toolchain/-/cross-toolchain-1.0.3.tgz";
     hash = "sha512-ENPfLe4937bsKVTDA6zdABx4pq9w0tHqRrJHyaGxgaPq03a2Bd1unD5XSKjXJjebsABJ+MjAv1A2OvCgK9yehg==";
-    name = "cross-toolchain-1.0.3.tgz";
   };
   "@napi-rs/lzma-android-arm-eabi@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-android-arm-eabi/-/lzma-android-arm-eabi-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-android-arm-eabi/-/lzma-android-arm-eabi-1.4.5.tgz";
     hash = "sha512-Up4gpyw2SacmyKWWEib06GhiDdF+H+CCU0LAV8pnM4aJIDqKKd5LHSlBht83Jut6frkB0vwEPmAkv4NjQ5u//Q==";
-    name = "lzma-android-arm-eabi-1.4.5.tgz";
   };
   "@napi-rs/lzma-android-arm64@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-android-arm64/-/lzma-android-arm64-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-android-arm64/-/lzma-android-arm64-1.4.5.tgz";
     hash = "sha512-uwa8sLlWEzkAM0MWyoZJg0JTD3BkPknvejAFG2acUA1raXM8jLrqujWCdOStisXhqQjZ2nDMp3FV6cs//zjfuQ==";
-    name = "lzma-android-arm64-1.4.5.tgz";
   };
   "@napi-rs/lzma-darwin-arm64@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-darwin-arm64/-/lzma-darwin-arm64-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-darwin-arm64/-/lzma-darwin-arm64-1.4.5.tgz";
     hash = "sha512-0Y0TQLQ2xAjVabrMDem1NhIssOZzF/y/dqetc6OT8mD3xMTDtF8u5BqZoX3MyPc9FzpsZw4ksol+w7DsxHrpMA==";
-    name = "lzma-darwin-arm64-1.4.5.tgz";
   };
   "@napi-rs/lzma-darwin-x64@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-darwin-x64/-/lzma-darwin-x64-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-darwin-x64/-/lzma-darwin-x64-1.4.5.tgz";
     hash = "sha512-vR2IUyJY3En+V1wJkwmbGWcYiT8pHloTAWdW4pG24+51GIq+intst6Uf6D/r46citObGZrlX0QvMarOkQeHWpw==";
-    name = "lzma-darwin-x64-1.4.5.tgz";
   };
   "@napi-rs/lzma-freebsd-x64@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-freebsd-x64/-/lzma-freebsd-x64-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-freebsd-x64/-/lzma-freebsd-x64-1.4.5.tgz";
     hash = "sha512-XpnYQC5SVovO35tF0xGkbHYjsS6kqyNCjuaLQ2dbEblFRr5cAZVvsJ/9h7zj/5FluJPJRDojVNxGyRhTp4z2lw==";
-    name = "lzma-freebsd-x64-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-arm-gnueabihf@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-arm-gnueabihf/-/lzma-linux-arm-gnueabihf-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-arm-gnueabihf/-/lzma-linux-arm-gnueabihf-1.4.5.tgz";
     hash = "sha512-ic1ZZMoRfRMwtSwxkyw4zIlbDZGC6davC9r+2oX6x9QiF247BRqqT94qGeL5ZP4Vtz0Hyy7TEViWhx5j6Bpzvw==";
-    name = "lzma-linux-arm-gnueabihf-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-arm64-gnu@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-arm64-gnu/-/lzma-linux-arm64-gnu-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-arm64-gnu/-/lzma-linux-arm64-gnu-1.4.5.tgz";
     hash = "sha512-asEp7FPd7C1Yi6DQb45a3KPHKOFBSfGuJWXcAd4/bL2Fjetb2n/KK2z14yfW8YC/Fv6x3rBM0VAZKmJuz4tysg==";
-    name = "lzma-linux-arm64-gnu-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-arm64-musl@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-arm64-musl/-/lzma-linux-arm64-musl-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-arm64-musl/-/lzma-linux-arm64-musl-1.4.5.tgz";
     hash = "sha512-yWjcPDgJ2nIL3KNvi4536dlT/CcCWO0DUyEOlBs/SacG7BeD6IjGh6yYzd3/X1Y3JItCbZoDoLUH8iB1lTXo3w==";
-    name = "lzma-linux-arm64-musl-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-ppc64-gnu@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-ppc64-gnu/-/lzma-linux-ppc64-gnu-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-ppc64-gnu/-/lzma-linux-ppc64-gnu-1.4.5.tgz";
     hash = "sha512-0XRhKuIU/9ZjT4WDIG/qnX7Xz7mSQHYZo9Gb3MP2gcvBgr6BA4zywQ9k3gmQaPn9ECE+CZg2V7DV7kT+x2pUMQ==";
-    name = "lzma-linux-ppc64-gnu-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-riscv64-gnu@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-riscv64-gnu/-/lzma-linux-riscv64-gnu-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-riscv64-gnu/-/lzma-linux-riscv64-gnu-1.4.5.tgz";
     hash = "sha512-QrqDIPEUUB23GCpyQj/QFyMlr8SGxxyExeZz9OWFnHfb70kXdTLWrHS/hEI1Ru+lSbQ/6xRqeoGyQ4Aqdg+/RA==";
-    name = "lzma-linux-riscv64-gnu-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-s390x-gnu@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-s390x-gnu/-/lzma-linux-s390x-gnu-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-s390x-gnu/-/lzma-linux-s390x-gnu-1.4.5.tgz";
     hash = "sha512-k8RVM5aMhW86E9H0QXdquwojew4H3SwPxbRVbl49/COJQWCUjGi79X6mYruMnMPEznZinUiT1jgKbFo2A00NdA==";
-    name = "lzma-linux-s390x-gnu-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-x64-gnu@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-x64-gnu/-/lzma-linux-x64-gnu-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-x64-gnu/-/lzma-linux-x64-gnu-1.4.5.tgz";
     hash = "sha512-6rMtBgnIq2Wcl1rQdZsnM+rtCcVCbws1nF8S2NzaUsVaZv8bjrPiAa0lwg4Eqnn1d9lgwqT+cZgm5m+//K08Kw==";
-    name = "lzma-linux-x64-gnu-1.4.5.tgz";
   };
   "@napi-rs/lzma-linux-x64-musl@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-linux-x64-musl/-/lzma-linux-x64-musl-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-linux-x64-musl/-/lzma-linux-x64-musl-1.4.5.tgz";
     hash = "sha512-eiadGBKi7Vd0bCArBUOO/qqRYPHt/VQVvGyYvDFt6C2ZSIjlD+HuOl+2oS1sjf4CFjK4eDIog6EdXnL0NE6iyQ==";
-    name = "lzma-linux-x64-musl-1.4.5.tgz";
   };
   "@napi-rs/lzma-wasm32-wasi@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-wasm32-wasi/-/lzma-wasm32-wasi-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-wasm32-wasi/-/lzma-wasm32-wasi-1.4.5.tgz";
     hash = "sha512-+VyHHlr68dvey6fXc2hehw9gHVFIW3TtGF1XkcbAu65qVXsA9D/T+uuoRVqhE+JCyFHFrO0ixRbZDRK1XJt1sA==";
-    name = "lzma-wasm32-wasi-1.4.5.tgz";
   };
   "@napi-rs/lzma-win32-arm64-msvc@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-win32-arm64-msvc/-/lzma-win32-arm64-msvc-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-win32-arm64-msvc/-/lzma-win32-arm64-msvc-1.4.5.tgz";
     hash = "sha512-eewnqvIyyhHi3KaZtBOJXohLvwwN27gfS2G/YDWdfHlbz1jrmfeHAmzMsP5qv8vGB+T80TMHNkro4kYjeh6Deg==";
-    name = "lzma-win32-arm64-msvc-1.4.5.tgz";
   };
   "@napi-rs/lzma-win32-ia32-msvc@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-win32-ia32-msvc/-/lzma-win32-ia32-msvc-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-win32-ia32-msvc/-/lzma-win32-ia32-msvc-1.4.5.tgz";
     hash = "sha512-OeacFVRCJOKNU/a0ephUfYZ2Yt+NvaHze/4TgOwJ0J0P4P7X1mHzN+ig9Iyd74aQDXYqc7kaCXA2dpAOcH87Cg==";
-    name = "lzma-win32-ia32-msvc-1.4.5.tgz";
   };
   "@napi-rs/lzma-win32-x64-msvc@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma-win32-x64-msvc/-/lzma-win32-x64-msvc-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma-win32-x64-msvc/-/lzma-win32-x64-msvc-1.4.5.tgz";
     hash = "sha512-T4I1SamdSmtyZgDXGAGP+y5LEK5vxHUFwe8mz6D4R7Sa5/WCxTcCIgPJ9BD7RkpO17lzhlaM2vmVvMy96Lvk9Q==";
-    name = "lzma-win32-x64-msvc-1.4.5.tgz";
   };
   "@napi-rs/lzma@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/lzma/-/lzma-1.4.5.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/lzma/-/lzma-1.4.5.tgz";
     hash = "sha512-zS5LuN1OBPAyZpda2ZZgYOEDC+xecUdAGnrvbYzjnLXkrq/OBC3B9qcRvlxbDR3k5H/gVfvef1/jyUqPknqjbg==";
-    name = "lzma-1.4.5.tgz";
   };
   "@napi-rs/tar-android-arm-eabi@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-android-arm-eabi/-/tar-android-arm-eabi-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-android-arm-eabi/-/tar-android-arm-eabi-1.1.0.tgz";
     hash = "sha512-h2Ryndraj/YiKgMV/r5by1cDusluYIRT0CaE0/PekQ4u+Wpy2iUVqvzVU98ZPnhXaNeYxEvVJHNGafpOfaD0TA==";
-    name = "tar-android-arm-eabi-1.1.0.tgz";
   };
   "@napi-rs/tar-android-arm64@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-android-arm64/-/tar-android-arm64-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-android-arm64/-/tar-android-arm64-1.1.0.tgz";
     hash = "sha512-DJFyQHr1ZxNZorm/gzc1qBNLF/FcKzcH0V0Vwan5P+o0aE2keQIGEjJ09FudkF9v6uOuJjHCVDdK6S6uHtShAw==";
-    name = "tar-android-arm64-1.1.0.tgz";
   };
   "@napi-rs/tar-darwin-arm64@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-darwin-arm64/-/tar-darwin-arm64-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-darwin-arm64/-/tar-darwin-arm64-1.1.0.tgz";
     hash = "sha512-Zz2sXRzjIX4e532zD6xm2SjXEym6MkvfCvL2RMpG2+UwNVDVscHNcz3d47Pf3sysP2e2af7fBB3TIoK2f6trPw==";
-    name = "tar-darwin-arm64-1.1.0.tgz";
   };
   "@napi-rs/tar-darwin-x64@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-darwin-x64/-/tar-darwin-x64-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-darwin-x64/-/tar-darwin-x64-1.1.0.tgz";
     hash = "sha512-EI+CptIMNweT0ms9S3mkP/q+J6FNZ1Q6pvpJOEcWglRfyfQpLqjlC0O+dptruTPE8VamKYuqdjxfqD8hifZDOA==";
-    name = "tar-darwin-x64-1.1.0.tgz";
   };
   "@napi-rs/tar-freebsd-x64@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-freebsd-x64/-/tar-freebsd-x64-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-freebsd-x64/-/tar-freebsd-x64-1.1.0.tgz";
     hash = "sha512-J0PIqX+pl6lBIAckL/c87gpodLbjZB1OtIK+RDscKC9NLdpVv6VGOxzUV/fYev/hctcE8EfkLbgFOfpmVQPg2g==";
-    name = "tar-freebsd-x64-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-arm-gnueabihf@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-arm-gnueabihf/-/tar-linux-arm-gnueabihf-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-arm-gnueabihf/-/tar-linux-arm-gnueabihf-1.1.0.tgz";
     hash = "sha512-SLgIQo3f3EjkZ82ZwvrEgFvMdDAhsxCYjyoSuWfHCz0U16qx3SuGCp8+FYOPYCECHN3ZlGjXnoAIt9ERd0dEUg==";
-    name = "tar-linux-arm-gnueabihf-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-arm64-gnu@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-arm64-gnu/-/tar-linux-arm64-gnu-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-arm64-gnu/-/tar-linux-arm64-gnu-1.1.0.tgz";
     hash = "sha512-d014cdle52EGaH6GpYTQOP9Py7glMO1zz/+ynJPjjzYFSxvdYx0byrjumZk2UQdIyGZiJO2MEFpCkEEKFSgPYA==";
-    name = "tar-linux-arm64-gnu-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-arm64-musl@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-arm64-musl/-/tar-linux-arm64-musl-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-arm64-musl/-/tar-linux-arm64-musl-1.1.0.tgz";
     hash = "sha512-L/y1/26q9L/uBqiW/JdOb/Dc94egFvNALUZV2WCGKQXc6UByPBMgdiEyW2dtoYxYYYYc+AKD+jr+wQPcvX2vrQ==";
-    name = "tar-linux-arm64-musl-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-ppc64-gnu@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-ppc64-gnu/-/tar-linux-ppc64-gnu-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-ppc64-gnu/-/tar-linux-ppc64-gnu-1.1.0.tgz";
     hash = "sha512-EPE1K/80RQvPbLRJDJs1QmCIcH+7WRi0F73+oTe1582y9RtfGRuzAkzeBuAGRXAQEjRQw/RjtNqr6UTJ+8UuWQ==";
-    name = "tar-linux-ppc64-gnu-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-s390x-gnu@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-s390x-gnu/-/tar-linux-s390x-gnu-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-s390x-gnu/-/tar-linux-s390x-gnu-1.1.0.tgz";
     hash = "sha512-B2jhWiB1ffw1nQBqLUP1h4+J1ovAxBOoe5N2IqDMOc63fsPZKNqF1PvO/dIem8z7LL4U4bsfmhy3gBfu547oNQ==";
-    name = "tar-linux-s390x-gnu-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-x64-gnu@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-x64-gnu/-/tar-linux-x64-gnu-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-x64-gnu/-/tar-linux-x64-gnu-1.1.0.tgz";
     hash = "sha512-tbZDHnb9617lTnsDMGo/eAMZxnsQFnaRe+MszRqHguKfMwkisc9CCJnks/r1o84u5fECI+J/HOrKXgczq/3Oww==";
-    name = "tar-linux-x64-gnu-1.1.0.tgz";
   };
   "@napi-rs/tar-linux-x64-musl@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-linux-x64-musl/-/tar-linux-x64-musl-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-linux-x64-musl/-/tar-linux-x64-musl-1.1.0.tgz";
     hash = "sha512-dV6cODlzbO8u6Anmv2N/ilQHq/AWz0xyltuXoLU3yUyXbZcnWYZuB2rL8OBGPmqNcD+x9NdScBNXh7vWN0naSQ==";
-    name = "tar-linux-x64-musl-1.1.0.tgz";
   };
   "@napi-rs/tar-wasm32-wasi@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-wasm32-wasi/-/tar-wasm32-wasi-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-wasm32-wasi/-/tar-wasm32-wasi-1.1.0.tgz";
     hash = "sha512-jIa9nb2HzOrfH0F8QQ9g3WE4aMH5vSI5/1NYVNm9ysCmNjCCtMXCAhlI3WKCdm/DwHf0zLqdrrtDFXODcNaqMw==";
-    name = "tar-wasm32-wasi-1.1.0.tgz";
   };
   "@napi-rs/tar-win32-arm64-msvc@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-win32-arm64-msvc/-/tar-win32-arm64-msvc-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-win32-arm64-msvc/-/tar-win32-arm64-msvc-1.1.0.tgz";
     hash = "sha512-vfpG71OB0ijtjemp3WTdmBKJm9R70KM8vsSExMsIQtV0lVzP07oM1CW6JbNRPXNLhRoue9ofYLiUDk8bE0Hckg==";
-    name = "tar-win32-arm64-msvc-1.1.0.tgz";
   };
   "@napi-rs/tar-win32-ia32-msvc@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-win32-ia32-msvc/-/tar-win32-ia32-msvc-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-win32-ia32-msvc/-/tar-win32-ia32-msvc-1.1.0.tgz";
     hash = "sha512-hGPyPW60YSpOSgzfy68DLBHgi6HxkAM+L59ZZZPMQ0TOXjQg+p2EW87+TjZfJOkSpbYiEkULwa/f4a2hcVjsqQ==";
-    name = "tar-win32-ia32-msvc-1.1.0.tgz";
   };
   "@napi-rs/tar-win32-x64-msvc@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar-win32-x64-msvc/-/tar-win32-x64-msvc-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar-win32-x64-msvc/-/tar-win32-x64-msvc-1.1.0.tgz";
     hash = "sha512-L6Ed1DxXK9YSCMyvpR8MiNAyKNkQLjsHsHK9E0qnHa8NzLFqzDKhvs5LfnWxM2kJ+F7m/e5n9zPm24kHb3LsVw==";
-    name = "tar-win32-x64-msvc-1.1.0.tgz";
   };
   "@napi-rs/tar@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/tar/-/tar-1.1.0.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/tar/-/tar-1.1.0.tgz";
     hash = "sha512-7cmzIu+Vbupriudo7UudoMRH2OA3cTw67vva8MxeoAe5S7vPFI7z0vp0pMXiA25S8IUJefImQ90FeJjl8fjEaQ==";
-    name = "tar-1.1.0.tgz";
   };
   "@napi-rs/wasm-runtime@1.1.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.4.tgz";
     hash = "sha512-3NQNNgA1YSlJb/kMH1ildASP9HW7/7kYnRI2szWJaofaS1hWmbGI4H+d3+22aGzXXN9IJ+n+GiFVcGipJP18ow==";
-    name = "wasm-runtime-1.1.4.tgz";
   };
   "@napi-rs/wasm-tools-android-arm-eabi@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-android-arm-eabi/-/wasm-tools-android-arm-eabi-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-android-arm-eabi/-/wasm-tools-android-arm-eabi-1.0.1.tgz";
     hash = "sha512-lr07E/l571Gft5v4aA1dI8koJEmF1F0UigBbsqg9OWNzg80H3lDPO+auv85y3T/NHE3GirDk7x/D3sLO57vayw==";
-    name = "wasm-tools-android-arm-eabi-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-android-arm64@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-android-arm64/-/wasm-tools-android-arm64-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-android-arm64/-/wasm-tools-android-arm64-1.0.1.tgz";
     hash = "sha512-WDR7S+aRLV6LtBJAg5fmjKkTZIdrEnnQxgdsb7Cf8pYiMWBHLU+LC49OUVppQ2YSPY0+GeYm9yuZWW3kLjJ7Bg==";
-    name = "wasm-tools-android-arm64-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-darwin-arm64@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-darwin-arm64/-/wasm-tools-darwin-arm64-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-darwin-arm64/-/wasm-tools-darwin-arm64-1.0.1.tgz";
     hash = "sha512-qWTI+EEkiN0oIn/N2gQo7+TVYil+AJ20jjuzD2vATS6uIjVz+Updeqmszi7zq7rdFTLp6Ea3/z4kDKIfZwmR9g==";
-    name = "wasm-tools-darwin-arm64-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-darwin-x64@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-darwin-x64/-/wasm-tools-darwin-x64-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-darwin-x64/-/wasm-tools-darwin-x64-1.0.1.tgz";
     hash = "sha512-bA6hubqtHROR5UI3tToAF/c6TDmaAgF0SWgo4rADHtQ4wdn0JeogvOk50gs2TYVhKPE2ZD2+qqt7oBKB+sxW3A==";
-    name = "wasm-tools-darwin-x64-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-freebsd-x64@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-freebsd-x64/-/wasm-tools-freebsd-x64-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-freebsd-x64/-/wasm-tools-freebsd-x64-1.0.1.tgz";
     hash = "sha512-90+KLBkD9hZEjPQW1MDfwSt5J1L46EUKacpCZWyRuL6iIEO5CgWU0V/JnEgFsDOGyyYtiTvHc5bUdUTWd4I9Vg==";
-    name = "wasm-tools-freebsd-x64-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-linux-arm64-gnu@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-linux-arm64-gnu/-/wasm-tools-linux-arm64-gnu-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-linux-arm64-gnu/-/wasm-tools-linux-arm64-gnu-1.0.1.tgz";
     hash = "sha512-rG0QlS65x9K/u3HrKafDf8cFKj5wV2JHGfl8abWgKew0GVPyp6vfsDweOwHbWAjcHtp2LHi6JHoW80/MTHm52Q==";
-    name = "wasm-tools-linux-arm64-gnu-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-linux-arm64-musl@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-linux-arm64-musl/-/wasm-tools-linux-arm64-musl-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-linux-arm64-musl/-/wasm-tools-linux-arm64-musl-1.0.1.tgz";
     hash = "sha512-jAasbIvjZXCgX0TCuEFQr+4D6Lla/3AAVx2LmDuMjgG4xoIXzjKWl7c4chuaD+TI+prWT0X6LJcdzFT+ROKGHQ==";
-    name = "wasm-tools-linux-arm64-musl-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-linux-x64-gnu@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-linux-x64-gnu/-/wasm-tools-linux-x64-gnu-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-linux-x64-gnu/-/wasm-tools-linux-x64-gnu-1.0.1.tgz";
     hash = "sha512-Plgk5rPqqK2nocBGajkMVbGm010Z7dnUgq0wtnYRZbzWWxwWcXfZMPa8EYxrK4eE8SzpI7VlZP1tdVsdjgGwMw==";
-    name = "wasm-tools-linux-x64-gnu-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-linux-x64-musl@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-linux-x64-musl/-/wasm-tools-linux-x64-musl-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-linux-x64-musl/-/wasm-tools-linux-x64-musl-1.0.1.tgz";
     hash = "sha512-GW7AzGuWxtQkyHknHWYFdR0CHmW6is8rG2Rf4V6GNmMpmwtXt/ItWYWtBe4zqJWycMNazpfZKSw/BpT7/MVCXQ==";
-    name = "wasm-tools-linux-x64-musl-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-wasm32-wasi@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-wasm32-wasi/-/wasm-tools-wasm32-wasi-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-wasm32-wasi/-/wasm-tools-wasm32-wasi-1.0.1.tgz";
     hash = "sha512-/nQVSTrqSsn7YdAc2R7Ips/tnw5SPUcl3D7QrXCNGPqjbatIspnaexvaOYNyKMU6xPu+pc0BTnKVmqhlJJCPLA==";
-    name = "wasm-tools-wasm32-wasi-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-win32-arm64-msvc@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-win32-arm64-msvc/-/wasm-tools-win32-arm64-msvc-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-win32-arm64-msvc/-/wasm-tools-win32-arm64-msvc-1.0.1.tgz";
     hash = "sha512-PFi7oJIBu5w7Qzh3dwFea3sHRO3pojMsaEnUIy22QvsW+UJfNQwJCryVrpoUt8m4QyZXI+saEq/0r4GwdoHYFQ==";
-    name = "wasm-tools-win32-arm64-msvc-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-win32-ia32-msvc@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-win32-ia32-msvc/-/wasm-tools-win32-ia32-msvc-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-win32-ia32-msvc/-/wasm-tools-win32-ia32-msvc-1.0.1.tgz";
     hash = "sha512-gXkuYzxQsgkj05Zaq+KQTkHIN83dFAwMcTKa2aQcpYPRImFm2AQzEyLtpXmyCWzJ0F9ZYAOmbSyrNew8/us6bw==";
-    name = "wasm-tools-win32-ia32-msvc-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools-win32-x64-msvc@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools-win32-x64-msvc/-/wasm-tools-win32-x64-msvc-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools-win32-x64-msvc/-/wasm-tools-win32-x64-msvc-1.0.1.tgz";
     hash = "sha512-rEAf05nol3e3eei2sRButmgXP+6ATgm0/38MKhz9Isne82T4rPIMYsCIFj0kOisaGeVwoi2fnm7O9oWp5YVnYQ==";
-    name = "wasm-tools-win32-x64-msvc-1.0.1.tgz";
   };
   "@napi-rs/wasm-tools@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@napi-rs/wasm-tools/-/wasm-tools-1.0.1.tgz";
+    url = "https://registry.npmjs.org/@napi-rs/wasm-tools/-/wasm-tools-1.0.1.tgz";
     hash = "sha512-enkZYyuCdo+9jneCPE/0fjIta4wWnvVN9hBo2HuiMpRF0q3lzv1J6b/cl7i0mxZUKhBrV3aCKDBQnCOhwKbPmQ==";
-    name = "wasm-tools-1.0.1.tgz";
   };
   "@nodable/entities@2.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@nodable/entities/-/entities-2.1.0.tgz";
+    url = "https://registry.npmjs.org/@nodable/entities/-/entities-2.1.0.tgz";
     hash = "sha512-nyT7T3nbMyBI/lvr6L5TyWbFJAI9FTgVRakNoBqCD+PmID8DzFrrNdLLtHMwMszOtqZa8PAOV24ZqDnQrhQINA==";
-    name = "entities-2.1.0.tgz";
   };
   "@octokit/auth-token@6.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/auth-token/-/auth-token-6.0.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/auth-token/-/auth-token-6.0.0.tgz";
     hash = "sha512-P4YJBPdPSpWTQ1NU4XYdvHvXJJDxM6YwpS0FZHRgP7YFkdVxsWcpWGy/NVqlAA7PcPCnMacXlRm1y2PFZRWL/w==";
-    name = "auth-token-6.0.0.tgz";
   };
   "@octokit/core@7.0.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/core/-/core-7.0.6.tgz";
+    url = "https://registry.npmjs.org/@octokit/core/-/core-7.0.6.tgz";
     hash = "sha512-DhGl4xMVFGVIyMwswXeyzdL4uXD5OGILGX5N8Y+f6W7LhC1Ze2poSNrkF/fedpVDHEEZ+PHFW0vL14I+mm8K3Q==";
-    name = "core-7.0.6.tgz";
   };
   "@octokit/endpoint@11.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/endpoint/-/endpoint-11.0.3.tgz";
+    url = "https://registry.npmjs.org/@octokit/endpoint/-/endpoint-11.0.3.tgz";
     hash = "sha512-FWFlNxghg4HrXkD3ifYbS/IdL/mDHjh9QcsNyhQjN8dplUoZbejsdpmuqdA76nxj2xoWPs7p8uX2SNr9rYu0Ag==";
-    name = "endpoint-11.0.3.tgz";
   };
   "@octokit/graphql@9.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/graphql/-/graphql-9.0.3.tgz";
+    url = "https://registry.npmjs.org/@octokit/graphql/-/graphql-9.0.3.tgz";
     hash = "sha512-grAEuupr/C1rALFnXTv6ZQhFuL1D8G5y8CN04RgrO4FIPMrtm+mcZzFG7dcBm+nq+1ppNixu+Jd78aeJOYxlGA==";
-    name = "graphql-9.0.3.tgz";
   };
   "@octokit/openapi-types@27.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/openapi-types/-/openapi-types-27.0.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/openapi-types/-/openapi-types-27.0.0.tgz";
     hash = "sha512-whrdktVs1h6gtR+09+QsNk2+FO+49j6ga1c55YZudfEG+oKJVvJLQi3zkOm5JjiUXAagWK2tI2kTGKJ2Ys7MGA==";
-    name = "openapi-types-27.0.0.tgz";
   };
   "@octokit/plugin-paginate-rest@14.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-14.0.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/plugin-paginate-rest/-/plugin-paginate-rest-14.0.0.tgz";
     hash = "sha512-fNVRE7ufJiAA3XUrha2omTA39M6IXIc6GIZLvlbsm8QOQCYvpq/LkMNGyFlB1d8hTDzsAXa3OKtybdMAYsV/fw==";
-    name = "plugin-paginate-rest-14.0.0.tgz";
   };
   "@octokit/plugin-request-log@6.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/plugin-request-log/-/plugin-request-log-6.0.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/plugin-request-log/-/plugin-request-log-6.0.0.tgz";
     hash = "sha512-UkOzeEN3W91/eBq9sPZNQ7sUBvYCqYbrrD8gTbBuGtHEuycE4/awMXcYvx6sVYo7LypPhmQwwpUe4Yyu4QZN5Q==";
-    name = "plugin-request-log-6.0.0.tgz";
   };
   "@octokit/plugin-rest-endpoint-methods@17.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-17.0.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/plugin-rest-endpoint-methods/-/plugin-rest-endpoint-methods-17.0.0.tgz";
     hash = "sha512-B5yCyIlOJFPqUUeiD0cnBJwWJO8lkJs5d8+ze9QDP6SvfiXSz1BF+91+0MeI1d2yxgOhU/O+CvtiZ9jSkHhFAw==";
-    name = "plugin-rest-endpoint-methods-17.0.0.tgz";
   };
   "@octokit/request-error@7.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/request-error/-/request-error-7.1.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/request-error/-/request-error-7.1.0.tgz";
     hash = "sha512-KMQIfq5sOPpkQYajXHwnhjCC0slzCNScLHs9JafXc4RAJI+9f+jNDlBNaIMTvazOPLgb4BnlhGJOTbnN0wIjPw==";
-    name = "request-error-7.1.0.tgz";
   };
   "@octokit/request@10.0.9" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/request/-/request-10.0.9.tgz";
+    url = "https://registry.npmjs.org/@octokit/request/-/request-10.0.9.tgz";
     hash = "sha512-o8Bi3f608eyM+7BmBiUWxFsdjLb3/ym1cQek5LZOv9KkZcxRrHCPhhRzm6xjO6HVZ85ItD6+sTsjxo821SVa/A==";
-    name = "request-10.0.9.tgz";
   };
   "@octokit/rest@22.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/rest/-/rest-22.0.1.tgz";
+    url = "https://registry.npmjs.org/@octokit/rest/-/rest-22.0.1.tgz";
     hash = "sha512-Jzbhzl3CEexhnivb1iQ0KJ7s5vvjMWcmRtq5aUsKmKDrRW6z3r84ngmiFKFvpZjpiU/9/S6ITPFRpn5s/3uQJw==";
-    name = "rest-22.0.1.tgz";
   };
   "@octokit/types@16.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@octokit/types/-/types-16.0.0.tgz";
+    url = "https://registry.npmjs.org/@octokit/types/-/types-16.0.0.tgz";
     hash = "sha512-sKq+9r1Mm4efXW1FCk7hFSeJo4QKreL/tTbR0rz/qx/r1Oa2VV83LTA/H/MuCOX7uCIJmQVRKBcbmWoySjAnSg==";
-    name = "types-16.0.0.tgz";
   };
   "@opentelemetry/api@1.9.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@opentelemetry/api/-/api-1.9.1.tgz";
+    url = "https://registry.npmjs.org/@opentelemetry/api/-/api-1.9.1.tgz";
     hash = "sha512-gLyJlPHPZYdAk1JENA9LeHejZe1Ti77/pTeFm/nMXmQH/HFZlcS/O2XJB+L8fkbrNSqhdtlvjBVjxwUYanNH5Q==";
-    name = "api-1.9.1.tgz";
   };
   "@opentelemetry/context-async-hooks@2.7.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@opentelemetry/context-async-hooks/-/context-async-hooks-2.7.1.tgz";
+    url = "https://registry.npmjs.org/@opentelemetry/context-async-hooks/-/context-async-hooks-2.7.1.tgz";
     hash = "sha512-OPFBYuXEn1E4ja3Y6eeA7O+ZnLBNcXTV5Cgsn1VaqBZ6hC5FnpZPLBNme1LJY8ZtF4aOujPKFoeWN4ik487KuQ==";
-    name = "context-async-hooks-2.7.1.tgz";
   };
   "@opentelemetry/core@2.7.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@opentelemetry/core/-/core-2.7.1.tgz";
+    url = "https://registry.npmjs.org/@opentelemetry/core/-/core-2.7.1.tgz";
     hash = "sha512-QAqIj32AtK6+pEVNG7EOVxHdE06RP+FM5qpiEJ4RtDcFIqKUZHYhl7/7UY5efhwmwNAg7j8QbJVBLxMerc0+gw==";
-    name = "core-2.7.1.tgz";
   };
   "@opentelemetry/resources@2.7.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@opentelemetry/resources/-/resources-2.7.1.tgz";
+    url = "https://registry.npmjs.org/@opentelemetry/resources/-/resources-2.7.1.tgz";
     hash = "sha512-DeT6KKolmC4e/dRQvMQ/RwlnzhaqeiFOXY5ngoOPJ07GgVVKxZOg9EcrNZb5aTzUn+iCrJldAgOfQm1O/QfPAQ==";
-    name = "resources-2.7.1.tgz";
   };
   "@opentelemetry/sdk-trace-base@2.7.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@opentelemetry/sdk-trace-base/-/sdk-trace-base-2.7.1.tgz";
+    url = "https://registry.npmjs.org/@opentelemetry/sdk-trace-base/-/sdk-trace-base-2.7.1.tgz";
     hash = "sha512-NAYIlsF8MPUsKqJMiDQJTMPOmlbawC1Iz/omMLygZ1C9am8fTKYjTaI+OZM+WTY3t3Glo0wnOg/6/pac6RGPPw==";
-    name = "sdk-trace-base-2.7.1.tgz";
   };
   "@opentelemetry/semantic-conventions@1.41.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@opentelemetry/semantic-conventions/-/semantic-conventions-1.41.1.tgz";
+    url = "https://registry.npmjs.org/@opentelemetry/semantic-conventions/-/semantic-conventions-1.41.1.tgz";
     hash = "sha512-/UhIkaZgPutTFmQ7RnIJGgDXZmtEJ7Dvi86xNTFWcnRxVRNk/aotsqDJYeEvDP+FSMB2SdW+pQzNMcWP0rwuNA==";
-    name = "semantic-conventions-1.41.1.tgz";
   };
   "@puppeteer/browsers@2.13.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@puppeteer/browsers/-/browsers-2.13.2.tgz";
+    url = "https://registry.npmjs.org/@puppeteer/browsers/-/browsers-2.13.2.tgz";
     hash = "sha512-5EUZSUIc37H6aIXyWO0Z4y8NlF8NnjgmqeQgOGiswAU7pY0HOo16ho4+alIWmSfdZnjqBRawMsP3I5YqLSn6kw==";
-    name = "browsers-2.13.2.tgz";
   };
   "@rollup/rollup-android-arm-eabi@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.60.4.tgz";
     hash = "sha512-F5QXMSiFebS9hKZj02XhWLLnRpJ3B3AROP0tWbFBSj+6kCbg5m9j5JoHKd4mmSVy5mS/IMQloYgYxCuJC0fxEQ==";
-    name = "rollup-android-arm-eabi-4.60.4.tgz";
   };
   "@rollup/rollup-android-arm64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.60.4.tgz";
     hash = "sha512-GxxTKApUpzRhof7poWvCJHRF51C67u1R7D6DiluBE8wKU1u5GWE8t+v81JvJYtbawoBFX1hLv5Ei4eVjkWokaw==";
-    name = "rollup-android-arm64-4.60.4.tgz";
   };
   "@rollup/rollup-darwin-arm64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.60.4.tgz";
     hash = "sha512-tua0TaJxMOB1R0V0RS1jFZ/RpURFDJIOR2A6jWwQeawuFyS4gBW+rntLRaQd0EQ4bd6Vp44Z2rXW+YYDBsj6IA==";
-    name = "rollup-darwin-arm64-4.60.4.tgz";
   };
   "@rollup/rollup-darwin-x64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.60.4.tgz";
     hash = "sha512-CSKq7MsP+5PFIcydhAiR1K0UhEI1A2jWXVKHPCBZ151yOutENwvnPocgVHkivu2kviURtCEB6zUQw0vs8RrhMg==";
-    name = "rollup-darwin-x64-4.60.4.tgz";
   };
   "@rollup/rollup-freebsd-arm64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.60.4.tgz";
     hash = "sha512-+O8OkVdyvXMtJEciu2wS/pzm1IxntEEQx3z5TAVy4l32G0etZn+RsA48ARRrFm6Ri8fvqPQfgrvNxSjKAbnd3g==";
-    name = "rollup-freebsd-arm64-4.60.4.tgz";
   };
   "@rollup/rollup-freebsd-x64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.60.4.tgz";
     hash = "sha512-Iw3oMskH3AfNuhU0MSN7vNbdi4me/NiYo2azqPz/Le16zHSa+3RRmliCMWWQmh4lcndccU40xcJuTYJZxNo/lw==";
-    name = "rollup-freebsd-x64-4.60.4.tgz";
   };
   "@rollup/rollup-linux-arm-gnueabihf@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.60.4.tgz";
     hash = "sha512-EIPRXTVQpHyF8WOo219AD2yEltPehLTcTMz2fn6JsatLYSzQf00hj3rulF+yauOlF9/FtM2WpkT/hJh/KJFGhA==";
-    name = "rollup-linux-arm-gnueabihf-4.60.4.tgz";
   };
   "@rollup/rollup-linux-arm-musleabihf@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.60.4.tgz";
     hash = "sha512-J3Yh9PzzF1Ovah2At+lHiGQdsYgArxBbXv/zHfSyaiFQEqvNv7DcW98pCrmdjCZBrqBiKrKKe2V+aaSGWuBe/w==";
-    name = "rollup-linux-arm-musleabihf-4.60.4.tgz";
   };
   "@rollup/rollup-linux-arm64-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.60.4.tgz";
     hash = "sha512-BFDEZMYfUvLn37ONE1yMBojPxnMlTFsdyNoqncT0qFq1mAfllL+ATMMJd8TeuVMiX84s1KbcxcZbXInmcO2mRg==";
-    name = "rollup-linux-arm64-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-linux-arm64-musl@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.60.4.tgz";
     hash = "sha512-pc9EYOSlOgdQ2uPl1o9PF6/kLSgaUosia7gOuS8mB69IxJvlclko1MECXysjs5ryez1/5zjYqx3+xYU0TU6R1A==";
-    name = "rollup-linux-arm64-musl-4.60.4.tgz";
   };
   "@rollup/rollup-linux-loong64-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-loong64-gnu/-/rollup-linux-loong64-gnu-4.60.4.tgz";
     hash = "sha512-NxnomyxYerDh5n4iLrNa+sH+Z+U4BMEE46V2PgQ/hoB909i8gV1M5wPojWg9fk1jWpO3IQnOs20K4wyZuFLEFQ==";
-    name = "rollup-linux-loong64-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-linux-loong64-musl@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-loong64-musl/-/rollup-linux-loong64-musl-4.60.4.tgz";
     hash = "sha512-nbJnQ8a3z1mtmrwImCYhc6BGpThAyYVRQxw9uKSKG4wR6aAYno9sVjJ0zaZcW9BPJX1GbrDPf+SvdWjgTuDmnw==";
-    name = "rollup-linux-loong64-musl-4.60.4.tgz";
   };
   "@rollup/rollup-linux-ppc64-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.60.4.tgz";
     hash = "sha512-2EU6acNrQLd8tYvo/LXW535wupT3m6fo7HKo6lr7ktQoItxTyOL1ZCR/GfGCuXl2vR+zmfI6eRXkSemafv+iVg==";
-    name = "rollup-linux-ppc64-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-linux-ppc64-musl@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-musl/-/rollup-linux-ppc64-musl-4.60.4.tgz";
     hash = "sha512-WeBtoMuaMxiiIrO2IYP3xs6GMWkJP2C0EoT8beTLkUPmzV1i/UcOSVw1d5r9KBODtHKilG5yFxsGRnBbK3wJ4A==";
-    name = "rollup-linux-ppc64-musl-4.60.4.tgz";
   };
   "@rollup/rollup-linux-riscv64-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.60.4.tgz";
     hash = "sha512-FJHFfqpKUI3A10WrWKiFbBZ7yVbGT4q4B5o1qKFFojqpaYoh9LrQgqWCmmcxQzVSXYtyB5bzkXrYzlHTs21MYA==";
-    name = "rollup-linux-riscv64-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-linux-riscv64-musl@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.60.4.tgz";
     hash = "sha512-mcEl6CUT5IAUmQf1m9FYSmVqCJlpQ8r8eyftFUHG8i9OhY7BkBXSUdnLH5DOf0wCOjcP9v/QO93zpmF1SptCCw==";
-    name = "rollup-linux-riscv64-musl-4.60.4.tgz";
   };
   "@rollup/rollup-linux-s390x-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.60.4.tgz";
     hash = "sha512-ynt3JxVd2w2buzoKDWIyiV1pJW93xlQic1THVLXilz429oijRpSHivZAgp65KBu+cMcgf1eVVjdnTLvPxgCuoQ==";
-    name = "rollup-linux-s390x-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-linux-x64-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.60.4.tgz";
     hash = "sha512-Boiz5+MsaROEWDf+GGEwF8VMHGhlUoQMtIPjOgA5fv4osupqTVnJteQNKJwUcnUog2G55jYXH7KZFFiJe0TEzQ==";
-    name = "rollup-linux-x64-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-linux-x64-musl@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.60.4.tgz";
     hash = "sha512-+qfSY27qIrFfI/Hom04KYFw3GKZSGU4lXus51wsb5EuySfFlWRwjkKWoE9emgRw/ukoT4Udsj4W/+xxG8VbPKg==";
-    name = "rollup-linux-x64-musl-4.60.4.tgz";
   };
   "@rollup/rollup-openbsd-x64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-openbsd-x64/-/rollup-openbsd-x64-4.60.4.tgz";
     hash = "sha512-VpTfOPHgVXEBeeR8hZ2O0F3aSso+JDWqTWmTmzcQKted54IAdUVbxE+j/MVxUsKa8L20HJhv3vUezVPoquqWjA==";
-    name = "rollup-openbsd-x64-4.60.4.tgz";
   };
   "@rollup/rollup-openharmony-arm64@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-openharmony-arm64/-/rollup-openharmony-arm64-4.60.4.tgz";
     hash = "sha512-IPOsh5aRYuLv/nkU51X10Bf75Bsf6+gZdx1X+QP5QM6lIJFHHqbHLG0uJn/hWthzo13UAc2umiUorqZy3axoZg==";
-    name = "rollup-openharmony-arm64-4.60.4.tgz";
   };
   "@rollup/rollup-win32-arm64-msvc@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.60.4.tgz";
     hash = "sha512-4QzE9E81OohJ/HKzHhsqU+zcYYojVOXlFMs1DdyMT6qXl/niOH7AVElmmEdUNHHS/oRkc++d5k6Vy85zFs0DEw==";
-    name = "rollup-win32-arm64-msvc-4.60.4.tgz";
   };
   "@rollup/rollup-win32-ia32-msvc@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.60.4.tgz";
     hash = "sha512-zTPgT1YuHHcd+Tmx7h8aml0FWFVelV5N54oHow9SLj+GfoDy/huQ+UV396N/C7KpMDMiPspRktzM1/0r1usYEA==";
-    name = "rollup-win32-ia32-msvc-4.60.4.tgz";
   };
   "@rollup/rollup-win32-x64-gnu@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-win32-x64-gnu/-/rollup-win32-x64-gnu-4.60.4.tgz";
     hash = "sha512-DRS4G7mi9lJxqEDezIkKCaUIKCrLUUDCUaCsTPCi/rtqaC6D/jjwslMQyiDU50Ka0JKpeXeRBFBAXwArY52vBw==";
-    name = "rollup-win32-x64-gnu-4.60.4.tgz";
   };
   "@rollup/rollup-win32-x64-msvc@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.60.4.tgz";
+    url = "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.60.4.tgz";
     hash = "sha512-QVTUovf40zgTqlFVrKA1uXMVvU2QWEFWfAH8Wdc48IxLvrJMQVMBRjuQyUpzZCDkakImib9eVazbWlC6ksWtJw==";
-    name = "rollup-win32-x64-msvc-4.60.4.tgz";
   };
   "@so-ric/colorspace@1.1.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@so-ric/colorspace/-/colorspace-1.1.6.tgz";
+    url = "https://registry.npmjs.org/@so-ric/colorspace/-/colorspace-1.1.6.tgz";
     hash = "sha512-/KiKkpHNOBgkFJwu9sh48LkHSMYGyuTcSFK/qMBdnOAlrRJzRSXAOFB5qwzaVQuDl8wAvHVMkaASQDReTahxuw==";
-    name = "colorspace-1.1.6.tgz";
   };
   "@tailwindcss/node@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/node/-/node-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/node/-/node-4.3.0.tgz";
     hash = "sha512-aFb4gUhFOgdh9AXo4IzBEOzBkkAxm9VigwDJnMIYv3lcfXCJVesNfbEaBl4BNgVRyid92AmdviqwBUBRKSeY3g==";
-    name = "node-4.3.0.tgz";
   };
   "@tailwindcss/oxide-android-arm64@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.3.0.tgz";
     hash = "sha512-TJPiq67tKlLuObP6RkwvVGDoxCMBVtDgKkLfa/uyj7/FyxvQwHS+UOnVrXXgbEsfUaMgiVvC4KbJnRr26ho4Ng==";
-    name = "oxide-android-arm64-4.3.0.tgz";
   };
   "@tailwindcss/oxide-darwin-arm64@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.3.0.tgz";
     hash = "sha512-oMN/WZRb+SO37BmUElEgeEWuU8E/HXRkiODxJxLe1UTHVXLrdVSgfaJV7pSlhRGMSOiXLuxTIjfsF3wYvz8cgQ==";
-    name = "oxide-darwin-arm64-4.3.0.tgz";
   };
   "@tailwindcss/oxide-darwin-x64@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.3.0.tgz";
     hash = "sha512-N6CUmu4a6bKVADfw77p+iw6Yd9Q3OBhe0veaDX+QazfuVYlQsHfDgxBrsjQ/IW+zywL8mTrNd0SdJT/zgtvMdA==";
-    name = "oxide-darwin-x64-4.3.0.tgz";
   };
   "@tailwindcss/oxide-freebsd-x64@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.3.0.tgz";
     hash = "sha512-zDL5hBkQdH5C6MpqbK3gQAgP80tsMwSI26vjOzjJtNCMUo0lFgOItzHKBIupOZNQxt3ouPH7RPhvNhiTfCe5CQ==";
-    name = "oxide-freebsd-x64-4.3.0.tgz";
   };
   "@tailwindcss/oxide-linux-arm-gnueabihf@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.3.0.tgz";
     hash = "sha512-R06HdNi7A7OEoMsf6d4tjZ71RCWnZQPHj2mnotSFURjNLdBC+cIgXQ7l81CqeoiQftjf6OOblxXMInMgN2VzMA==";
-    name = "oxide-linux-arm-gnueabihf-4.3.0.tgz";
   };
   "@tailwindcss/oxide-linux-arm64-gnu@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.3.0.tgz";
     hash = "sha512-qTJHELX8jetjhRQHCLilkVLmybpzNQAtaI/gaoVoidn/ufbNDbAo8KlK2J+yPoc8wQxvDxCmh/5lr8nC1+lTbg==";
-    name = "oxide-linux-arm64-gnu-4.3.0.tgz";
   };
   "@tailwindcss/oxide-linux-arm64-musl@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.3.0.tgz";
     hash = "sha512-Z6sukiQsngnWO+l39X4pPbiWT81IC+PLKF+PHxIlyZbGNb9MODfYlXEVlFvej5BOZInWX01kVyzeLvHsXhfczQ==";
-    name = "oxide-linux-arm64-musl-4.3.0.tgz";
   };
   "@tailwindcss/oxide-linux-x64-gnu@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.3.0.tgz";
     hash = "sha512-DRNdQRpSGzRGfARVuVkxvM8Q12nh19l4BF/G7zGA1oe+9wcC6saFBHTISrpIcKzhiXtSrlSrluCfvMuledoCTQ==";
-    name = "oxide-linux-x64-gnu-4.3.0.tgz";
   };
   "@tailwindcss/oxide-linux-x64-musl@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.3.0.tgz";
     hash = "sha512-Z0IADbDo8bh6I7h2IQMx601AdXBLfFpEdUotft86evd/8ZPflZe9COPO8Q1vw+pfLWIUo9zN/JGZvwuAJqduqg==";
-    name = "oxide-linux-x64-musl-4.3.0.tgz";
   };
   "@tailwindcss/oxide-wasm32-wasi@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-wasm32-wasi/-/oxide-wasm32-wasi-4.3.0.tgz";
     hash = "sha512-HNZGOUxEmElksYR7S6sC5jTeNGpobAsy9u7Gu0AskJ8/20FR9GqebUyB+HBcU/ax6BHuiuJi+Oda4B+YX6H1yA==";
-    name = "oxide-wasm32-wasi-4.3.0.tgz";
   };
   "@tailwindcss/oxide-win32-arm64-msvc@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.3.0.tgz";
     hash = "sha512-Pe+RPVTi1T+qymuuRpcdvwSVZjnll/f7n8gBxMMh3xLTctMDKqpdfGimbMyioqtLhUYZxdJ9wGNhV7MKHvgZsQ==";
-    name = "oxide-win32-arm64-msvc-4.3.0.tgz";
   };
   "@tailwindcss/oxide-win32-x64-msvc@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.3.0.tgz";
     hash = "sha512-Mvrf2kXW/yeW/OTezZlCGOirXRcUuLIBx/5Y12BaPM7wJoryG6dfS/NJL8aBPqtTEx/Vm4T4vKzFUcKDT+TKUA==";
-    name = "oxide-win32-x64-msvc-4.3.0.tgz";
   };
   "@tailwindcss/oxide@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/oxide/-/oxide-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/oxide/-/oxide-4.3.0.tgz";
     hash = "sha512-F7HZGBeN9I0/AuuJS5PwcD8xayx5ri5GhjYUDBEVYUkexyA/giwbDNjRVrxSezE3T250OU2K/wp/ltWx3UOefg==";
-    name = "oxide-4.3.0.tgz";
   };
   "@tailwindcss/vite@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tailwindcss/vite/-/vite-4.3.0.tgz";
+    url = "https://registry.npmjs.org/@tailwindcss/vite/-/vite-4.3.0.tgz";
     hash = "sha512-t6J3OrB5Fc0ExuhohouH0fWUGMYL6PTLhW+E7zIk/pdbnJARZDCwjBznFnkh5ynRnIRSI4YjtTH0t6USjJISrw==";
-    name = "vite-4.3.0.tgz";
   };
   "@tokenizer/inflate@0.4.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tokenizer/inflate/-/inflate-0.4.1.tgz";
+    url = "https://registry.npmjs.org/@tokenizer/inflate/-/inflate-0.4.1.tgz";
     hash = "sha512-2mAv+8pkG6GIZiF1kNg1jAjh27IDxEPKwdGul3snfztFerfPGI1LjDezZp3i7BElXompqEtPmoPx6c2wgtWsOA==";
-    name = "inflate-0.4.1.tgz";
   };
   "@tokenizer/token@0.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tokenizer/token/-/token-0.3.0.tgz";
+    url = "https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz";
     hash = "sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==";
-    name = "token-0.3.0.tgz";
   };
   "@tootallnate/quickjs-emscripten@0.23.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tootallnate/quickjs-emscripten/-/quickjs-emscripten-0.23.0.tgz";
+    url = "https://registry.npmjs.org/@tootallnate/quickjs-emscripten/-/quickjs-emscripten-0.23.0.tgz";
     hash = "sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==";
-    name = "quickjs-emscripten-0.23.0.tgz";
   };
   "@tybys/wasm-util@0.10.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/@tybys/wasm-util/-/wasm-util-0.10.2.tgz";
+    url = "https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz";
     hash = "sha512-RoBvJ2X0wuKlWFIjrwffGw1IqZHKQqzIchKaadZZfnNpsAYp2mM0h36JtPCjNDAHGgYez/15uMBpfGwchhiMgg==";
-    name = "wasm-util-0.10.2.tgz";
   };
   "@types/babel__core@7.20.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/babel__core/-/babel__core-7.20.5.tgz";
+    url = "https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz";
     hash = "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==";
-    name = "babel__core-7.20.5.tgz";
   };
   "@types/babel__generator@7.27.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/babel__generator/-/babel__generator-7.27.0.tgz";
+    url = "https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.27.0.tgz";
     hash = "sha512-ufFd2Xi92OAVPYsy+P4n7/U7e68fex0+Ee8gSG9KX7eo084CWiQ4sdxktvdl0bOPupXtVJPY19zk6EwWqUQ8lg==";
-    name = "babel__generator-7.27.0.tgz";
   };
   "@types/babel__template@7.4.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/babel__template/-/babel__template-7.4.4.tgz";
+    url = "https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz";
     hash = "sha512-h/NUaSyG5EyxBIp8YRxo4RMe2/qQgvyowRwVMzhYhBCONbW8PUsg4lkFMrhgZhUe5z3L3MiLDuvyJ/CaPa2A8A==";
-    name = "babel__template-7.4.4.tgz";
   };
   "@types/babel__traverse@7.28.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/babel__traverse/-/babel__traverse-7.28.0.tgz";
+    url = "https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.28.0.tgz";
     hash = "sha512-8PvcXf70gTDZBgt9ptxJ8elBeBjcLOAcOtoO/mPJjtji1+CdGbHgm77om1GrsPxsiE+uXIpNSK64UYaIwQXd4Q==";
-    name = "babel__traverse-7.28.0.tgz";
   };
   "@types/bun@1.3.14" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/bun/-/bun-1.3.14.tgz";
+    url = "https://registry.npmjs.org/@types/bun/-/bun-1.3.14.tgz";
     hash = "sha512-h1hFqFVcvAvD9j9K7ZW7vd82aSA+rTdznZa+5bwvCwqSB1jmmfLcbIWhOLx1/+boy/xmjgCs/OMUL8hRJSmnPw==";
-    name = "bun-1.3.14.tgz";
   };
   "@types/estree@1.0.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/estree/-/estree-1.0.8.tgz";
+    url = "https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz";
     hash = "sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==";
-    name = "estree-1.0.8.tgz";
   };
   "@types/node@25.8.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/node/-/node-25.8.0.tgz";
+    url = "https://registry.npmjs.org/@types/node/-/node-25.8.0.tgz";
     hash = "sha512-TCFSk8IZh+iLX1xtksoBVtdmgL+1IX0fC9BeU4QqFSuNdN/K+HUlhqOzEmSYYpZUVsLYcPqc9KX+60iDuninSQ==";
-    name = "node-25.8.0.tgz";
   };
   "@types/react-dom@19.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/react-dom/-/react-dom-19.2.3.tgz";
+    url = "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz";
     hash = "sha512-jp2L/eY6fn+KgVVQAOqYItbF0VY/YApe5Mz2F0aykSO8gx31bYCZyvSeYxCHKvzHG5eZjc+zyaS5BrBWya2+kQ==";
-    name = "react-dom-19.2.3.tgz";
   };
   "@types/react@19.2.14" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/react/-/react-19.2.14.tgz";
+    url = "https://registry.npmjs.org/@types/react/-/react-19.2.14.tgz";
     hash = "sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==";
-    name = "react-19.2.14.tgz";
   };
   "@types/triple-beam@1.3.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/triple-beam/-/triple-beam-1.3.5.tgz";
+    url = "https://registry.npmjs.org/@types/triple-beam/-/triple-beam-1.3.5.tgz";
     hash = "sha512-6WaYesThRMCl19iryMYP7/x2OVgCtbIVflDGFpWnb9irXI3UjYE4AzmYuiUKY1AJstGijoY+MgUszMgRxIYTYw==";
-    name = "triple-beam-1.3.5.tgz";
   };
   "@types/turndown@5.0.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/turndown/-/turndown-5.0.6.tgz";
+    url = "https://registry.npmjs.org/@types/turndown/-/turndown-5.0.6.tgz";
     hash = "sha512-ru00MoyeeouE5BX4gRL+6m/BsDfbRayOskWqUvh7CLGW+UXxHQItqALa38kKnOiZPqJrtzJUgAC2+F0rL1S4Pg==";
-    name = "turndown-5.0.6.tgz";
   };
   "@types/yauzl@2.10.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/@types/yauzl/-/yauzl-2.10.3.tgz";
+    url = "https://registry.npmjs.org/@types/yauzl/-/yauzl-2.10.3.tgz";
     hash = "sha512-oJoftv0LSuaDZE3Le4DbKX+KS9G36NzOeSap90UIK0yMA/NhKJhqlSGtNDORNRaIbQfzjXDrQa0ytJ6mNRGz/Q==";
-    name = "yauzl-2.10.3.tgz";
   };
   "@typescript/native-preview-darwin-arm64@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-darwin-arm64/-/native-preview-darwin-arm64-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-darwin-arm64/-/native-preview-darwin-arm64-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-5W94O493huwcjrAkuP9yTQVPosXjX/0fEjCZsDn2D59m7VuPLy78R9D2i3UwlnajC75ubFiLcp/sh5o6/dFZVg==";
-    name = "native-preview-darwin-arm64-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview-darwin-x64@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-darwin-x64/-/native-preview-darwin-x64-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-darwin-x64/-/native-preview-darwin-x64-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-j+N/276dONuTv2mOLgZy/jLsEZ2JLrxbZ8wBS/LIsMGtvp6elaN/ZESEntpUpIUbeoc5H6nHkjicJKNxQTZ90Q==";
-    name = "native-preview-darwin-x64-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview-linux-arm64@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-linux-arm64/-/native-preview-linux-arm64-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-linux-arm64/-/native-preview-linux-arm64-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-pP/LpkknUTeyQkIiC916BpW2R4ToXDZI7zTbkG6Llh5bGTPcTbtM/5SxXSzYH04ogrc5AP6yYRZsUxtv1GGeQA==";
-    name = "native-preview-linux-arm64-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview-linux-arm@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-linux-arm/-/native-preview-linux-arm-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-linux-arm/-/native-preview-linux-arm-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-Vo7nGP0Wbs+VafCMabS4pSDcfJj60fLAmuZ2+hfdsUMFMO0BzHIUFyKBhbaeKVgO5V0yAqvBKrWkovZy0YXxGA==";
-    name = "native-preview-linux-arm-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview-linux-x64@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-linux-x64/-/native-preview-linux-x64-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-linux-x64/-/native-preview-linux-x64-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-90Bpi2xCPCE3S/pcL5uXn793AKSf8qLVvQ+w87FpwKknHYXQqOQ38KBO9jX2lynoxr8YcVO1S8BS7PngkwicYg==";
-    name = "native-preview-linux-x64-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview-win32-arm64@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-win32-arm64/-/native-preview-win32-arm64-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-win32-arm64/-/native-preview-win32-arm64-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-VkNazv418LbiI0X6SQPCqVFTiBBvCrIxGkdVD7WBO/M3WHZam4qhK8fF61uQclK2NqYPClI2hPbuR5i8+4s4cg==";
-    name = "native-preview-win32-arm64-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview-win32-x64@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview-win32-x64/-/native-preview-win32-x64-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview-win32-x64/-/native-preview-win32-x64-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-QhueS4Y0hxYnkQoXrAmB0JKpnXn18nNJwqxLSpyEHCEr+XnggiHBNfjT+p1LeG42TEn0w+skcfwc/Mkmk/gyCg==";
-    name = "native-preview-win32-x64-7.0.0-dev.20260505.1.tgz";
   };
   "@typescript/native-preview@7.0.0-dev.20260505.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/@typescript/native-preview/-/native-preview-7.0.0-dev.20260505.1.tgz";
+    url = "https://registry.npmjs.org/@typescript/native-preview/-/native-preview-7.0.0-dev.20260505.1.tgz";
     hash = "sha512-o82qX7L97dwQMpj6DzzokF6SQlChcxduNaL4OWzJhJkz1EP//gZOa0/xNPbPLufoJojHLQcANnpkA4JDXZDFhQ==";
-    name = "native-preview-7.0.0-dev.20260505.1.tgz";
   };
   "@xmldom/xmldom@0.8.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/@xmldom/xmldom/-/xmldom-0.8.13.tgz";
+    url = "https://registry.npmjs.org/@xmldom/xmldom/-/xmldom-0.8.13.tgz";
     hash = "sha512-KRYzxepc14G/CEpEGc3Yn+JKaAeT63smlDr+vjB8jRfgTBBI9wRj/nkQEO+ucV8p8I9bfKLWp37uHgFrbntPvw==";
-    name = "xmldom-0.8.13.tgz";
   };
   "@xterm/headless@6.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/@xterm/headless/-/headless-6.0.0.tgz";
+    url = "https://registry.npmjs.org/@xterm/headless/-/headless-6.0.0.tgz";
     hash = "sha512-5Yj1QINYCyzrZtf8OFIHi47iQtI+0qYFPHmouEfG8dHNxbZ9Tb9YGSuLcsEwj9Z+OL75GJqPyJbyoFer80a2Hw==";
-    name = "headless-6.0.0.tgz";
   };
   "agent-base@7.1.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/agent-base/-/agent-base-7.1.4.tgz";
+    url = "https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz";
     hash = "sha512-MnA+YT8fwfJPgBx3m60MNqakm30XOkyIoH1y6huTQvC0PwZG7ki8NacLBcrPbNoo8vEZy7Jpuk7+jMO+CUovTQ==";
-    name = "agent-base-7.1.4.tgz";
   };
   "ansi-escapes@7.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/ansi-escapes/-/ansi-escapes-7.3.0.tgz";
+    url = "https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-7.3.0.tgz";
     hash = "sha512-BvU8nYgGQBxcmMuEeUEmNTvrMVjJNSH7RgW24vXexN4Ven6qCvy4TntnvlnwnMLTVlcRQQdbRY8NKnaIoeWDNg==";
-    name = "ansi-escapes-7.3.0.tgz";
   };
   "ansi-regex@5.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/ansi-regex/-/ansi-regex-5.0.1.tgz";
+    url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz";
     hash = "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==";
-    name = "ansi-regex-5.0.1.tgz";
   };
   "ansi-regex@6.2.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/ansi-regex/-/ansi-regex-6.2.2.tgz";
+    url = "https://registry.npmjs.org/ansi-regex/-/ansi-regex-6.2.2.tgz";
     hash = "sha512-Bq3SmSpyFHaWjPk8If9yc6svM8c56dB5BAtW4Qbw5jHTwwXXcTLoRMkpDJp6VL0XzlWaCHTXrkFURMYmD0sLqg==";
-    name = "ansi-regex-6.2.2.tgz";
   };
   "ansi-styles@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/ansi-styles/-/ansi-styles-4.3.0.tgz";
+    url = "https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz";
     hash = "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg==";
-    name = "ansi-styles-4.3.0.tgz";
   };
   "ansi-styles@6.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/ansi-styles/-/ansi-styles-6.2.3.tgz";
+    url = "https://registry.npmjs.org/ansi-styles/-/ansi-styles-6.2.3.tgz";
     hash = "sha512-4Dj6M28JB+oAH8kFkTLUo+a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg==";
-    name = "ansi-styles-6.2.3.tgz";
   };
   "argparse@1.0.10" = fetchurl {
-    url = "https://registry.zellic.app/npm/argparse/-/argparse-1.0.10.tgz";
+    url = "https://registry.npmjs.org/argparse/-/argparse-1.0.10.tgz";
     hash = "sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==";
-    name = "argparse-1.0.10.tgz";
   };
   "argparse@2.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/argparse/-/argparse-2.0.1.tgz";
+    url = "https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz";
     hash = "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==";
-    name = "argparse-2.0.1.tgz";
   };
   "ast-types@0.13.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/ast-types/-/ast-types-0.13.4.tgz";
+    url = "https://registry.npmjs.org/ast-types/-/ast-types-0.13.4.tgz";
     hash = "sha512-x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==";
-    name = "ast-types-0.13.4.tgz";
   };
   "async@3.2.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/async/-/async-3.2.6.tgz";
+    url = "https://registry.npmjs.org/async/-/async-3.2.6.tgz";
     hash = "sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA==";
-    name = "async-3.2.6.tgz";
   };
   "b4a@1.8.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/b4a/-/b4a-1.8.1.tgz";
+    url = "https://registry.npmjs.org/b4a/-/b4a-1.8.1.tgz";
     hash = "sha512-aiqre1Nr0B/6DgE2N5vwTc+2/oQZ4Wh1t4NznYY4E00y8LCt6NqdRv81so00oo27D8MVKTpUa/MwUUtBLXCoDw==";
-    name = "b4a-1.8.1.tgz";
   };
   "babel-plugin-jsx-dom-expressions@0.40.7" = fetchurl {
-    url = "https://registry.zellic.app/npm/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.40.7.tgz";
+    url = "https://registry.npmjs.org/babel-plugin-jsx-dom-expressions/-/babel-plugin-jsx-dom-expressions-0.40.7.tgz";
     hash = "sha512-/O6JWUmjv03OI9lL2ry9bUjpD5S3PclM55RRJEyCdcFZ5W2SEA/59d+l2hNsk3gI6kiWRdRPdOtqZmsQzFN1pQ==";
-    name = "babel-plugin-jsx-dom-expressions-0.40.7.tgz";
   };
   "babel-preset-solid@1.9.12" = fetchurl {
-    url = "https://registry.zellic.app/npm/babel-preset-solid/-/babel-preset-solid-1.9.12.tgz";
+    url = "https://registry.npmjs.org/babel-preset-solid/-/babel-preset-solid-1.9.12.tgz";
     hash = "sha512-LLqnuKVDlKpyBlMPcH6qEvs/wmS9a+NczppxJ3ryS/c0O5IiSFOIBQi9GzyiGDSbcJpx4Gr87jyFTos1MyEuWg==";
-    name = "babel-preset-solid-1.9.12.tgz";
   };
   "bare-events@2.8.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/bare-events/-/bare-events-2.8.3.tgz";
+    url = "https://registry.npmjs.org/bare-events/-/bare-events-2.8.3.tgz";
     hash = "sha512-HdUm8EMQBLaJvGUdidNNbqpA1kYkwNcb+MYxkxCLAPJGQzlv9J0C24h8V65Z4c5GLd/JEALDvpFCQgpLJqc0zw==";
-    name = "bare-events-2.8.3.tgz";
   };
   "bare-fs@4.7.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/bare-fs/-/bare-fs-4.7.1.tgz";
+    url = "https://registry.npmjs.org/bare-fs/-/bare-fs-4.7.1.tgz";
     hash = "sha512-WDRsyVN52eAx/lBamKD6uyw8H4228h/x0sGGGegOamM2cd7Pag88GfMQalobXI+HaEUxpCkbKQUDOQqt9wawRw==";
-    name = "bare-fs-4.7.1.tgz";
   };
   "bare-os@3.9.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/bare-os/-/bare-os-3.9.1.tgz";
+    url = "https://registry.npmjs.org/bare-os/-/bare-os-3.9.1.tgz";
     hash = "sha512-6M5XjcnsygQNPMCMPXSK379xrJFiZ/AEMNBmFEmQW8d/789VQATvriyi5r0HYTL9TkQ26rn3kgdTG3aisbrXkQ==";
-    name = "bare-os-3.9.1.tgz";
   };
   "bare-path@3.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/bare-path/-/bare-path-3.0.0.tgz";
+    url = "https://registry.npmjs.org/bare-path/-/bare-path-3.0.0.tgz";
     hash = "sha512-tyfW2cQcB5NN8Saijrhqn0Zh7AnFNsnczRcuWODH0eYAXBsJ5gVxAUuNr7tsHSC6IZ77cA0SitzT+s47kot8Mw==";
-    name = "bare-path-3.0.0.tgz";
   };
   "bare-stream@2.13.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/bare-stream/-/bare-stream-2.13.1.tgz";
+    url = "https://registry.npmjs.org/bare-stream/-/bare-stream-2.13.1.tgz";
     hash = "sha512-Vp0cnjYyrEC4whYTymQ+YZi6pBpfiICZO3cfRG8sy67ZNWe951urv1x4eW1BKNngw3U+3fPYb5JQvHbCtxH7Ow==";
-    name = "bare-stream-2.13.1.tgz";
   };
   "bare-url@2.4.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/bare-url/-/bare-url-2.4.3.tgz";
+    url = "https://registry.npmjs.org/bare-url/-/bare-url-2.4.3.tgz";
     hash = "sha512-Kccpc7ACfXaxfeInfqKcZtW4pT5YBn1mesc4sCsun6sRwtbJ4h+sNOaksUpYEJUKfN65YWC6Bw2OJEFiKxq8nQ==";
-    name = "bare-url-2.4.3.tgz";
   };
   "base64-js@1.5.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/base64-js/-/base64-js-1.5.1.tgz";
+    url = "https://registry.npmjs.org/base64-js/-/base64-js-1.5.1.tgz";
     hash = "sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==";
-    name = "base64-js-1.5.1.tgz";
   };
   "baseline-browser-mapping@2.10.30" = fetchurl {
-    url = "https://registry.zellic.app/npm/baseline-browser-mapping/-/baseline-browser-mapping-2.10.30.tgz";
+    url = "https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.30.tgz";
     hash = "sha512-xjOFN16Ha1+Rz4nFYKqHU/LSB+gx/Vi3yQLX7r7sAW+Wa+8hhF2h4pvqTrTMc8+WcDBEunnUurr46Jvv0jk3Vg==";
-    name = "baseline-browser-mapping-2.10.30.tgz";
   };
   "basic-ftp@5.3.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/basic-ftp/-/basic-ftp-5.3.1.tgz";
+    url = "https://registry.npmjs.org/basic-ftp/-/basic-ftp-5.3.1.tgz";
     hash = "sha512-bopVNp6ugyA150DDuZfPFdt1KZ5a94ZDiwX4hMgZDzF+GttD80lEy8kj98kbyhLXnPvhtIo93mdnLIjpCAeeOw==";
-    name = "basic-ftp-5.3.1.tgz";
   };
   "beautiful-mermaid@1.1.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/beautiful-mermaid/-/beautiful-mermaid-1.1.3.tgz";
+    url = "https://registry.npmjs.org/beautiful-mermaid/-/beautiful-mermaid-1.1.3.tgz";
     hash = "sha512-TItrtrAyHp1vwFfFVYauWGrquouk/6SS21Aq3RsxindSYZODcN4xYrPZD6BiZRU+o5mKJzDPz9MUSMvELdylyg==";
-    name = "beautiful-mermaid-1.1.3.tgz";
   };
   "before-after-hook@4.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/before-after-hook/-/before-after-hook-4.0.0.tgz";
+    url = "https://registry.npmjs.org/before-after-hook/-/before-after-hook-4.0.0.tgz";
     hash = "sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==";
-    name = "before-after-hook-4.0.0.tgz";
   };
   "bluebird@3.4.7" = fetchurl {
-    url = "https://registry.zellic.app/npm/bluebird/-/bluebird-3.4.7.tgz";
+    url = "https://registry.npmjs.org/bluebird/-/bluebird-3.4.7.tgz";
     hash = "sha512-iD3898SR7sWVRHbiQv+sHUtHnMvC1o3nW5rAcqnq3uOn07DSAppZYUkIGslDz6gXC7HfunPe7YVBgoEJASPcHA==";
-    name = "bluebird-3.4.7.tgz";
   };
   "boolbase@1.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/boolbase/-/boolbase-1.0.0.tgz";
+    url = "https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz";
     hash = "sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==";
-    name = "boolbase-1.0.0.tgz";
   };
   "browserslist@4.28.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/browserslist/-/browserslist-4.28.2.tgz";
+    url = "https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz";
     hash = "sha512-48xSriZYYg+8qXna9kwqjIVzuQxi+KYWp2+5nCYnYKPTr0LvD89Jqk2Or5ogxz0NUMfIjhh2lIUX/LyX9B4oIg==";
-    name = "browserslist-4.28.2.tgz";
   };
   "buffer-crc32@0.2.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/buffer-crc32/-/buffer-crc32-0.2.13.tgz";
+    url = "https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz";
     hash = "sha512-VO9Ht/+p3SN7SKWqcrgEzjGbRSJYTx+Q1pTQC0wrWqHx0vpJraQ6GtHx8tvcg1rlK1byhU5gccxgOgj7B0TDkQ==";
-    name = "buffer-crc32-0.2.13.tgz";
   };
   "bun-types@1.3.14" = fetchurl {
-    url = "https://registry.zellic.app/npm/bun-types/-/bun-types-1.3.14.tgz";
+    url = "https://registry.npmjs.org/bun-types/-/bun-types-1.3.14.tgz";
     hash = "sha512-4N0ig0fEomHt5R0KCFWjovxow98rIoRwKolrYdCcknNwMekCXRnWEUvgu5soYV8QXtVsrUD8B95MBOZGPvr6KQ==";
-    name = "bun-types-1.3.14.tgz";
   };
   "caniuse-lite@1.0.30001793" = fetchurl {
-    url = "https://registry.zellic.app/npm/caniuse-lite/-/caniuse-lite-1.0.30001793.tgz";
+    url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001793.tgz";
     hash = "sha512-iwSsYWaCOoh26cV8NwNRViHlrfUvYsHDfRVcbtmw0Kg6PJIZZXwMkj1442FYLBGkeUf1juAsU3DTfxW579mrPA==";
-    name = "caniuse-lite-1.0.30001793.tgz";
   };
   "chalk@5.6.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/chalk/-/chalk-5.6.2.tgz";
+    url = "https://registry.npmjs.org/chalk/-/chalk-5.6.2.tgz";
     hash = "sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==";
-    name = "chalk-5.6.2.tgz";
   };
   "chardet@2.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/chardet/-/chardet-2.1.1.tgz";
+    url = "https://registry.npmjs.org/chardet/-/chardet-2.1.1.tgz";
     hash = "sha512-PsezH1rqdV9VvyNhxxOW32/d75r01NY7TQCmOqomRo15ZSOKbpTFVsfjghxo6JloQUCGnH4k1LGu0R4yCLlWQQ==";
-    name = "chardet-2.1.1.tgz";
   };
   "chart.js@4.5.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/chart.js/-/chart.js-4.5.1.tgz";
+    url = "https://registry.npmjs.org/chart.js/-/chart.js-4.5.1.tgz";
     hash = "sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw==";
-    name = "chart.js-4.5.1.tgz";
   };
   "chromium-bidi@14.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/chromium-bidi/-/chromium-bidi-14.0.0.tgz";
+    url = "https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-14.0.0.tgz";
     hash = "sha512-9gYlLtS6tStdRWzrtXaTMnqcM4dudNegMXJxkR0I/CXObHalYeYcAMPrL19eroNZHtJ8DQmu1E+ZNOYu/IXMXw==";
-    name = "chromium-bidi-14.0.0.tgz";
   };
   "cli-cursor@5.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/cli-cursor/-/cli-cursor-5.0.0.tgz";
+    url = "https://registry.npmjs.org/cli-cursor/-/cli-cursor-5.0.0.tgz";
     hash = "sha512-aCj4O5wKyszjMmDT4tZj93kxyydN/K5zPWSCe6/0AV/AA1pqe5ZBIw0a2ZfPQV7lL5/yb5HsUreJ6UFAF1tEQw==";
-    name = "cli-cursor-5.0.0.tgz";
   };
   "cli-truncate@5.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/cli-truncate/-/cli-truncate-5.2.0.tgz";
+    url = "https://registry.npmjs.org/cli-truncate/-/cli-truncate-5.2.0.tgz";
     hash = "sha512-xRwvIOMGrfOAnM1JYtqQImuaNtDEv9v6oIYAs4LIHwTiKee8uwvIi363igssOC0O5U04i4AlENs79LQLu9tEMw==";
-    name = "cli-truncate-5.2.0.tgz";
   };
   "cli-width@4.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/cli-width/-/cli-width-4.1.0.tgz";
+    url = "https://registry.npmjs.org/cli-width/-/cli-width-4.1.0.tgz";
     hash = "sha512-ouuZd4/dm2Sw5Gmqy6bGyNNNe1qt9RpmxveLSO7KcgsTnU7RXfsw+/bukWGo1abgBiMAic068rclZsO4IWmmxQ==";
-    name = "cli-width-4.1.0.tgz";
   };
   "clipanion@4.0.0-rc.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/clipanion/-/clipanion-4.0.0-rc.4.tgz";
+    url = "https://registry.npmjs.org/clipanion/-/clipanion-4.0.0-rc.4.tgz";
     hash = "sha512-CXkMQxU6s9GklO/1f714dkKBMu1lopS1WFF0B8o4AxPykR1hpozxSiUZ5ZUeBjfPgCWqbcNOtZVFhB8Lkfp1+Q==";
-    name = "clipanion-4.0.0-rc.4.tgz";
   };
   "cliui@8.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/cliui/-/cliui-8.0.1.tgz";
+    url = "https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz";
     hash = "sha512-BSeNnyus75C4//NQ9gQt1/csTXyo/8Sb+afLAkzAptFuMsod9HFokGNudZpi/oQV73hnVK+sR+5PVRMd+Dr7YQ==";
-    name = "cliui-8.0.1.tgz";
   };
   "color-convert@2.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/color-convert/-/color-convert-2.0.1.tgz";
+    url = "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz";
     hash = "sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==";
-    name = "color-convert-2.0.1.tgz";
   };
   "color-convert@3.1.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/color-convert/-/color-convert-3.1.3.tgz";
+    url = "https://registry.npmjs.org/color-convert/-/color-convert-3.1.3.tgz";
     hash = "sha512-fasDH2ont2GqF5HpyO4w0+BcewlhHEZOFn9c1ckZdHpJ56Qb7MHhH/IcJZbBGgvdtwdwNbLvxiBEdg336iA9Sg==";
-    name = "color-convert-3.1.3.tgz";
   };
   "color-name@1.1.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/color-name/-/color-name-1.1.4.tgz";
+    url = "https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz";
     hash = "sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==";
-    name = "color-name-1.1.4.tgz";
   };
   "color-name@2.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/color-name/-/color-name-2.1.0.tgz";
+    url = "https://registry.npmjs.org/color-name/-/color-name-2.1.0.tgz";
     hash = "sha512-1bPaDNFm0axzE4MEAzKPuqKWeRaT43U/hyxKPBdqTfmPF+d6n7FSoTFxLVULUJOmiLp01KjhIPPH+HrXZJN4Rg==";
-    name = "color-name-2.1.0.tgz";
   };
   "color-string@2.1.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/color-string/-/color-string-2.1.4.tgz";
+    url = "https://registry.npmjs.org/color-string/-/color-string-2.1.4.tgz";
     hash = "sha512-Bb6Cq8oq0IjDOe8wJmi4JeNn763Xs9cfrBcaylK1tPypWzyoy2G3l90v9k64kjphl/ZJjPIShFztenRomi8WTg==";
-    name = "color-string-2.1.4.tgz";
   };
   "color@5.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/color/-/color-5.0.3.tgz";
+    url = "https://registry.npmjs.org/color/-/color-5.0.3.tgz";
     hash = "sha512-ezmVcLR3xAVp8kYOm4GS45ZLLgIE6SPAFoduLr6hTDajwb3KZ2F46gulK3XpcwRFb5KKGCSezCBAY4Dw4HsyXA==";
-    name = "color-5.0.3.tgz";
   };
   "colorette@2.0.20" = fetchurl {
-    url = "https://registry.zellic.app/npm/colorette/-/colorette-2.0.20.tgz";
+    url = "https://registry.npmjs.org/colorette/-/colorette-2.0.20.tgz";
     hash = "sha512-IfEDxwoWIjkeXL1eXcDiow4UbKjhLdq6/EuSVR9GMN7KVH3r9gQ83e73hsz1Nd1T3ijd5xv1wcWRYO+D6kCI2w==";
-    name = "colorette-2.0.20.tgz";
   };
   "commander@14.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/commander/-/commander-14.0.3.tgz";
+    url = "https://registry.npmjs.org/commander/-/commander-14.0.3.tgz";
     hash = "sha512-H+y0Jo/T1RZ9qPP4Eh1pkcQcLRglraJaSLoyOtHxu6AapkjWVCy2Sit1QQ4x3Dng8qDlSsZEet7g5Pq06MvTgw==";
-    name = "commander-14.0.3.tgz";
   };
   "content-type@1.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/content-type/-/content-type-1.0.5.tgz";
+    url = "https://registry.npmjs.org/content-type/-/content-type-1.0.5.tgz";
     hash = "sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==";
-    name = "content-type-1.0.5.tgz";
   };
   "content-type@2.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/content-type/-/content-type-2.0.0.tgz";
+    url = "https://registry.npmjs.org/content-type/-/content-type-2.0.0.tgz";
     hash = "sha512-j/O/d7GcZCyNl7/hwZAb606rzqkyvaDctLmckbxLzHvFBzTJHuGEdodATcP3yIRoDrLHkIATJuvzbFlp/ki2cQ==";
-    name = "content-type-2.0.0.tgz";
   };
   "convert-source-map@2.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/convert-source-map/-/convert-source-map-2.0.0.tgz";
+    url = "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz";
     hash = "sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==";
-    name = "convert-source-map-2.0.0.tgz";
   };
   "core-util-is@1.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/core-util-is/-/core-util-is-1.0.3.tgz";
+    url = "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.3.tgz";
     hash = "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==";
-    name = "core-util-is-1.0.3.tgz";
   };
   "css-select@5.2.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/css-select/-/css-select-5.2.2.tgz";
+    url = "https://registry.npmjs.org/css-select/-/css-select-5.2.2.tgz";
     hash = "sha512-TizTzUddG/xYLA3NXodFM0fSbNizXjOKhqiQQwvhlspadZokn1KDy0NZFS0wuEubIYAV5/c1/lAr0TaaFXEXzw==";
-    name = "css-select-5.2.2.tgz";
   };
   "css-what@6.2.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/css-what/-/css-what-6.2.2.tgz";
+    url = "https://registry.npmjs.org/css-what/-/css-what-6.2.2.tgz";
     hash = "sha512-u/O3vwbptzhMs3L1fQE82ZSLHQQfto5gyZzwteVIEyeaY5Fc7R4dapF/BvRoSYFeqfBk4m0V1Vafq5Pjv25wvA==";
-    name = "css-what-6.2.2.tgz";
   };
   "cssom@0.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/cssom/-/cssom-0.5.0.tgz";
+    url = "https://registry.npmjs.org/cssom/-/cssom-0.5.0.tgz";
     hash = "sha512-iKuQcq+NdHqlAcwUY0o/HL69XQrUaQdMjmStJ8JFmUaiiQErlhrmuigkg/CU4E2J0IyUKUrMAgl36TvN67MqTw==";
-    name = "cssom-0.5.0.tgz";
   };
   "csstype@3.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/csstype/-/csstype-3.2.3.tgz";
+    url = "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz";
     hash = "sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==";
-    name = "csstype-3.2.3.tgz";
   };
   "data-uri-to-buffer@6.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/data-uri-to-buffer/-/data-uri-to-buffer-6.0.2.tgz";
+    url = "https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-6.0.2.tgz";
     hash = "sha512-7hvf7/GW8e86rW0ptuwS3OcBGDjIi6SZva7hCyWC0yYry2cOPmLIjXAUHI6DK2HsnwJd9ifmt57i8eV2n4YNpw==";
-    name = "data-uri-to-buffer-6.0.2.tgz";
   };
   "date-fns@4.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/date-fns/-/date-fns-4.1.0.tgz";
+    url = "https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz";
     hash = "sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==";
-    name = "date-fns-4.1.0.tgz";
   };
   "debug@4.4.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/debug/-/debug-4.4.3.tgz";
+    url = "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz";
     hash = "sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==";
-    name = "debug-4.4.3.tgz";
   };
   "degenerator@5.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/degenerator/-/degenerator-5.0.1.tgz";
+    url = "https://registry.npmjs.org/degenerator/-/degenerator-5.0.1.tgz";
     hash = "sha512-TllpMR/t0M5sqCXfj85i4XaAzxmS5tVA16dqvdkMwGmzI+dXLXnw3J+3Vdv7VKw+ThlTMboK6i9rnZ6Nntj5CQ==";
-    name = "degenerator-5.0.1.tgz";
   };
   "detect-libc@2.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/detect-libc/-/detect-libc-2.1.2.tgz";
+    url = "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz";
     hash = "sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==";
-    name = "detect-libc-2.1.2.tgz";
   };
   "devtools-protocol@0.0.1608973" = fetchurl {
-    url = "https://registry.zellic.app/npm/devtools-protocol/-/devtools-protocol-0.0.1608973.tgz";
+    url = "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1608973.tgz";
     hash = "sha512-Tpm17fxYzt+J7VrGdc1k8YdRqS3YV7se/M6KeemEqvUbq/n7At1rWVuXMxQgpWkdwSdIEKYbU//Bve+Shm4YNQ==";
-    name = "devtools-protocol-0.0.1608973.tgz";
   };
   "diff@9.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/diff/-/diff-9.0.0.tgz";
+    url = "https://registry.npmjs.org/diff/-/diff-9.0.0.tgz";
     hash = "sha512-svtcdpS8CgJyqAjEQIXdb3OjhFVVYjzGAPO8WGCmRbrml64SPw/jJD4GoE98aR7r25A0XcgrK3F02yw9R/vhQw==";
-    name = "diff-9.0.0.tgz";
   };
   "dingbat-to-unicode@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/dingbat-to-unicode/-/dingbat-to-unicode-1.0.1.tgz";
+    url = "https://registry.npmjs.org/dingbat-to-unicode/-/dingbat-to-unicode-1.0.1.tgz";
     hash = "sha512-98l0sW87ZT58pU4i61wa2OHwxbiYSbuxsCBozaVnYX2iCnr3bLM3fIes1/ej7h1YdOKuKt/MLs706TVnALA65w==";
-    name = "dingbat-to-unicode-1.0.1.tgz";
   };
   "dom-serializer@2.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/dom-serializer/-/dom-serializer-2.0.0.tgz";
+    url = "https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz";
     hash = "sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==";
-    name = "dom-serializer-2.0.0.tgz";
   };
   "domelementtype@2.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/domelementtype/-/domelementtype-2.3.0.tgz";
+    url = "https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz";
     hash = "sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==";
-    name = "domelementtype-2.3.0.tgz";
   };
   "domhandler@5.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/domhandler/-/domhandler-5.0.3.tgz";
+    url = "https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz";
     hash = "sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==";
-    name = "domhandler-5.0.3.tgz";
   };
   "domutils@3.2.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/domutils/-/domutils-3.2.2.tgz";
+    url = "https://registry.npmjs.org/domutils/-/domutils-3.2.2.tgz";
     hash = "sha512-6kZKyUajlDuqlHKVX1w7gyslj9MPIXzIFiz/rGu35uC1wMi+kMhQwGhl4lt9unC9Vb9INnY9Z3/ZA3+FhASLaw==";
-    name = "domutils-3.2.2.tgz";
   };
   "duck@0.1.12" = fetchurl {
-    url = "https://registry.zellic.app/npm/duck/-/duck-0.1.12.tgz";
+    url = "https://registry.npmjs.org/duck/-/duck-0.1.12.tgz";
     hash = "sha512-wkctla1O6VfP89gQ+J/yDesM0S7B7XLXjKGzXxMDVFg7uEn706niAtyYovKbyq1oT9YwDcly721/iUWoc8MVRg==";
-    name = "duck-0.1.12.tgz";
   };
   "electron-to-chromium@1.5.358" = fetchurl {
-    url = "https://registry.zellic.app/npm/electron-to-chromium/-/electron-to-chromium-1.5.358.tgz";
+    url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.358.tgz";
     hash = "sha512-EO7tKm3QxRqTs1lSuPXzl6yRAwznehp0AH9OoMOIC+4mQzTFday8FJCO5KU6J/TFSQXEOahNq4vTKpz1jmCVOA==";
-    name = "electron-to-chromium-1.5.358.tgz";
   };
   "elkjs@0.11.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/elkjs/-/elkjs-0.11.1.tgz";
+    url = "https://registry.npmjs.org/elkjs/-/elkjs-0.11.1.tgz";
     hash = "sha512-zxxR9k+rx5ktMwT/FwyLdPCrq7xN6e4VGGHH8hA01vVYKjTFik7nHOxBnAYtrgYUB1RpAiLvA1/U2YraWxyKKg==";
-    name = "elkjs-0.11.1.tgz";
   };
   "emnapi@1.10.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/emnapi/-/emnapi-1.10.0.tgz";
+    url = "https://registry.npmjs.org/emnapi/-/emnapi-1.10.0.tgz";
     hash = "sha512-swoyZjupDvLoe/KC3HZ4SY1JUN+tviT6eOZ3Px28TZAYdBHtRIiMWWrIUUH+2/9CYY4fNTID1YhYZ+kdFHszHg==";
-    name = "emnapi-1.10.0.tgz";
   };
   "emoji-regex@10.6.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/emoji-regex/-/emoji-regex-10.6.0.tgz";
+    url = "https://registry.npmjs.org/emoji-regex/-/emoji-regex-10.6.0.tgz";
     hash = "sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==";
-    name = "emoji-regex-10.6.0.tgz";
   };
   "emoji-regex@8.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/emoji-regex/-/emoji-regex-8.0.0.tgz";
+    url = "https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz";
     hash = "sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==";
-    name = "emoji-regex-8.0.0.tgz";
   };
   "enabled@2.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/enabled/-/enabled-2.0.0.tgz";
+    url = "https://registry.npmjs.org/enabled/-/enabled-2.0.0.tgz";
     hash = "sha512-AKrN98kuwOzMIdAizXGI86UFBoo26CL21UM763y1h/GMSJ4/OHU9k2YlsmBpyScFo/wbLzWQJBMCW4+IO3/+OQ==";
-    name = "enabled-2.0.0.tgz";
   };
   "end-of-stream@1.4.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/end-of-stream/-/end-of-stream-1.4.5.tgz";
+    url = "https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.5.tgz";
     hash = "sha512-ooEGc6HP26xXq/N+GCGOT0JKCLDGrq2bQUZrQ7gyrJiZANJ/8YDTxTpQBXGMn+WbIQXNVpyWymm7KYVICQnyOg==";
-    name = "end-of-stream-1.4.5.tgz";
   };
   "enhanced-resolve@5.21.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/enhanced-resolve/-/enhanced-resolve-5.21.3.tgz";
+    url = "https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.21.3.tgz";
     hash = "sha512-QyL119InA+XXEkNLNTPCXPugSvOfhwv0JOlGNzvxs0hZaiHLNvXSpudUWsOlsXGWJh8G6ckCScEkVHfX3kw/2Q==";
-    name = "enhanced-resolve-5.21.3.tgz";
   };
   "entities@2.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/entities/-/entities-2.2.0.tgz";
+    url = "https://registry.npmjs.org/entities/-/entities-2.2.0.tgz";
     hash = "sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==";
-    name = "entities-2.2.0.tgz";
   };
   "entities@4.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/entities/-/entities-4.5.0.tgz";
+    url = "https://registry.npmjs.org/entities/-/entities-4.5.0.tgz";
     hash = "sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==";
-    name = "entities-4.5.0.tgz";
   };
   "entities@6.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/entities/-/entities-6.0.1.tgz";
+    url = "https://registry.npmjs.org/entities/-/entities-6.0.1.tgz";
     hash = "sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==";
-    name = "entities-6.0.1.tgz";
   };
   "entities@7.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/entities/-/entities-7.0.1.tgz";
+    url = "https://registry.npmjs.org/entities/-/entities-7.0.1.tgz";
     hash = "sha512-TWrgLOFUQTH994YUyl1yT4uyavY5nNB5muff+RtWaqNVCAK408b5ZnnbNAUEWLTCpum9w6arT70i1XdQ4UeOPA==";
-    name = "entities-7.0.1.tgz";
   };
   "environment@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/environment/-/environment-1.1.0.tgz";
+    url = "https://registry.npmjs.org/environment/-/environment-1.1.0.tgz";
     hash = "sha512-xUtoPkMggbz0MPyPiIWr1Kp4aeWJjDZ6SMvURhimjdZgsRuDplF5/s9hcgGhyXMhs+6vpnuoiZ2kFiu3FMnS8Q==";
-    name = "environment-1.1.0.tgz";
   };
   "es-toolkit@1.46.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/es-toolkit/-/es-toolkit-1.46.1.tgz";
+    url = "https://registry.npmjs.org/es-toolkit/-/es-toolkit-1.46.1.tgz";
     hash = "sha512-5eNtXOs3tbfxXOj04tjjseeWkRWaoCjdEI+96DgwzZoe6c9juL49pXlzAFTI72aWC9Y8p7168g6XIKjh7k6pyQ==";
-    name = "es-toolkit-1.46.1.tgz";
   };
   "esbuild@0.21.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/esbuild/-/esbuild-0.21.5.tgz";
+    url = "https://registry.npmjs.org/esbuild/-/esbuild-0.21.5.tgz";
     hash = "sha512-mg3OPMV4hXywwpoDxu3Qda5xCKQi+vCTZq8S9J/EpkhB2HzKXq4SNFZE3+NK93JYxc8VMSep+lOUSC/RVKaBqw==";
-    name = "esbuild-0.21.5.tgz";
   };
   "escalade@3.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/escalade/-/escalade-3.2.0.tgz";
+    url = "https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz";
     hash = "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==";
-    name = "escalade-3.2.0.tgz";
   };
   "escodegen@2.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/escodegen/-/escodegen-2.1.0.tgz";
+    url = "https://registry.npmjs.org/escodegen/-/escodegen-2.1.0.tgz";
     hash = "sha512-2NlIDTwUWJN0mRPQOdtQBzbUHvdGY2P1VXSyU83Q3xKxM7WHX2Ql8dKq782Q9TgQUNOLEzEYu9bzLNj1q88I5w==";
-    name = "escodegen-2.1.0.tgz";
   };
   "esprima@4.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/esprima/-/esprima-4.0.1.tgz";
+    url = "https://registry.npmjs.org/esprima/-/esprima-4.0.1.tgz";
     hash = "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==";
-    name = "esprima-4.0.1.tgz";
   };
   "estraverse@5.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/estraverse/-/estraverse-5.3.0.tgz";
+    url = "https://registry.npmjs.org/estraverse/-/estraverse-5.3.0.tgz";
     hash = "sha512-MMdARuVEQziNTeJD8DgMqmhwR11BRQ/cBP+pLtYdSTnf3MIO8fFeiINEbX36ZdNlfU/7A9f3gUw49B3oQsvwBA==";
-    name = "estraverse-5.3.0.tgz";
   };
   "esutils@2.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/esutils/-/esutils-2.0.3.tgz";
+    url = "https://registry.npmjs.org/esutils/-/esutils-2.0.3.tgz";
     hash = "sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==";
-    name = "esutils-2.0.3.tgz";
   };
   "eventemitter3@5.0.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/eventemitter3/-/eventemitter3-5.0.4.tgz";
+    url = "https://registry.npmjs.org/eventemitter3/-/eventemitter3-5.0.4.tgz";
     hash = "sha512-mlsTRyGaPBjPedk6Bvw+aqbsXDtoAyAzm5MO7JgU+yVRyMQ5O8bD4Kcci7BS85f93veegeCPkL8R4GLClnjLFw==";
-    name = "eventemitter3-5.0.4.tgz";
   };
   "events-universal@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/events-universal/-/events-universal-1.0.1.tgz";
+    url = "https://registry.npmjs.org/events-universal/-/events-universal-1.0.1.tgz";
     hash = "sha512-LUd5euvbMLpwOF8m6ivPCbhQeSiYVNb8Vs0fQ8QjXo0JTkEHpz8pxdQf0gStltaPpw0Cca8b39KxvK9cfKRiAw==";
-    name = "events-universal-1.0.1.tgz";
   };
   "exifr@7.1.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/exifr/-/exifr-7.1.3.tgz";
+    url = "https://registry.npmjs.org/exifr/-/exifr-7.1.3.tgz";
     hash = "sha512-g/aje2noHivrRSLbAUtBPWFbxKdKhgj/xr1vATDdUXPOFYJlQ62Ft0oy+72V6XLIpDJfHs6gXLbBLAolqOXYRw==";
-    name = "exifr-7.1.3.tgz";
   };
   "extract-zip@2.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/extract-zip/-/extract-zip-2.0.1.tgz";
+    url = "https://registry.npmjs.org/extract-zip/-/extract-zip-2.0.1.tgz";
     hash = "sha512-GDhU9ntwuKyGXdZBUgTIe+vXnWj0fppUEtMDL0+idd5Sta8TGpHssn/eusA9mrPr9qNDym6SxAYZjNvCn/9RBg==";
-    name = "extract-zip-2.0.1.tgz";
   };
   "fast-content-type-parse@3.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-content-type-parse/-/fast-content-type-parse-3.0.0.tgz";
+    url = "https://registry.npmjs.org/fast-content-type-parse/-/fast-content-type-parse-3.0.0.tgz";
     hash = "sha512-ZvLdcY8P+N8mGQJahJV5G4U88CSvT1rP8ApL6uETe88MBXrBHAkZlSEySdUlyztF7ccb+Znos3TFqaepHxdhBg==";
-    name = "fast-content-type-parse-3.0.0.tgz";
   };
   "fast-fifo@1.3.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-fifo/-/fast-fifo-1.3.2.tgz";
+    url = "https://registry.npmjs.org/fast-fifo/-/fast-fifo-1.3.2.tgz";
     hash = "sha512-/d9sfos4yxzpwkDkuN7k2SqFKtYNmCTzgfEpz82x34IM9/zc8KGxQoXg1liNC/izpRM/MBdt44Nmx41ZWqk+FQ==";
-    name = "fast-fifo-1.3.2.tgz";
   };
   "fast-string-truncated-width@3.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-string-truncated-width/-/fast-string-truncated-width-3.0.3.tgz";
+    url = "https://registry.npmjs.org/fast-string-truncated-width/-/fast-string-truncated-width-3.0.3.tgz";
     hash = "sha512-0jjjIEL6+0jag3l2XWWizO64/aZVtpiGE3t0Zgqxv0DPuxiMjvB3M24fCyhZUO4KomJQPj3LTSUnDP3GpdwC0g==";
-    name = "fast-string-truncated-width-3.0.3.tgz";
   };
   "fast-string-width@3.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-string-width/-/fast-string-width-3.0.2.tgz";
+    url = "https://registry.npmjs.org/fast-string-width/-/fast-string-width-3.0.2.tgz";
     hash = "sha512-gX8LrtNEI5hq8DVUfRQMbr5lpaS4nMIWV+7XEbXk2b8kiQIizgnlr12B4dA3ZEx3308ze0O4Q1R+cHts8kyUJg==";
-    name = "fast-string-width-3.0.2.tgz";
   };
   "fast-wrap-ansi@0.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-wrap-ansi/-/fast-wrap-ansi-0.2.0.tgz";
+    url = "https://registry.npmjs.org/fast-wrap-ansi/-/fast-wrap-ansi-0.2.0.tgz";
     hash = "sha512-rLV8JHxTyhVmFYhBJuMujcrHqOT2cnO5Zxj37qROj23CP39GXubJRBUFF0z8KFK77Uc0SukZUf7JZhsVEQ6n8w==";
-    name = "fast-wrap-ansi-0.2.0.tgz";
   };
   "fast-xml-builder@1.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-xml-builder/-/fast-xml-builder-1.2.0.tgz";
+    url = "https://registry.npmjs.org/fast-xml-builder/-/fast-xml-builder-1.2.0.tgz";
     hash = "sha512-00aAWieqff+ZJhsXA4g1g7M8k+7AYoMUUHF+/zFb5U6Uv/P0Vl4QZo84/IcufzYalLuEj9928bXN9PbbFzMF0Q==";
-    name = "fast-xml-builder-1.2.0.tgz";
   };
   "fast-xml-parser@5.8.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/fast-xml-parser/-/fast-xml-parser-5.8.0.tgz";
+    url = "https://registry.npmjs.org/fast-xml-parser/-/fast-xml-parser-5.8.0.tgz";
     hash = "sha512-6bIM7fsJxeo3uXv7OncQYsBAMPJ7V16Slahl/6M98C/i2q+vB1+4a0MtrvYwDFEUrwDSbAmeLDRXsOBwrL7yAg==";
-    name = "fast-xml-parser-5.8.0.tgz";
   };
   "fd-slicer@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/fd-slicer/-/fd-slicer-1.1.0.tgz";
+    url = "https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz";
     hash = "sha512-cE1qsB/VwyQozZ+q1dGxR8LBYNZeofhEdUNGSMbQD3Gw2lAzX9Zb3uIU6Ebc/Fmyjo9AWWfnn0AUCHqtevs/8g==";
-    name = "fd-slicer-1.1.0.tgz";
   };
   "fecha@4.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/fecha/-/fecha-4.2.3.tgz";
+    url = "https://registry.npmjs.org/fecha/-/fecha-4.2.3.tgz";
     hash = "sha512-OP2IUU6HeYKJi3i0z4A19kHMQoLVs4Hc+DPqqxI2h/DPZHTm/vjsfC6P0b4jCMy14XizLBqvndQ+UilD7707Jw==";
-    name = "fecha-4.2.3.tgz";
   };
   "fflate@0.8.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/fflate/-/fflate-0.8.2.tgz";
+    url = "https://registry.npmjs.org/fflate/-/fflate-0.8.2.tgz";
     hash = "sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==";
-    name = "fflate-0.8.2.tgz";
   };
   "file-stream-rotator@0.6.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/file-stream-rotator/-/file-stream-rotator-0.6.1.tgz";
+    url = "https://registry.npmjs.org/file-stream-rotator/-/file-stream-rotator-0.6.1.tgz";
     hash = "sha512-u+dBid4PvZw17PmDeRcNOtCP9CCK/9lRN2w+r1xIS7yOL9JFrIBKTvrYsxT4P0pGtThYTn++QS5ChHaUov3+zQ==";
-    name = "file-stream-rotator-0.6.1.tgz";
   };
   "file-type@21.3.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/file-type/-/file-type-21.3.4.tgz";
+    url = "https://registry.npmjs.org/file-type/-/file-type-21.3.4.tgz";
     hash = "sha512-Ievi/yy8DS3ygGvT47PjSfdFoX+2isQueoYP1cntFW1JLYAuS4GD7NUPGg4zv2iZfV52uDyk5w5Z0TdpRS6Q1g==";
-    name = "file-type-21.3.4.tgz";
   };
   "fn.name@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/fn.name/-/fn.name-1.1.0.tgz";
+    url = "https://registry.npmjs.org/fn.name/-/fn.name-1.1.0.tgz";
     hash = "sha512-GRnmB5gPyJpAhTQdSZTSp9uaPSvl09KoYcMQtsB9rQoOmzs9dH6ffeccH+Z+cv6P68Hu5bC6JjRh4Ah/mHSNRw==";
-    name = "fn.name-1.1.0.tgz";
   };
   "fsevents@2.3.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/fsevents/-/fsevents-2.3.3.tgz";
+    url = "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz";
     hash = "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==";
-    name = "fsevents-2.3.3.tgz";
   };
   "gensync@1.0.0-beta.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/gensync/-/gensync-1.0.0-beta.2.tgz";
+    url = "https://registry.npmjs.org/gensync/-/gensync-1.0.0-beta.2.tgz";
     hash = "sha512-3hN7NaskYvMDLQY55gnW3NQ+mesEAepTqlg+VEbj7zzqEMBVNhzcGYYeqFo/TlYz6eQiFcp1HcsCZO+nGgS8zg==";
-    name = "gensync-1.0.0-beta.2.tgz";
   };
   "get-caller-file@2.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/get-caller-file/-/get-caller-file-2.0.5.tgz";
+    url = "https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz";
     hash = "sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==";
-    name = "get-caller-file-2.0.5.tgz";
   };
   "get-east-asian-width@1.6.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/get-east-asian-width/-/get-east-asian-width-1.6.0.tgz";
+    url = "https://registry.npmjs.org/get-east-asian-width/-/get-east-asian-width-1.6.0.tgz";
     hash = "sha512-QRbvDIbx6YklUe6RxeTeleMR0yv3cYH6PsPZHcnVn7xv7zO1BHN8r0XETu8n6Ye3Q+ahtSarc3WgtNWmehIBfA==";
-    name = "get-east-asian-width-1.6.0.tgz";
   };
   "get-stream@5.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/get-stream/-/get-stream-5.2.0.tgz";
+    url = "https://registry.npmjs.org/get-stream/-/get-stream-5.2.0.tgz";
     hash = "sha512-nBF+F1rAZVCu/p7rjzgA+Yb4lfYXrpl7a6VmJrU8wF9I1CKvP/QwPNZHnOlwbTkY6dvtFIzFMSyQXbLoTQPRpA==";
-    name = "get-stream-5.2.0.tgz";
   };
   "get-uri@6.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/get-uri/-/get-uri-6.0.5.tgz";
+    url = "https://registry.npmjs.org/get-uri/-/get-uri-6.0.5.tgz";
     hash = "sha512-b1O07XYq8eRuVzBNgJLstU6FYc1tS6wnMtF1I1D9lE8LxZSOGZ7LhxN54yPP6mGw5f2CkXY2BQUL9Fx41qvcIg==";
-    name = "get-uri-6.0.5.tgz";
   };
   "graceful-fs@4.2.11" = fetchurl {
-    url = "https://registry.zellic.app/npm/graceful-fs/-/graceful-fs-4.2.11.tgz";
+    url = "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz";
     hash = "sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==";
-    name = "graceful-fs-4.2.11.tgz";
   };
   "handlebars@4.7.9" = fetchurl {
-    url = "https://registry.zellic.app/npm/handlebars/-/handlebars-4.7.9.tgz";
+    url = "https://registry.npmjs.org/handlebars/-/handlebars-4.7.9.tgz";
     hash = "sha512-4E71E0rpOaQuJR2A3xDZ+GM1HyWYv1clR58tC8emQNeQe3RH7MAzSbat+V0wG78LQBo6m6bzSG/L4pBuCsgnUQ==";
-    name = "handlebars-4.7.9.tgz";
   };
   "html-entities@2.3.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/html-entities/-/html-entities-2.3.3.tgz";
+    url = "https://registry.npmjs.org/html-entities/-/html-entities-2.3.3.tgz";
     hash = "sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==";
-    name = "html-entities-2.3.3.tgz";
   };
   "html-escaper@3.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/html-escaper/-/html-escaper-3.0.3.tgz";
+    url = "https://registry.npmjs.org/html-escaper/-/html-escaper-3.0.3.tgz";
     hash = "sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==";
-    name = "html-escaper-3.0.3.tgz";
   };
   "htmlparser2@10.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/htmlparser2/-/htmlparser2-10.1.0.tgz";
+    url = "https://registry.npmjs.org/htmlparser2/-/htmlparser2-10.1.0.tgz";
     hash = "sha512-VTZkM9GWRAtEpveh7MSF6SjjrpNVNNVJfFup7xTY3UpFtm67foy9HDVXneLtFVt4pMz5kZtgNcvCniNFb1hlEQ==";
-    name = "htmlparser2-10.1.0.tgz";
   };
   "http-proxy-agent@7.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/http-proxy-agent/-/http-proxy-agent-7.0.2.tgz";
+    url = "https://registry.npmjs.org/http-proxy-agent/-/http-proxy-agent-7.0.2.tgz";
     hash = "sha512-T1gkAiYYDWYx3V5Bmyu7HcfcvL7mUrTWiM6yOfa3PIphViJ/gFPbvidQ+veqSOHci/PxBcDabeUNCzpOODJZig==";
-    name = "http-proxy-agent-7.0.2.tgz";
   };
   "https-proxy-agent@7.0.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz";
+    url = "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz";
     hash = "sha512-vK9P5/iUfdl95AI+JVyUuIcVtd4ofvtrOr3HNtM2yxC9bnMbEdp3x01OhQNnjb8IJYi38VlTE3mBXwcfvywuSw==";
-    name = "https-proxy-agent-7.0.6.tgz";
   };
   "iconv-lite@0.7.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/iconv-lite/-/iconv-lite-0.7.2.tgz";
+    url = "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.7.2.tgz";
     hash = "sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==";
-    name = "iconv-lite-0.7.2.tgz";
   };
   "ieee754@1.2.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/ieee754/-/ieee754-1.2.1.tgz";
+    url = "https://registry.npmjs.org/ieee754/-/ieee754-1.2.1.tgz";
     hash = "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==";
-    name = "ieee754-1.2.1.tgz";
   };
   "immediate@3.0.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/immediate/-/immediate-3.0.6.tgz";
+    url = "https://registry.npmjs.org/immediate/-/immediate-3.0.6.tgz";
     hash = "sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==";
-    name = "immediate-3.0.6.tgz";
   };
   "inherits@2.0.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/inherits/-/inherits-2.0.4.tgz";
+    url = "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz";
     hash = "sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==";
-    name = "inherits-2.0.4.tgz";
   };
   "ip-address@10.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/ip-address/-/ip-address-10.2.0.tgz";
+    url = "https://registry.npmjs.org/ip-address/-/ip-address-10.2.0.tgz";
     hash = "sha512-/+S6j4E9AHvW9SWMSEY9Xfy66O5PWvVEJ08O0y5JGyEKQpojb0K0GKpz/v5HJ/G0vi3D2sjGK78119oXZeE0qA==";
-    name = "ip-address-10.2.0.tgz";
   };
   "is-fullwidth-code-point@3.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz";
+    url = "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz";
     hash = "sha512-zymm5+u+sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk+KY7BMAlsWeK4Ueg6EV6XQg==";
-    name = "is-fullwidth-code-point-3.0.0.tgz";
   };
   "is-fullwidth-code-point@5.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/is-fullwidth-code-point/-/is-fullwidth-code-point-5.1.0.tgz";
+    url = "https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-5.1.0.tgz";
     hash = "sha512-5XHYaSyiqADb4RnZ1Bdad6cPp8Toise4TzEjcOYDHZkTCbKgiUl7WTUCpNWHuxmDt91wnsZBc9xinNzopv3JMQ==";
-    name = "is-fullwidth-code-point-5.1.0.tgz";
   };
   "is-stream@2.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/is-stream/-/is-stream-2.0.1.tgz";
+    url = "https://registry.npmjs.org/is-stream/-/is-stream-2.0.1.tgz";
     hash = "sha512-hFoiJiTl63nn+kstHGBtewWSKnQLpyb155KHheA1l39uvtO9nWIop1p3udqPcUd/xbF1VLMO4n7OI6p7RbngDg==";
-    name = "is-stream-2.0.1.tgz";
   };
   "is-what@4.1.16" = fetchurl {
-    url = "https://registry.zellic.app/npm/is-what/-/is-what-4.1.16.tgz";
+    url = "https://registry.npmjs.org/is-what/-/is-what-4.1.16.tgz";
     hash = "sha512-ZhMwEosbFJkA0YhFnNDgTM4ZxDRsS6HqTo7qsZM08fehyRYIYa0yHu5R6mgo1n/8MgaPBXiPimPD77baVFYg+A==";
-    name = "is-what-4.1.16.tgz";
   };
   "isarray@1.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/isarray/-/isarray-1.0.0.tgz";
+    url = "https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz";
     hash = "sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==";
-    name = "isarray-1.0.0.tgz";
   };
   "jiti@2.7.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/jiti/-/jiti-2.7.0.tgz";
+    url = "https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz";
     hash = "sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==";
-    name = "jiti-2.7.0.tgz";
   };
   "js-tokens@4.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/js-tokens/-/js-tokens-4.0.0.tgz";
+    url = "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz";
     hash = "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==";
-    name = "js-tokens-4.0.0.tgz";
   };
   "js-yaml@4.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/js-yaml/-/js-yaml-4.1.1.tgz";
+    url = "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz";
     hash = "sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==";
-    name = "js-yaml-4.1.1.tgz";
   };
   "jsesc@3.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/jsesc/-/jsesc-3.1.0.tgz";
+    url = "https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz";
     hash = "sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==";
-    name = "jsesc-3.1.0.tgz";
   };
   "json-schema-to-ts@3.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/json-schema-to-ts/-/json-schema-to-ts-3.1.1.tgz";
+    url = "https://registry.npmjs.org/json-schema-to-ts/-/json-schema-to-ts-3.1.1.tgz";
     hash = "sha512-+DWg8jCJG2TEnpy7kOm/7/AxaYoaRbjVB4LFZLySZlWn8exGs3A4OLJR966cVvU26N7X9TWxl+Jsw7dzAqKT6g==";
-    name = "json-schema-to-ts-3.1.1.tgz";
   };
   "json-with-bigint@3.5.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/json-with-bigint/-/json-with-bigint-3.5.8.tgz";
+    url = "https://registry.npmjs.org/json-with-bigint/-/json-with-bigint-3.5.8.tgz";
     hash = "sha512-eq/4KP6K34kwa7TcFdtvnftvHCD9KvHOGGICWwMFc4dOOKF5t4iYqnfLK8otCRCRv06FXOzGGyqE8h8ElMvvdw==";
-    name = "json-with-bigint-3.5.8.tgz";
   };
   "json5@2.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/json5/-/json5-2.2.3.tgz";
+    url = "https://registry.npmjs.org/json5/-/json5-2.2.3.tgz";
     hash = "sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==";
-    name = "json5-2.2.3.tgz";
   };
   "jszip@3.10.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/jszip/-/jszip-3.10.1.tgz";
+    url = "https://registry.npmjs.org/jszip/-/jszip-3.10.1.tgz";
     hash = "sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==";
-    name = "jszip-3.10.1.tgz";
   };
   "kuler@2.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/kuler/-/kuler-2.0.0.tgz";
+    url = "https://registry.npmjs.org/kuler/-/kuler-2.0.0.tgz";
     hash = "sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==";
-    name = "kuler-2.0.0.tgz";
   };
   "lie@3.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lie/-/lie-3.3.0.tgz";
+    url = "https://registry.npmjs.org/lie/-/lie-3.3.0.tgz";
     hash = "sha512-UaiMJzeWRlEujzAuw5LokY1L5ecNQYZKfmyZ9L7wDHb/p5etKaxXhohBcrw0EYby+G/NA52vRSN4N39dxHAIwQ==";
-    name = "lie-3.3.0.tgz";
   };
   "lightningcss-android-arm64@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-android-arm64/-/lightningcss-android-arm64-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-android-arm64/-/lightningcss-android-arm64-1.32.0.tgz";
     hash = "sha512-YK7/ClTt4kAK0vo6w3X+Pnm0D2cf2vPHbhOXdoNti1Ga0al1P4TBZhwjATvjNwLEBCnKvjJc2jQgHXH0NEwlAg==";
-    name = "lightningcss-android-arm64-1.32.0.tgz";
   };
   "lightningcss-darwin-arm64@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.32.0.tgz";
     hash = "sha512-RzeG9Ju5bag2Bv1/lwlVJvBE3q6TtXskdZLLCyfg5pt+HLz9BqlICO7LZM7VHNTTn/5PRhHFBSjk5lc4cmscPQ==";
-    name = "lightningcss-darwin-arm64-1.32.0.tgz";
   };
   "lightningcss-darwin-x64@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.32.0.tgz";
     hash = "sha512-U+QsBp2m/s2wqpUYT/6wnlagdZbtZdndSmut/NJqlCcMLTWp5muCrID+K5UJ6jqD2BFshejCYXniPDbNh73V8w==";
-    name = "lightningcss-darwin-x64-1.32.0.tgz";
   };
   "lightningcss-freebsd-x64@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.32.0.tgz";
     hash = "sha512-JCTigedEksZk3tHTTthnMdVfGf61Fky8Ji2E4YjUTEQX14xiy/lTzXnu1vwiZe3bYe0q+SpsSH/CTeDXK6WHig==";
-    name = "lightningcss-freebsd-x64-1.32.0.tgz";
   };
   "lightningcss-linux-arm-gnueabihf@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.32.0.tgz";
     hash = "sha512-x6rnnpRa2GL0zQOkt6rts3YDPzduLpWvwAF6EMhXFVZXD4tPrBkEFqzGowzCsIWsPjqSK+tyNEODUBXeeVHSkw==";
-    name = "lightningcss-linux-arm-gnueabihf-1.32.0.tgz";
   };
   "lightningcss-linux-arm64-gnu@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.32.0.tgz";
     hash = "sha512-0nnMyoyOLRJXfbMOilaSRcLH3Jw5z9HDNGfT/gwCPgaDjnx0i8w7vBzFLFR1f6CMLKF8gVbebmkUN3fa/kQJpQ==";
-    name = "lightningcss-linux-arm64-gnu-1.32.0.tgz";
   };
   "lightningcss-linux-arm64-musl@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.32.0.tgz";
     hash = "sha512-UpQkoenr4UJEzgVIYpI80lDFvRmPVg6oqboNHfoH4CQIfNA+HOrZ7Mo7KZP02dC6LjghPQJeBsvXhJod/wnIBg==";
-    name = "lightningcss-linux-arm64-musl-1.32.0.tgz";
   };
   "lightningcss-linux-x64-gnu@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz";
     hash = "sha512-V7Qr52IhZmdKPVr+Vtw8o+WLsQJYCTd8loIfpDaMRWGUZfBOYEJeyJIkqGIDMZPwPx24pUMfwSxxI8phr/MbOA==";
-    name = "lightningcss-linux-x64-gnu-1.32.0.tgz";
   };
   "lightningcss-linux-x64-musl@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.32.0.tgz";
     hash = "sha512-bYcLp+Vb0awsiXg/80uCRezCYHNg1/l3mt0gzHnWV9XP1W5sKa5/TCdGWaR/zBM2PeF/HbsQv/j2URNOiVuxWg==";
-    name = "lightningcss-linux-x64-musl-1.32.0.tgz";
   };
   "lightningcss-win32-arm64-msvc@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.32.0.tgz";
     hash = "sha512-8SbC8BR40pS6baCM8sbtYDSwEVQd4JlFTOlaD3gWGHfThTcABnNDBda6eTZeqbofalIJhFx0qKzgHJmcPTnGdw==";
-    name = "lightningcss-win32-arm64-msvc-1.32.0.tgz";
   };
   "lightningcss-win32-x64-msvc@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz";
     hash = "sha512-Amq9B/SoZYdDi1kFrojnoqPLxYhQ4Wo5XiL8EVJrVsB8ARoC1PWW6VGtT0WKCemjy8aC+louJnjS7U18x3b06Q==";
-    name = "lightningcss-win32-x64-msvc-1.32.0.tgz";
   };
   "lightningcss@1.32.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lightningcss/-/lightningcss-1.32.0.tgz";
+    url = "https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz";
     hash = "sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ==";
-    name = "lightningcss-1.32.0.tgz";
   };
   "linkedom@0.18.12" = fetchurl {
-    url = "https://registry.zellic.app/npm/linkedom/-/linkedom-0.18.12.tgz";
+    url = "https://registry.npmjs.org/linkedom/-/linkedom-0.18.12.tgz";
     hash = "sha512-jalJsOwIKuQJSeTvsgzPe9iJzyfVaEJiEXl+25EkKevsULHvMJzpNqwvj1jOESWdmgKDiXObyjOYwlUqG7wo1Q==";
-    name = "linkedom-0.18.12.tgz";
   };
   "lint-staged@16.4.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lint-staged/-/lint-staged-16.4.0.tgz";
+    url = "https://registry.npmjs.org/lint-staged/-/lint-staged-16.4.0.tgz";
     hash = "sha512-lBWt8hujh/Cjysw5GYVmZpFHXDCgZzhrOm8vbcUdobADZNOK/bRshr2kM3DfgrrtR1DQhfupW9gnIXOfiFi+bw==";
-    name = "lint-staged-16.4.0.tgz";
   };
   "listr2@9.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/listr2/-/listr2-9.0.5.tgz";
+    url = "https://registry.npmjs.org/listr2/-/listr2-9.0.5.tgz";
     hash = "sha512-ME4Fb83LgEgwNw96RKNvKV4VTLuXfoKudAmm2lP8Kk87KaMK0/Xrx/aAkMWmT8mDb+3MlFDspfbCs7adjRxA2g==";
-    name = "listr2-9.0.5.tgz";
   };
   "log-update@6.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/log-update/-/log-update-6.1.0.tgz";
+    url = "https://registry.npmjs.org/log-update/-/log-update-6.1.0.tgz";
     hash = "sha512-9ie8ItPR6tjY5uYJh8K/Zrv/RMZ5VOlOWvtZdEHYSTFKZfIBPQa9tOAEeAWhd+AnIneLJ22w5fjOYtoutpWq5w==";
-    name = "log-update-6.1.0.tgz";
   };
   "logform@2.7.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/logform/-/logform-2.7.0.tgz";
+    url = "https://registry.npmjs.org/logform/-/logform-2.7.0.tgz";
     hash = "sha512-TFYA4jnP7PVbmlBIfhlSe+WKxs9dklXMTEGcBCIvLhE/Tn3H6Gk1norupVW7m5Cnd4bLcr08AytbyV/xj7f/kQ==";
-    name = "logform-2.7.0.tgz";
   };
   "lop@0.4.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/lop/-/lop-0.4.2.tgz";
+    url = "https://registry.npmjs.org/lop/-/lop-0.4.2.tgz";
     hash = "sha512-RefILVDQ4DKoRZsJ4Pj22TxE3omDO47yFpkIBoDKzkqPRISs5U1cnAdg/5583YPkWPaLIYHOKRMQSvjFsO26cw==";
-    name = "lop-0.4.2.tgz";
   };
   "lru-cache@11.3.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/lru-cache/-/lru-cache-11.3.6.tgz";
+    url = "https://registry.npmjs.org/lru-cache/-/lru-cache-11.3.6.tgz";
     hash = "sha512-Gf/KoL3C/MlI7Bt0PGI9I+TeTC/I6r/csU58N4BSNc4lppLBeKsOdFYkK+dX0ABDUMJNfCHTyPpzwwO21Awd3A==";
-    name = "lru-cache-11.3.6.tgz";
   };
   "lru-cache@5.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/lru-cache/-/lru-cache-5.1.1.tgz";
+    url = "https://registry.npmjs.org/lru-cache/-/lru-cache-5.1.1.tgz";
     hash = "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==";
-    name = "lru-cache-5.1.1.tgz";
   };
   "lru-cache@7.18.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/lru-cache/-/lru-cache-7.18.3.tgz";
+    url = "https://registry.npmjs.org/lru-cache/-/lru-cache-7.18.3.tgz";
     hash = "sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==";
-    name = "lru-cache-7.18.3.tgz";
   };
   "lucide-react@1.16.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/lucide-react/-/lucide-react-1.16.0.tgz";
+    url = "https://registry.npmjs.org/lucide-react/-/lucide-react-1.16.0.tgz";
     hash = "sha512-dYwyPzb4MEKpGUmNYk3WKWPnMrHs3FKM+q94kAnJrcDIqqn1hq2xY8scaS2ovsOCM5D51ey2gaRG3PBb1vgoYQ==";
-    name = "lucide-react-1.16.0.tgz";
   };
   "magic-string@0.30.21" = fetchurl {
-    url = "https://registry.zellic.app/npm/magic-string/-/magic-string-0.30.21.tgz";
+    url = "https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz";
     hash = "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==";
-    name = "magic-string-0.30.21.tgz";
   };
   "mammoth@1.12.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/mammoth/-/mammoth-1.12.0.tgz";
+    url = "https://registry.npmjs.org/mammoth/-/mammoth-1.12.0.tgz";
     hash = "sha512-cwnK1RIcRdDMi2HRx2EXGYlxqIEh0Oo3bLhorgnsVJi2UkbX1+jKxuBNR9PC5+JaX7EkmJxFPmo6mjLpqShI2w==";
-    name = "mammoth-1.12.0.tgz";
   };
   "marked@18.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/marked/-/marked-18.0.3.tgz";
+    url = "https://registry.npmjs.org/marked/-/marked-18.0.3.tgz";
     hash = "sha512-7VT90JOkDeaRWpfjOReRGPEKn0ecdARBkDGL+tT1wZY0efPPqkUxLUSmzy/C7TIylQYJC9STISEsCHrqb/7VIA==";
-    name = "marked-18.0.3.tgz";
   };
   "markit-ai@0.5.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/markit-ai/-/markit-ai-0.5.3.tgz";
+    url = "https://registry.npmjs.org/markit-ai/-/markit-ai-0.5.3.tgz";
     hash = "sha512-h4nhn6a/SNXEdc3kLVtL37TspxjUNCNL0OM7LRWxd389ZByI/B7bjNNgxFdVAT0O+H7ZekSwLdVe/lws1l2AZQ==";
-    name = "markit-ai-0.5.3.tgz";
   };
   "media-typer@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/media-typer/-/media-typer-1.1.0.tgz";
+    url = "https://registry.npmjs.org/media-typer/-/media-typer-1.1.0.tgz";
     hash = "sha512-aisnrDP4GNe06UcKFnV5bfMNPBUw4jsLGaWwWfnH3v02GnBuXX2MCVn5RbrWo0j3pczUilYblq7fQ7Nw2t5XKw==";
-    name = "media-typer-1.1.0.tgz";
   };
   "merge-anything@5.1.7" = fetchurl {
-    url = "https://registry.zellic.app/npm/merge-anything/-/merge-anything-5.1.7.tgz";
+    url = "https://registry.npmjs.org/merge-anything/-/merge-anything-5.1.7.tgz";
     hash = "sha512-eRtbOb1N5iyH0tkQDAoQ4Ipsp/5qSR79Dzrz8hEPxRX10RWWR/iQXdoKmBSRCThY1Fh5EhISDtpSc93fpxUniQ==";
-    name = "merge-anything-5.1.7.tgz";
   };
   "mimic-function@5.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/mimic-function/-/mimic-function-5.0.1.tgz";
+    url = "https://registry.npmjs.org/mimic-function/-/mimic-function-5.0.1.tgz";
     hash = "sha512-VP79XUPxV2CigYP3jWwAUFSku2aKqBH7uTAapFWCBqutsbmDo96KY5o8uh6U+/YSIn5OxJnXp73beVkpqMIGhA==";
-    name = "mimic-function-5.0.1.tgz";
   };
   "minimist@1.2.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/minimist/-/minimist-1.2.8.tgz";
+    url = "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz";
     hash = "sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==";
-    name = "minimist-1.2.8.tgz";
   };
   "mitt@3.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/mitt/-/mitt-3.0.1.tgz";
+    url = "https://registry.npmjs.org/mitt/-/mitt-3.0.1.tgz";
     hash = "sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==";
-    name = "mitt-3.0.1.tgz";
   };
   "moment@2.30.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/moment/-/moment-2.30.1.tgz";
+    url = "https://registry.npmjs.org/moment/-/moment-2.30.1.tgz";
     hash = "sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==";
-    name = "moment-2.30.1.tgz";
   };
   "ms@2.1.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/ms/-/ms-2.1.3.tgz";
+    url = "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz";
     hash = "sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==";
-    name = "ms-2.1.3.tgz";
   };
   "mupdf@1.27.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/mupdf/-/mupdf-1.27.0.tgz";
+    url = "https://registry.npmjs.org/mupdf/-/mupdf-1.27.0.tgz";
     hash = "sha512-vEPUYwZeu5NgiFLz4e20R7Vp2pNY7szirGEvTxHyQQpQs6ab4DeGdonwT6sH1JZG5EhyHSrojZrZn2/0ee6qZQ==";
-    name = "mupdf-1.27.0.tgz";
   };
   "music-metadata@11.12.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/music-metadata/-/music-metadata-11.12.3.tgz";
+    url = "https://registry.npmjs.org/music-metadata/-/music-metadata-11.12.3.tgz";
     hash = "sha512-n6hSTZkuD59qWgHh6IP5dtDlDZQXoxk/bcA85Jywg8Z1iFrlNgl2+GTFgjZyn52W5UgQpV42V4XqrQZZAMbZTQ==";
-    name = "music-metadata-11.12.3.tgz";
   };
   "mute-stream@3.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/mute-stream/-/mute-stream-3.0.0.tgz";
+    url = "https://registry.npmjs.org/mute-stream/-/mute-stream-3.0.0.tgz";
     hash = "sha512-dkEJPVvun4FryqBmZ5KhDo0K9iDXAwn08tMLDinNdRBNPcYEDiWYysLcc6k3mjTMlbP9KyylvRpd4wFtwrT9rw==";
-    name = "mute-stream-3.0.0.tgz";
   };
   "nanoid@3.3.12" = fetchurl {
-    url = "https://registry.zellic.app/npm/nanoid/-/nanoid-3.3.12.tgz";
+    url = "https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz";
     hash = "sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==";
-    name = "nanoid-3.3.12.tgz";
   };
   "neo-async@2.6.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/neo-async/-/neo-async-2.6.2.tgz";
+    url = "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz";
     hash = "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==";
-    name = "neo-async-2.6.2.tgz";
   };
   "netmask@2.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/netmask/-/netmask-2.1.1.tgz";
+    url = "https://registry.npmjs.org/netmask/-/netmask-2.1.1.tgz";
     hash = "sha512-eonl3sLUha+S1GzTPxychyhnUzKyeQkZ7jLjKrBagJgPla13F+uQ71HgpFefyHgqrjEbCPkDArxYsjY8/+gLKA==";
-    name = "netmask-2.1.1.tgz";
   };
   "node-releases@2.0.44" = fetchurl {
-    url = "https://registry.zellic.app/npm/node-releases/-/node-releases-2.0.44.tgz";
+    url = "https://registry.npmjs.org/node-releases/-/node-releases-2.0.44.tgz";
     hash = "sha512-5WUyunoPMsvvEhS8AxHtRzP+oA8UCkJ7YRxatWKjngndhDGLiqEVAQKWjFAiAiuL8zMRGzGSJxFnLetoa43qGQ==";
-    name = "node-releases-2.0.44.tgz";
   };
   "nth-check@2.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/nth-check/-/nth-check-2.1.1.tgz";
+    url = "https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz";
     hash = "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==";
-    name = "nth-check-2.1.1.tgz";
   };
   "object-hash@3.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/object-hash/-/object-hash-3.0.0.tgz";
+    url = "https://registry.npmjs.org/object-hash/-/object-hash-3.0.0.tgz";
     hash = "sha512-RSn9F68PjH9HqtltsSnqYC1XXoWe9Bju5+213R98cNGttag9q9yAOTzdbsqvIa7aNm5WffBZFpWYr2aWrklWAw==";
-    name = "object-hash-3.0.0.tgz";
   };
   "obug@2.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/obug/-/obug-2.1.1.tgz";
+    url = "https://registry.npmjs.org/obug/-/obug-2.1.1.tgz";
     hash = "sha512-uTqF9MuPraAQ+IsnPf366RG4cP9RtUi7MLO1N3KEc+wb0a6yKpeL0lmk2IB1jY5KHPAlTc6T/JRdC/YqxHNwkQ==";
-    name = "obug-2.1.1.tgz";
   };
   "once@1.4.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/once/-/once-1.4.0.tgz";
+    url = "https://registry.npmjs.org/once/-/once-1.4.0.tgz";
     hash = "sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==";
-    name = "once-1.4.0.tgz";
   };
   "one-time@1.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/one-time/-/one-time-1.0.0.tgz";
+    url = "https://registry.npmjs.org/one-time/-/one-time-1.0.0.tgz";
     hash = "sha512-5DXOiRKwuSEcQ/l0kGCF6Q3jcADFv5tSmRaJck/OqkVFcOzutB134KRSfF0xDrL39MNnqxbHBbUUcjZIhTgb2g==";
-    name = "one-time-1.0.0.tgz";
   };
   "onetime@7.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/onetime/-/onetime-7.0.0.tgz";
+    url = "https://registry.npmjs.org/onetime/-/onetime-7.0.0.tgz";
     hash = "sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==";
-    name = "onetime-7.0.0.tgz";
   };
   "openai@6.38.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/openai/-/openai-6.38.0.tgz";
+    url = "https://registry.npmjs.org/openai/-/openai-6.38.0.tgz";
     hash = "sha512-AoMplt2UalrpgUDMh3L09QWjNRlgJPipclQvA6sYAaeF6nHNBMgmikAZGmcYLn8on4d9sQY9Q8bOLfrBS7Lc8g==";
-    name = "openai-6.38.0.tgz";
   };
   "option@0.2.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/option/-/option-0.2.4.tgz";
+    url = "https://registry.npmjs.org/option/-/option-0.2.4.tgz";
     hash = "sha512-pkEqbDyl8ou5cpq+VsnQbe/WlEy5qS7xPzMS1U55OCG9KPvwFD46zDbxQIj3egJSFc3D+XhYOPUzz49zQAVy7A==";
-    name = "option-0.2.4.tgz";
   };
   "pac-proxy-agent@7.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/pac-proxy-agent/-/pac-proxy-agent-7.2.0.tgz";
+    url = "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-7.2.0.tgz";
     hash = "sha512-TEB8ESquiLMc0lV8vcd5Ql/JAKAoyzHFXaStwjkzpOpC5Yv+pIzLfHvjTSdf3vpa2bMiUQrg9i6276yn8666aA==";
-    name = "pac-proxy-agent-7.2.0.tgz";
   };
   "pac-resolver@7.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/pac-resolver/-/pac-resolver-7.0.1.tgz";
+    url = "https://registry.npmjs.org/pac-resolver/-/pac-resolver-7.0.1.tgz";
     hash = "sha512-5NPgf87AT2STgwa2ntRMr45jTKrYBGkVU36yT0ig/n/GMAa3oPqhZfIQ2kMEimReg0+t9kZViDVZ83qfVUlckg==";
-    name = "pac-resolver-7.0.1.tgz";
   };
   "pako@1.0.11" = fetchurl {
-    url = "https://registry.zellic.app/npm/pako/-/pako-1.0.11.tgz";
+    url = "https://registry.npmjs.org/pako/-/pako-1.0.11.tgz";
     hash = "sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==";
-    name = "pako-1.0.11.tgz";
   };
   "parse5@7.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/parse5/-/parse5-7.3.0.tgz";
+    url = "https://registry.npmjs.org/parse5/-/parse5-7.3.0.tgz";
     hash = "sha512-IInvU7fabl34qmi9gY8XOVxhYyMyuH2xUNpb2q8/Y+7552KlejkRvqvD19nMoUW/uQGGbqNpA6Tufu5FL5BZgw==";
-    name = "parse5-7.3.0.tgz";
   };
   "partial-json@0.1.7" = fetchurl {
-    url = "https://registry.zellic.app/npm/partial-json/-/partial-json-0.1.7.tgz";
+    url = "https://registry.npmjs.org/partial-json/-/partial-json-0.1.7.tgz";
     hash = "sha512-Njv/59hHaokb/hRUjce3Hdv12wd60MtM9Z5Olmn+nehe0QDAsRtRbJPvJ0Z91TusF0SuZRIvnM+S4l6EIP8leA==";
-    name = "partial-json-0.1.7.tgz";
   };
   "path-expression-matcher@1.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/path-expression-matcher/-/path-expression-matcher-1.5.0.tgz";
+    url = "https://registry.npmjs.org/path-expression-matcher/-/path-expression-matcher-1.5.0.tgz";
     hash = "sha512-cbrerZV+6rvdQrrD+iGMcZFEiiSrbv9Tfdkvnusy6y0x0GKBXREFg/Y65GhIfm0tnLntThhzCnfKwp1WRjeCyQ==";
-    name = "path-expression-matcher-1.5.0.tgz";
   };
   "path-is-absolute@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/path-is-absolute/-/path-is-absolute-1.0.1.tgz";
+    url = "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz";
     hash = "sha512-AVbw3UJ2e9bq64vSaS9Am0fje1Pa8pbGqTTsmXfaIiMpnr5DlDhfJOuLj9Sf95ZPVDAUerDfEk88MPmPe7UCQg==";
-    name = "path-is-absolute-1.0.1.tgz";
   };
   "pend@1.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/pend/-/pend-1.2.0.tgz";
+    url = "https://registry.npmjs.org/pend/-/pend-1.2.0.tgz";
     hash = "sha512-F3asv42UuXchdzt+xXqfW1OGlVBe+mxa2mqI0pg5yAHZPvFmY3Y6drSf/GQ1A86WgWEN9Kzh/WrgKa6iGcHXLg==";
-    name = "pend-1.2.0.tgz";
   };
   "picocolors@1.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/picocolors/-/picocolors-1.1.1.tgz";
+    url = "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz";
     hash = "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==";
-    name = "picocolors-1.1.1.tgz";
   };
   "picomatch@4.0.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/picomatch/-/picomatch-4.0.4.tgz";
+    url = "https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz";
     hash = "sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==";
-    name = "picomatch-4.0.4.tgz";
   };
   "postcss@8.5.14" = fetchurl {
-    url = "https://registry.zellic.app/npm/postcss/-/postcss-8.5.14.tgz";
+    url = "https://registry.npmjs.org/postcss/-/postcss-8.5.14.tgz";
     hash = "sha512-SoSL4+OSEtR99LHFZQiJLkT59C5B1amGO1NzTwj7TT1qCUgUO6hxOvzkOYxD+vMrXBM3XJIKzokoERdqQq/Zmg==";
-    name = "postcss-8.5.14.tgz";
   };
   "prettier@3.8.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/prettier/-/prettier-3.8.3.tgz";
+    url = "https://registry.npmjs.org/prettier/-/prettier-3.8.3.tgz";
     hash = "sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==";
-    name = "prettier-3.8.3.tgz";
   };
   "process-nextick-args@2.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/process-nextick-args/-/process-nextick-args-2.0.1.tgz";
+    url = "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz";
     hash = "sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==";
-    name = "process-nextick-args-2.0.1.tgz";
   };
   "progress@2.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/progress/-/progress-2.0.3.tgz";
+    url = "https://registry.npmjs.org/progress/-/progress-2.0.3.tgz";
     hash = "sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==";
-    name = "progress-2.0.3.tgz";
   };
   "proxy-agent@6.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/proxy-agent/-/proxy-agent-6.5.0.tgz";
+    url = "https://registry.npmjs.org/proxy-agent/-/proxy-agent-6.5.0.tgz";
     hash = "sha512-TmatMXdr2KlRiA2CyDu8GqR8EjahTG3aY3nXjdzFyoZbmB8hrBsTyMezhULIXKnC0jpfjlmiZ3+EaCzoInSu/A==";
-    name = "proxy-agent-6.5.0.tgz";
   };
   "proxy-from-env@1.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/proxy-from-env/-/proxy-from-env-1.1.0.tgz";
+    url = "https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz";
     hash = "sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==";
-    name = "proxy-from-env-1.1.0.tgz";
   };
   "pump@3.0.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/pump/-/pump-3.0.4.tgz";
+    url = "https://registry.npmjs.org/pump/-/pump-3.0.4.tgz";
     hash = "sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==";
-    name = "pump-3.0.4.tgz";
   };
   "puppeteer-core@24.43.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/puppeteer-core/-/puppeteer-core-24.43.1.tgz";
+    url = "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-24.43.1.tgz";
     hash = "sha512-T5ScUMAsmhdNbgDR41AGESYeS6V9MSgetkSnVhhW+gXvzC42VesKCn5ld87gAZDJ6vLHL9GkRvY9WtQWSnwFbw==";
-    name = "puppeteer-core-24.43.1.tgz";
   };
   "react-chartjs-2@5.3.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/react-chartjs-2/-/react-chartjs-2-5.3.1.tgz";
+    url = "https://registry.npmjs.org/react-chartjs-2/-/react-chartjs-2-5.3.1.tgz";
     hash = "sha512-h5IPXKg9EXpjoBzUfyWJvllMjG2mQ4EiuHQFhms/AjUm0XSZHhyRy2xVmLXHKrtcdrPO4mnGqRtYoD0vp95A0A==";
-    name = "react-chartjs-2-5.3.1.tgz";
   };
   "react-dom@19.2.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/react-dom/-/react-dom-19.2.5.tgz";
+    url = "https://registry.npmjs.org/react-dom/-/react-dom-19.2.5.tgz";
     hash = "sha512-J5bAZz+DXMMwW/wV3xzKke59Af6CHY7G4uYLN1OvBcKEsWOs4pQExj86BBKamxl/Ik5bx9whOrvBlSDfWzgSag==";
-    name = "react-dom-19.2.5.tgz";
   };
   "react@19.2.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/react/-/react-19.2.5.tgz";
+    url = "https://registry.npmjs.org/react/-/react-19.2.5.tgz";
     hash = "sha512-llUJLzz1zTUBrskt2pwZgLq59AemifIftw4aB7JxOqf1HY2FDaGDxgwpAPVzHU1kdWabH7FauP4i1oEeer2WCA==";
-    name = "react-19.2.5.tgz";
   };
   "readable-stream@2.3.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/readable-stream/-/readable-stream-2.3.8.tgz";
+    url = "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.8.tgz";
     hash = "sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==";
-    name = "readable-stream-2.3.8.tgz";
   };
   "readable-stream@3.6.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/readable-stream/-/readable-stream-3.6.2.tgz";
+    url = "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz";
     hash = "sha512-9u/sniCrY3D5WdsERHzHE4G2YCXqoG5FTHUiCC4SIbr6XcLZBY05ya9EKjYek9O5xOAwjGq+1JdGBAS7Q9ScoA==";
-    name = "readable-stream-3.6.2.tgz";
   };
   "regexp-tree@0.1.27" = fetchurl {
-    url = "https://registry.zellic.app/npm/regexp-tree/-/regexp-tree-0.1.27.tgz";
+    url = "https://registry.npmjs.org/regexp-tree/-/regexp-tree-0.1.27.tgz";
     hash = "sha512-iETxpjK6YoRWJG5o6hXLwvjYAoW+FEZn9os0PD/b6AP6xQwsa/Y7lCVgIixBbUPMfhu+i2LtdeAqVTgGlQarfA==";
-    name = "regexp-tree-0.1.27.tgz";
   };
   "require-directory@2.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/require-directory/-/require-directory-2.1.1.tgz";
+    url = "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz";
     hash = "sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q==";
-    name = "require-directory-2.1.1.tgz";
   };
   "restore-cursor@5.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/restore-cursor/-/restore-cursor-5.1.0.tgz";
+    url = "https://registry.npmjs.org/restore-cursor/-/restore-cursor-5.1.0.tgz";
     hash = "sha512-oMA2dcrw6u0YfxJQXm342bFKX/E4sG9rbTzO9ptUcR/e8A33cHuvStiYOwH7fszkZlZ1z/ta9AAoPk2F4qIOHA==";
-    name = "restore-cursor-5.1.0.tgz";
   };
   "rfdc@1.4.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/rfdc/-/rfdc-1.4.1.tgz";
+    url = "https://registry.npmjs.org/rfdc/-/rfdc-1.4.1.tgz";
     hash = "sha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA==";
-    name = "rfdc-1.4.1.tgz";
   };
   "rollup@4.60.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/rollup/-/rollup-4.60.4.tgz";
+    url = "https://registry.npmjs.org/rollup/-/rollup-4.60.4.tgz";
     hash = "sha512-WHeFSbZYsPu3+bLoNRUuAO+wavNlocOPf3wSHTP7hcFKVnJeWsYlCDbr3mTS14FCizf9ccIxXA8sGL8zKeQN3g==";
-    name = "rollup-4.60.4.tgz";
   };
   "rss-parser@3.13.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/rss-parser/-/rss-parser-3.13.0.tgz";
+    url = "https://registry.npmjs.org/rss-parser/-/rss-parser-3.13.0.tgz";
     hash = "sha512-7jWUBV5yGN3rqMMj7CZufl/291QAhvrrGpDNE4k/02ZchL0npisiYYqULF71jCEKoIiHvK/Q2e6IkDwPziT7+w==";
-    name = "rss-parser-3.13.0.tgz";
   };
   "safe-buffer@5.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/safe-buffer/-/safe-buffer-5.1.2.tgz";
+    url = "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz";
     hash = "sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==";
-    name = "safe-buffer-5.1.2.tgz";
-  };
-  "safe-buffer@5.2.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/safe-buffer/-/safe-buffer-5.2.1.tgz";
-    hash = "sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==";
-    name = "safe-buffer-5.2.1.tgz";
   };
   "safe-stable-stringify@2.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz";
+    url = "https://registry.npmjs.org/safe-stable-stringify/-/safe-stable-stringify-2.5.0.tgz";
     hash = "sha512-b3rppTKm9T+PsVCBEOUR46GWI7fdOs00VKZ1+9c1EWDaDMvjQc6tUwuFyIprgGgTcWoVHSKrU8H31ZHA2e0RHA==";
-    name = "safe-stable-stringify-2.5.0.tgz";
   };
   "safer-buffer@2.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/safer-buffer/-/safer-buffer-2.1.2.tgz";
+    url = "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz";
     hash = "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==";
-    name = "safer-buffer-2.1.2.tgz";
   };
   "sax@1.6.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/sax/-/sax-1.6.0.tgz";
+    url = "https://registry.npmjs.org/sax/-/sax-1.6.0.tgz";
     hash = "sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==";
-    name = "sax-1.6.0.tgz";
   };
   "scheduler@0.27.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/scheduler/-/scheduler-0.27.0.tgz";
+    url = "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz";
     hash = "sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==";
-    name = "scheduler-0.27.0.tgz";
   };
   "semver@6.3.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/semver/-/semver-6.3.1.tgz";
+    url = "https://registry.npmjs.org/semver/-/semver-6.3.1.tgz";
     hash = "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==";
-    name = "semver-6.3.1.tgz";
   };
   "semver@7.8.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/semver/-/semver-7.8.0.tgz";
+    url = "https://registry.npmjs.org/semver/-/semver-7.8.0.tgz";
     hash = "sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==";
-    name = "semver-7.8.0.tgz";
   };
   "seroval-plugins@1.5.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/seroval-plugins/-/seroval-plugins-1.5.4.tgz";
+    url = "https://registry.npmjs.org/seroval-plugins/-/seroval-plugins-1.5.4.tgz";
     hash = "sha512-S0xQPhUTefAhNvNWFg0c1J8qJArHt5KdtJ/cFAofo06KD1MVSeFWyl4iiu+ApDIuw0WhjpOfCdgConOfAnLgkw==";
-    name = "seroval-plugins-1.5.4.tgz";
   };
   "seroval@1.5.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/seroval/-/seroval-1.5.4.tgz";
+    url = "https://registry.npmjs.org/seroval/-/seroval-1.5.4.tgz";
     hash = "sha512-46uFvgrXTVxZcUorgSSRZ4y+ieqLLQRMlG4bnCZKW3qI6BZm7Rg4ntMW4p1mILEEBZWrFlcpp0AyIIlM6jD9iw==";
-    name = "seroval-1.5.4.tgz";
   };
   "setimmediate@1.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/setimmediate/-/setimmediate-1.0.5.tgz";
+    url = "https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.5.tgz";
     hash = "sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==";
-    name = "setimmediate-1.0.5.tgz";
   };
   "signal-exit@4.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/signal-exit/-/signal-exit-4.1.0.tgz";
+    url = "https://registry.npmjs.org/signal-exit/-/signal-exit-4.1.0.tgz";
     hash = "sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==";
-    name = "signal-exit-4.1.0.tgz";
   };
   "slice-ansi@7.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/slice-ansi/-/slice-ansi-7.1.2.tgz";
+    url = "https://registry.npmjs.org/slice-ansi/-/slice-ansi-7.1.2.tgz";
     hash = "sha512-iOBWFgUX7caIZiuutICxVgX1SdxwAVFFKwt1EvMYYec/NWO5meOJ6K5uQxhrYBdQJne4KxiqZc+KptFOWFSI9w==";
-    name = "slice-ansi-7.1.2.tgz";
   };
   "slice-ansi@8.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/slice-ansi/-/slice-ansi-8.0.0.tgz";
+    url = "https://registry.npmjs.org/slice-ansi/-/slice-ansi-8.0.0.tgz";
     hash = "sha512-stxByr12oeeOyY2BlviTNQlYV5xOj47GirPr4yA1hE9JCtxfQN0+tVbkxwCtYDQWhEKWFHsEK48ORg5jrouCAg==";
-    name = "slice-ansi-8.0.0.tgz";
   };
   "smart-buffer@4.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/smart-buffer/-/smart-buffer-4.2.0.tgz";
+    url = "https://registry.npmjs.org/smart-buffer/-/smart-buffer-4.2.0.tgz";
     hash = "sha512-94hK0Hh8rPqQl2xXc3HsaBoOXKV20MToPkcXvwbISWLEs+64sBq5kFgn2kJDHb1Pry9yrP0dxrCI9RRci7RXKg==";
-    name = "smart-buffer-4.2.0.tgz";
   };
   "socks-proxy-agent@8.0.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/socks-proxy-agent/-/socks-proxy-agent-8.0.5.tgz";
+    url = "https://registry.npmjs.org/socks-proxy-agent/-/socks-proxy-agent-8.0.5.tgz";
     hash = "sha512-HehCEsotFqbPW9sJ8WVYB6UbmIMv7kUUORIF2Nncq4VQvBfNBLibW9YZR5dlYCSUhwcD628pRllm7n+E+YTzJw==";
-    name = "socks-proxy-agent-8.0.5.tgz";
   };
   "socks@2.8.9" = fetchurl {
-    url = "https://registry.zellic.app/npm/socks/-/socks-2.8.9.tgz";
+    url = "https://registry.npmjs.org/socks/-/socks-2.8.9.tgz";
     hash = "sha512-LJhUYUvItdQ0LkJTmPeaEObWXAqFyfmP85x0tch/ez9cahmhlBBLbIqDFnvBnUJGagb0JbIQrkBs1wJ+yRYpEw==";
-    name = "socks-2.8.9.tgz";
   };
   "solid-js@1.9.13" = fetchurl {
-    url = "https://registry.zellic.app/npm/solid-js/-/solid-js-1.9.13.tgz";
+    url = "https://registry.npmjs.org/solid-js/-/solid-js-1.9.13.tgz";
     hash = "sha512-6hJeJMOcEX8ktqjpDoJZEmld3ijvcvWBDtiXBm7f4332SiFN66QeAQI1REQshvyUoISsSeJ4PHDauKYbwao9JQ==";
-    name = "solid-js-1.9.13.tgz";
   };
   "solid-refresh@0.6.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/solid-refresh/-/solid-refresh-0.6.3.tgz";
+    url = "https://registry.npmjs.org/solid-refresh/-/solid-refresh-0.6.3.tgz";
     hash = "sha512-F3aPsX6hVw9ttm5LYlth8Q15x6MlI/J3Dn+o3EQyRTtTxidepSTwAYdozt01/YA+7ObcciagGEyXIopGZzQtbA==";
-    name = "solid-refresh-0.6.3.tgz";
   };
   "source-map-js@1.2.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/source-map-js/-/source-map-js-1.2.1.tgz";
+    url = "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz";
     hash = "sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==";
-    name = "source-map-js-1.2.1.tgz";
   };
   "source-map@0.6.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/source-map/-/source-map-0.6.1.tgz";
+    url = "https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz";
     hash = "sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==";
-    name = "source-map-0.6.1.tgz";
   };
   "sprintf-js@1.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/sprintf-js/-/sprintf-js-1.0.3.tgz";
+    url = "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.3.tgz";
     hash = "sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==";
-    name = "sprintf-js-1.0.3.tgz";
   };
   "stack-trace@0.0.10" = fetchurl {
-    url = "https://registry.zellic.app/npm/stack-trace/-/stack-trace-0.0.10.tgz";
+    url = "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz";
     hash = "sha512-KGzahc7puUKkzyMt+IqAep+TVNbKP+k2Lmwhub39m1AsTSkaDutx56aDCo+HLDzf/D26BIHTJWNiTG1KAJiQCg==";
-    name = "stack-trace-0.0.10.tgz";
   };
   "streamx@2.25.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/streamx/-/streamx-2.25.0.tgz";
+    url = "https://registry.npmjs.org/streamx/-/streamx-2.25.0.tgz";
     hash = "sha512-0nQuG6jf1w+wddNEEXCF4nTg3LtufWINB5eFEN+5TNZW7KWJp6x87+JFL43vaAUPyCfH1wID+mNVyW6OHtFamg==";
-    name = "streamx-2.25.0.tgz";
   };
   "string-argv@0.3.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/string-argv/-/string-argv-0.3.2.tgz";
+    url = "https://registry.npmjs.org/string-argv/-/string-argv-0.3.2.tgz";
     hash = "sha512-aqD2Q0144Z+/RqG52NeHEkZauTAUWJO8c6yTftGJKO3Tja5tUgIfmIl6kExvhtxSDP7fXB6DvzkfMpCd/F3G+Q==";
-    name = "string-argv-0.3.2.tgz";
   };
   "string-width@4.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/string-width/-/string-width-4.2.3.tgz";
+    url = "https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz";
     hash = "sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==";
-    name = "string-width-4.2.3.tgz";
   };
   "string-width@7.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/string-width/-/string-width-7.2.0.tgz";
+    url = "https://registry.npmjs.org/string-width/-/string-width-7.2.0.tgz";
     hash = "sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==";
-    name = "string-width-7.2.0.tgz";
   };
   "string-width@8.2.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/string-width/-/string-width-8.2.1.tgz";
+    url = "https://registry.npmjs.org/string-width/-/string-width-8.2.1.tgz";
     hash = "sha512-IIaP0g3iy9Cyy18w3M9YcaDudujEAVHKt3a3QJg1+sr/oX96TbaGUubG0hJyCjCBThFH+tFpcIyoUHUn1ogaLA==";
-    name = "string-width-8.2.1.tgz";
   };
   "string_decoder@1.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/string_decoder/-/string_decoder-1.1.1.tgz";
+    url = "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz";
     hash = "sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==";
-    name = "string_decoder-1.1.1.tgz";
-  };
-  "string_decoder@1.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/string_decoder/-/string_decoder-1.3.0.tgz";
-    hash = "sha512-hkRX8U1WjJFd8LsDJ2yQ/wWWxaopEsABU1XfkM8A+j0+85JAGppt16cr1Whg6KIbb4okU6Mql6BOj+uup/wKeA==";
-    name = "string_decoder-1.3.0.tgz";
   };
   "strip-ansi@6.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/strip-ansi/-/strip-ansi-6.0.1.tgz";
+    url = "https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz";
     hash = "sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==";
-    name = "strip-ansi-6.0.1.tgz";
   };
   "strip-ansi@7.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/strip-ansi/-/strip-ansi-7.2.0.tgz";
+    url = "https://registry.npmjs.org/strip-ansi/-/strip-ansi-7.2.0.tgz";
     hash = "sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==";
-    name = "strip-ansi-7.2.0.tgz";
   };
   "strnum@2.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/strnum/-/strnum-2.3.0.tgz";
+    url = "https://registry.npmjs.org/strnum/-/strnum-2.3.0.tgz";
     hash = "sha512-ums3KNd42PGyx5xaoVTO1mjU1bH3NpY4vsrVlnv9PNGqQj8wd7rJ6nEypLrJ7z5vxK5RP0yMLo6J/Gsm62DI5Q==";
-    name = "strnum-2.3.0.tgz";
   };
   "strtok3@10.3.5" = fetchurl {
-    url = "https://registry.zellic.app/npm/strtok3/-/strtok3-10.3.5.tgz";
+    url = "https://registry.npmjs.org/strtok3/-/strtok3-10.3.5.tgz";
     hash = "sha512-ki4hZQfh5rX0QDLLkOCj+h+CVNkqmp/CMf8v8kZpkNVK6jGQooMytqzLZYUVYIZcFZ6yDB70EfD8POcFXiF5oA==";
-    name = "strtok3-10.3.5.tgz";
   };
   "tailwindcss@4.3.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/tailwindcss/-/tailwindcss-4.3.0.tgz";
+    url = "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.3.0.tgz";
     hash = "sha512-y6nxMGB1nMW9R6k96e5gdIFzcfL/gTJRNaqGes1YvkLnPVXzWgbqFF2yLC0T8G774n24cx3Pe8XrKoniCOAH+Q==";
-    name = "tailwindcss-4.3.0.tgz";
   };
   "tapable@2.3.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/tapable/-/tapable-2.3.3.tgz";
+    url = "https://registry.npmjs.org/tapable/-/tapable-2.3.3.tgz";
     hash = "sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==";
-    name = "tapable-2.3.3.tgz";
   };
   "tar-fs@3.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/tar-fs/-/tar-fs-3.1.2.tgz";
+    url = "https://registry.npmjs.org/tar-fs/-/tar-fs-3.1.2.tgz";
     hash = "sha512-QGxxTxxyleAdyM3kpFs14ymbYmNFrfY+pHj7Z8FgtbZ7w2//VAgLMac7sT6nRpIHjppXO2AwwEOg0bPFVRcmXw==";
-    name = "tar-fs-3.1.2.tgz";
   };
   "tar-stream@3.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/tar-stream/-/tar-stream-3.2.0.tgz";
+    url = "https://registry.npmjs.org/tar-stream/-/tar-stream-3.2.0.tgz";
     hash = "sha512-ojzvCvVaNp6aOTFmG7jaRD0meowIAuPc3cMMhSgKiVWws1GyHbGd/xvnyuRKcKlMpt3qvxx6r0hreCNITP9hIg==";
-    name = "tar-stream-3.2.0.tgz";
   };
   "teex@1.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/teex/-/teex-1.0.1.tgz";
+    url = "https://registry.npmjs.org/teex/-/teex-1.0.1.tgz";
     hash = "sha512-eYE6iEI62Ni1H8oIa7KlDU6uQBtqr4Eajni3wX7rpfXD8ysFx8z0+dri+KWEPWpBsxXfxu58x/0jvTVT1ekOSg==";
-    name = "teex-1.0.1.tgz";
   };
   "text-decoder@1.2.7" = fetchurl {
-    url = "https://registry.zellic.app/npm/text-decoder/-/text-decoder-1.2.7.tgz";
+    url = "https://registry.npmjs.org/text-decoder/-/text-decoder-1.2.7.tgz";
     hash = "sha512-vlLytXkeP4xvEq2otHeJfSQIRyWxo/oZGEbXrtEEF9Hnmrdly59sUbzZ/QgyWuLYHctCHxFF4tRQZNQ9k60ExQ==";
-    name = "text-decoder-1.2.7.tgz";
   };
   "text-hex@1.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/text-hex/-/text-hex-1.0.0.tgz";
+    url = "https://registry.npmjs.org/text-hex/-/text-hex-1.0.0.tgz";
     hash = "sha512-uuVGNWzgJ4yhRaNSiubPY7OjISw4sw4E5Uv0wbjp+OzcbmVU/rsT8ujgcXJhn9ypzsgr5vlzpPqP+MBBKcGvbg==";
-    name = "text-hex-1.0.0.tgz";
   };
   "tinyexec@1.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/tinyexec/-/tinyexec-1.1.2.tgz";
+    url = "https://registry.npmjs.org/tinyexec/-/tinyexec-1.1.2.tgz";
     hash = "sha512-dAqSqE/RabpBKI8+h26GfLq6Vb3JVXs30XYQjdMjaj/c2tS8IYYMbIzP599KtRj7c57/wYApb3QjgRgXmrCukA==";
-    name = "tinyexec-1.1.2.tgz";
   };
   "token-types@6.1.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/token-types/-/token-types-6.1.2.tgz";
+    url = "https://registry.npmjs.org/token-types/-/token-types-6.1.2.tgz";
     hash = "sha512-dRXchy+C0IgK8WPC6xvCHFRIWYUbqqdEIKPaKo/AcTUNzwLTK6AH7RjdLWsEZcAN/TBdtfUw3PYEgPr5VPr6ww==";
-    name = "token-types-6.1.2.tgz";
   };
   "triple-beam@1.4.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/triple-beam/-/triple-beam-1.4.1.tgz";
+    url = "https://registry.npmjs.org/triple-beam/-/triple-beam-1.4.1.tgz";
     hash = "sha512-aZbgViZrg1QNcG+LULa7nhZpJTZSLm/mXnHXnbAbjmN5aSa0y7V+wvv6+4WaBtpISJzThKy+PIPxc1Nq1EJ9mg==";
-    name = "triple-beam-1.4.1.tgz";
   };
   "ts-algebra@2.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/ts-algebra/-/ts-algebra-2.0.0.tgz";
+    url = "https://registry.npmjs.org/ts-algebra/-/ts-algebra-2.0.0.tgz";
     hash = "sha512-FPAhNPFMrkwz76P7cdjdmiShwMynZYN6SgOujD1urY4oNm80Ou9oMdmbR45LotcKOXoy7wSmHkRFE6Mxbrhefw==";
-    name = "ts-algebra-2.0.0.tgz";
   };
   "tslib@2.8.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/tslib/-/tslib-2.8.1.tgz";
+    url = "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz";
     hash = "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==";
-    name = "tslib-2.8.1.tgz";
   };
   "turndown-plugin-gfm@1.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/turndown-plugin-gfm/-/turndown-plugin-gfm-1.0.2.tgz";
+    url = "https://registry.npmjs.org/turndown-plugin-gfm/-/turndown-plugin-gfm-1.0.2.tgz";
     hash = "sha512-vwz9tfvF7XN/jE0dGoBei3FXWuvll78ohzCZQuOb+ZjWrs3a0XhQVomJEb2Qh4VHTPNRO4GPZh0V7VRbiWwkRg==";
-    name = "turndown-plugin-gfm-1.0.2.tgz";
   };
   "turndown@7.2.4" = fetchurl {
-    url = "https://registry.zellic.app/npm/turndown/-/turndown-7.2.4.tgz";
+    url = "https://registry.npmjs.org/turndown/-/turndown-7.2.4.tgz";
     hash = "sha512-I8yFsfRzmzK0WV1pNNOA4A7y4RDfFxPRxb3t+e3ui14qSGOxGtiSP6GjeX+Y6CHb7HYaFj7ECUD7VE5kQMZWGQ==";
-    name = "turndown-7.2.4.tgz";
   };
   "typanion@3.14.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/typanion/-/typanion-3.14.0.tgz";
+    url = "https://registry.npmjs.org/typanion/-/typanion-3.14.0.tgz";
     hash = "sha512-ZW/lVMRabETuYCd9O9ZvMhAh8GslSqaUjxmK/JLPCh6l73CvLBiuXswj/+7LdnWOgYsQ130FqLzFz5aGT4I3Ug==";
-    name = "typanion-3.14.0.tgz";
   };
   "typed-query-selector@2.12.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/typed-query-selector/-/typed-query-selector-2.12.2.tgz";
+    url = "https://registry.npmjs.org/typed-query-selector/-/typed-query-selector-2.12.2.tgz";
     hash = "sha512-EOPFbyIub4ngnEdqi2yOcNeDLaX/0jcE1JoAXQDDMIthap7FoN795lc/SHfIq2d416VufXpM8z/lD+WRm2gfOQ==";
-    name = "typed-query-selector-2.12.2.tgz";
   };
   "typescript@5.9.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/typescript/-/typescript-5.9.3.tgz";
+    url = "https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz";
     hash = "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==";
-    name = "typescript-5.9.3.tgz";
   };
   "typescript@6.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/typescript/-/typescript-6.0.3.tgz";
+    url = "https://registry.npmjs.org/typescript/-/typescript-6.0.3.tgz";
     hash = "sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==";
-    name = "typescript-6.0.3.tgz";
   };
   "uglify-js@3.19.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/uglify-js/-/uglify-js-3.19.3.tgz";
+    url = "https://registry.npmjs.org/uglify-js/-/uglify-js-3.19.3.tgz";
     hash = "sha512-v3Xu+yuwBXisp6QYTcH4UbH+xYJXqnq2m/LtQVWKWzYc1iehYnLixoQDN9FH6/j9/oybfd6W9Ghwkl8+UMKTKQ==";
-    name = "uglify-js-3.19.3.tgz";
   };
   "uhyphen@0.2.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/uhyphen/-/uhyphen-0.2.0.tgz";
+    url = "https://registry.npmjs.org/uhyphen/-/uhyphen-0.2.0.tgz";
     hash = "sha512-qz3o9CHXmJJPGBdqzab7qAYuW8kQGKNEuoHFYrBwV6hWIMcpAmxDLXojcHfFr9US1Pe6zUswEIJIbLI610fuqA==";
-    name = "uhyphen-0.2.0.tgz";
   };
   "uint8array-extras@1.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/uint8array-extras/-/uint8array-extras-1.5.0.tgz";
+    url = "https://registry.npmjs.org/uint8array-extras/-/uint8array-extras-1.5.0.tgz";
     hash = "sha512-rvKSBiC5zqCCiDZ9kAOszZcDvdAHwwIKJG33Ykj43OKcWsnmcBRL09YTU4nOeHZ8Y2a7l1MgTd08SBe9A8Qj6A==";
-    name = "uint8array-extras-1.5.0.tgz";
   };
   "underscore@1.13.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/underscore/-/underscore-1.13.8.tgz";
+    url = "https://registry.npmjs.org/underscore/-/underscore-1.13.8.tgz";
     hash = "sha512-DXtD3ZtEQzc7M8m4cXotyHR+FAS18C64asBYY5vqZexfYryNNnDc02W4hKg3rdQuqOYas1jkseX0+nZXjTXnvQ==";
-    name = "underscore-1.13.8.tgz";
   };
   "undici-types@7.24.6" = fetchurl {
-    url = "https://registry.zellic.app/npm/undici-types/-/undici-types-7.24.6.tgz";
+    url = "https://registry.npmjs.org/undici-types/-/undici-types-7.24.6.tgz";
     hash = "sha512-WRNW+sJgj5OBN4/0JpHFqtqzhpbnV0GuB+OozA9gCL7a993SmU+1JBZCzLNxYsbMfIeDL+lTsphD5jN5N+n0zg==";
-    name = "undici-types-7.24.6.tgz";
   };
   "universal-user-agent@7.0.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/universal-user-agent/-/universal-user-agent-7.0.3.tgz";
+    url = "https://registry.npmjs.org/universal-user-agent/-/universal-user-agent-7.0.3.tgz";
     hash = "sha512-TmnEAEAsBJVZM/AADELsK76llnwcf9vMKuPz8JflO1frO8Lchitr0fNaN9d+Ap0BjKtqWqd/J17qeDnXh8CL2A==";
-    name = "universal-user-agent-7.0.3.tgz";
   };
   "update-browserslist-db@1.2.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz";
+    url = "https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz";
     hash = "sha512-Js0m9cx+qOgDxo0eMiFGEueWztz+d4+M3rGlmKPT+T4IS/jP4ylw3Nwpu6cpTTP8R1MAC1kF4VbdLt3ARf209w==";
-    name = "update-browserslist-db-1.2.3.tgz";
   };
   "util-deprecate@1.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/util-deprecate/-/util-deprecate-1.0.2.tgz";
+    url = "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz";
     hash = "sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==";
-    name = "util-deprecate-1.0.2.tgz";
   };
   "vite-plugin-solid@2.11.12" = fetchurl {
-    url = "https://registry.zellic.app/npm/vite-plugin-solid/-/vite-plugin-solid-2.11.12.tgz";
+    url = "https://registry.npmjs.org/vite-plugin-solid/-/vite-plugin-solid-2.11.12.tgz";
     hash = "sha512-FgjPcx2OwX9h6f28jli7A4bG7PP3te8uyakE5iqsmpq3Jqi1TWLgSroC9N6cMfGRU2zXsl4Q6ISvTr2VL0QHpA==";
-    name = "vite-plugin-solid-2.11.12.tgz";
   };
   "vite@5.4.21" = fetchurl {
-    url = "https://registry.zellic.app/npm/vite/-/vite-5.4.21.tgz";
+    url = "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz";
     hash = "sha512-o5a9xKjbtuhY6Bi5S3+HvbRERmouabWbyUcpXXUA1u+GNUKoROi9byOJ8M0nHbHYHkYICiMlqxkg1KkYmm25Sw==";
-    name = "vite-5.4.21.tgz";
   };
   "vitefu@1.1.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/vitefu/-/vitefu-1.1.3.tgz";
+    url = "https://registry.npmjs.org/vitefu/-/vitefu-1.1.3.tgz";
     hash = "sha512-ub4okH7Z5KLjb6hDyjqrGXqWtWvoYdU3IGm/NorpgHncKoLTCfRIbvlhBm7r0YstIaQRYlp4yEbFqDcKSzXSSg==";
-    name = "vitefu-1.1.3.tgz";
   };
   "webdriver-bidi-protocol@0.4.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.1.tgz";
+    url = "https://registry.npmjs.org/webdriver-bidi-protocol/-/webdriver-bidi-protocol-0.4.1.tgz";
     hash = "sha512-ARrjNjtWRRs2w4Tk7nqrf2gBI0QXWuOmMCx2hU+1jUt6d00MjMxURrhxhGbrsoiZKJrhTSTzbIrc554iKI10qw==";
-    name = "webdriver-bidi-protocol-0.4.1.tgz";
   };
   "win-guid@0.2.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/win-guid/-/win-guid-0.2.1.tgz";
+    url = "https://registry.npmjs.org/win-guid/-/win-guid-0.2.1.tgz";
     hash = "sha512-gEIQU4mkgl2OPeoNrWflcJFJ3Ae2BPd4eCsHHA/XikslkIVms/nHhvnvzIZV7VLmBvtFlDOzLt9rrZT+n6D67A==";
-    name = "win-guid-0.2.1.tgz";
   };
   "winston-daily-rotate-file@5.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/winston-daily-rotate-file/-/winston-daily-rotate-file-5.0.0.tgz";
+    url = "https://registry.npmjs.org/winston-daily-rotate-file/-/winston-daily-rotate-file-5.0.0.tgz";
     hash = "sha512-JDjiXXkM5qvwY06733vf09I2wnMXpZEhxEVOSPenZMii+g7pcDcTBt2MRugnoi8BwVSuCT2jfRXBUy+n1Zz/Yw==";
-    name = "winston-daily-rotate-file-5.0.0.tgz";
   };
   "winston-transport@4.9.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/winston-transport/-/winston-transport-4.9.0.tgz";
+    url = "https://registry.npmjs.org/winston-transport/-/winston-transport-4.9.0.tgz";
     hash = "sha512-8drMJ4rkgaPo1Me4zD/3WLfI/zPdA9o2IipKODunnGDcuqbHwjsbB79ylv04LCGGzU0xQ6vTznOMpQGaLhhm6A==";
-    name = "winston-transport-4.9.0.tgz";
   };
   "winston@3.19.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/winston/-/winston-3.19.0.tgz";
+    url = "https://registry.npmjs.org/winston/-/winston-3.19.0.tgz";
     hash = "sha512-LZNJgPzfKR+/J3cHkxcpHKpKKvGfDZVPS4hfJCc4cCG0CgYzvlD6yE/S3CIL/Yt91ak327YCpiF/0MyeZHEHKA==";
-    name = "winston-3.19.0.tgz";
   };
   "wordwrap@1.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/wordwrap/-/wordwrap-1.0.0.tgz";
+    url = "https://registry.npmjs.org/wordwrap/-/wordwrap-1.0.0.tgz";
     hash = "sha512-gvVzJFlPycKc5dZN4yPkP8w7Dc37BtP1yczEneOb4uq34pXZcvrtRTmWV8W+Ume+XCxKgbjM+nevkyFPMybd4Q==";
-    name = "wordwrap-1.0.0.tgz";
   };
   "wrap-ansi@7.0.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/wrap-ansi/-/wrap-ansi-7.0.0.tgz";
+    url = "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz";
     hash = "sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==";
-    name = "wrap-ansi-7.0.0.tgz";
   };
   "wrap-ansi@9.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/wrap-ansi/-/wrap-ansi-9.0.2.tgz";
+    url = "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-9.0.2.tgz";
     hash = "sha512-42AtmgqjV+X1VpdOfyTGOYRi0/zsoLqtXQckTmqTeybT+BDIbM/Guxo7x3pE2vtpr1ok6xRqM9OpBe+Jyoqyww==";
-    name = "wrap-ansi-9.0.2.tgz";
   };
   "wrappy@1.0.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/wrappy/-/wrappy-1.0.2.tgz";
+    url = "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz";
     hash = "sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==";
-    name = "wrappy-1.0.2.tgz";
   };
   "ws@8.20.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/ws/-/ws-8.20.1.tgz";
+    url = "https://registry.npmjs.org/ws/-/ws-8.20.1.tgz";
     hash = "sha512-It4dO0K5v//JtTXuPkfEOaI3uUN87iYPnqo/ZzqCoG3g8uhA66QUMs/SrM0YK7/NAu+r4LMh/9dq2A7k+rHs+w==";
-    name = "ws-8.20.1.tgz";
   };
   "xml-naming@0.1.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/xml-naming/-/xml-naming-0.1.0.tgz";
+    url = "https://registry.npmjs.org/xml-naming/-/xml-naming-0.1.0.tgz";
     hash = "sha512-k8KO9hrMyNk6tUWqUfkTEZbezRRpONVOzUTnc97VnCvyj6Tf9lyUR9EDAIeiVLv56jsMcoXEwjW8Kv5yPY52lw==";
-    name = "xml-naming-0.1.0.tgz";
   };
   "xml2js@0.5.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/xml2js/-/xml2js-0.5.0.tgz";
+    url = "https://registry.npmjs.org/xml2js/-/xml2js-0.5.0.tgz";
     hash = "sha512-drPFnkQJik/O+uPKpqSgr22mpuFHqKdbS835iAQrUC73L2F5WkboIRd63ai/2Yg6I1jzifPFKH2NTK+cfglkIA==";
-    name = "xml2js-0.5.0.tgz";
   };
   "xmlbuilder@10.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/xmlbuilder/-/xmlbuilder-10.1.1.tgz";
+    url = "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-10.1.1.tgz";
     hash = "sha512-OyzrcFLL/nb6fMGHbiRDuPup9ljBycsdCypwuyg5AAHvyWzGfChJpCXMG88AGTIMFhGZ9RccFN1e6lhg3hkwKg==";
-    name = "xmlbuilder-10.1.1.tgz";
   };
   "xmlbuilder@11.0.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/xmlbuilder/-/xmlbuilder-11.0.1.tgz";
+    url = "https://registry.npmjs.org/xmlbuilder/-/xmlbuilder-11.0.1.tgz";
     hash = "sha512-fDlsI/kFEx7gLvbecc0/ohLG50fugQp8ryHzMTuW9vSa1GJ0XYWKnhsUx7oie3G98+r56aTQIUB4kht42R3JvA==";
-    name = "xmlbuilder-11.0.1.tgz";
   };
   "y18n@5.0.8" = fetchurl {
-    url = "https://registry.zellic.app/npm/y18n/-/y18n-5.0.8.tgz";
+    url = "https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz";
     hash = "sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==";
-    name = "y18n-5.0.8.tgz";
   };
   "yallist@3.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/yallist/-/yallist-3.1.1.tgz";
+    url = "https://registry.npmjs.org/yallist/-/yallist-3.1.1.tgz";
     hash = "sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==";
-    name = "yallist-3.1.1.tgz";
   };
   "yaml@2.9.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/yaml/-/yaml-2.9.0.tgz";
+    url = "https://registry.npmjs.org/yaml/-/yaml-2.9.0.tgz";
     hash = "sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==";
-    name = "yaml-2.9.0.tgz";
   };
   "yargs-parser@21.1.1" = fetchurl {
-    url = "https://registry.zellic.app/npm/yargs-parser/-/yargs-parser-21.1.1.tgz";
+    url = "https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz";
     hash = "sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==";
-    name = "yargs-parser-21.1.1.tgz";
   };
   "yargs@17.7.2" = fetchurl {
-    url = "https://registry.zellic.app/npm/yargs/-/yargs-17.7.2.tgz";
+    url = "https://registry.npmjs.org/yargs/-/yargs-17.7.2.tgz";
     hash = "sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==";
-    name = "yargs-17.7.2.tgz";
   };
   "yauzl@2.10.0" = fetchurl {
-    url = "https://registry.zellic.app/npm/yauzl/-/yauzl-2.10.0.tgz";
+    url = "https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz";
     hash = "sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g==";
-    name = "yauzl-2.10.0.tgz";
   };
   "zod@3.25.76" = fetchurl {
-    url = "https://registry.zellic.app/npm/zod/-/zod-3.25.76.tgz";
+    url = "https://registry.npmjs.org/zod/-/zod-3.25.76.tgz";
     hash = "sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==";
-    name = "zod-3.25.76.tgz";
   };
   "zod@4.4.3" = fetchurl {
-    url = "https://registry.zellic.app/npm/zod/-/zod-4.4.3.tgz";
+    url = "https://registry.npmjs.org/zod/-/zod-4.4.3.tgz";
     hash = "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==";
-    name = "zod-4.4.3.tgz";
   };
 }
