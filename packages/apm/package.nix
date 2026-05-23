@@ -87,7 +87,7 @@ python3.pkgs.buildPythonApplication (finalAttrs: {
     owner = "microsoft";
     repo = "apm";
     tag = "v${finalAttrs.version}";
-    hash = "sha256-rw0IzIITBzqJKN6XdGqCDzYZPJ2GSKQ9BumcF071LoM=";
+    hash = "sha256-a1ruo5qdhbZbgTGdiTbjc5SDJ3b6jFWT8TlLXKyUzhA=";
   };
 
   build-system = with python3.pkgs; [
