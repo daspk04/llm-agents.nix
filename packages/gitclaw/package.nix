@@ -8,16 +8,16 @@
 buildNpmPackage (finalAttrs: {
   npmDepsFetcherVersion = 2;
   pname = "gitclaw";
-  version = "1.4.3";
+  version = "1.5.0";
 
   src = fetchFromGitHub {
     owner = "open-gitagent";
     repo = "gitagent";
     rev = "v${finalAttrs.version}";
-    hash = "sha256-OEhLqEBgcVQLvjrSN6cAagKStLi0VWfciFp17HjkAuU=";
+    hash = "sha256-Dbi8zCTeSdR6HCqCPP5K/4cyHmNQes4ee9OFjbsdAoo=";
   };
 
-  npmDepsHash = "sha256-Hp9xHCNeNbl16qtJkK8LyF4TroIAuUzlT47vo2QLzL0=";
+  npmDepsHash = "sha256-3hhSZn2pJhohPn5Bnas1Zs/rOvoIILO3w6szwmfEbE8=";
   makeCacheWritable = true;
 
   # @googleworkspace/cli's postinstall downloads a prebuilt `gws` binary from
