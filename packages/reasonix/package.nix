@@ -1,6 +1,7 @@
 {
   pkgs,
   lib,
+  flake,
   versionCheckHook,
   versionCheckHomeHook,
   ...
@@ -22,6 +23,10 @@ pkgs.buildNpmPackage rec {
 
   npmConfigHook = pkgs.importNpmLock.npmConfigHook;
 
+  # Skip node-gyp rebuild of dev-only tree-sitter-typescript native addon;
+  # runtime uses web-tree-sitter (WASM) instead.
+  npmFlags = [ "--ignore-scripts" ];
+
   dontCheckForBrokenSymlinks = true;
 
   doInstallCheck = true;
@@ -34,9 +39,9 @@ pkgs.buildNpmPackage rec {
     description = "DeepSeek-native AI coding agent for your terminal";
     homepage = "https://github.com/esengine/DeepSeek-Reasonix";
     license = lib.licenses.mit;
-    changelog = "https://github.com/esengine/DeepSeek-Reasonix/releases";
+    changelog = "https://github.com/esengine/DeepSeek-Reasonix/releases/tag/v${version}";
     sourceProvenance = with lib.sourceTypes; [ fromSource ];
-    maintainers = with lib.maintainers; [ arch-fan ];
+    maintainers = with flake.lib.maintainers; [ arch-fan ];
     mainProgram = "reasonix";
     platforms = lib.platforms.unix;
   };

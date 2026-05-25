@@ -127,6 +127,11 @@ inputs.nixpkgs.lib.extend (
         githubId = 2153;
         name = "Ben Vinegar";
       };
+      arch-fan = {
+        github = "arch-fan";
+        githubId = 55891793;
+        name = "arch-fan";
+      };
     };
   }
 )
