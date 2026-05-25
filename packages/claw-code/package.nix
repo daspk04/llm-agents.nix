@@ -9,13 +9,13 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "claw-code";
-  version = "0-unstable-2026-05-16";
+  version = "0-unstable-2026-05-25";
 
   src = fetchFromGitHub {
     owner = "ultraworkers";
     repo = "claw-code";
-    rev = "f8e1bb7262b261da1ee6bfcd461bfc5b676f6a6d";
-    hash = "sha256-+co41KXxpNXKWA/JC+zb+9rUQXSuU6TKOmW9OaD0NSY=";
+    rev = "5b79413e872cca639710aac575d34db1ab44f88e";
+    hash = "sha256-veqE0Xj5fDN4AwTI5nYiRh1xVhpTBGQc9YW3JdGR3S8=";
   };
 
   sourceRoot = "source/rust";
@@ -34,7 +34,7 @@ rustPlatform.buildRustPackage rec {
     ./init-tests-unique-tmpdir.patch
   ];
 
-  cargoHash = "sha256-bZKghBTbKrhm2Jiyg2su1c9Jlx2HVrMQjOTK6cgEc00=";
+  cargoHash = "sha256-qRTk6A+hfe+aGBmCoqEiuWwduLmiHQ48hu++uAJDwn4=";
 
   cargoBuildFlags = [
     "--package"
