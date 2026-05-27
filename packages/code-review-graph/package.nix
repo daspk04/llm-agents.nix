@@ -18,14 +18,14 @@ let
 in
 python.pkgs.buildPythonApplication rec {
   pname = "code-review-graph";
-  version = "scode-v0.2.1";
+  version = "2.3.5";
   pyproject = true;
 
   src = fetchFromGitHub {
     owner = "tirth8205";
     repo = "code-review-graph";
     rev = "v${version}";
-    hash = "sha256-XbiMzON15tSga/exf4rNG8cAzbrAYKRYOdO6ojda2nU=";
+    hash = "sha256-dbtvtxSi4S42sBkCBLtYPH3ck6f1gKsmvGmcrcBqcdU=";
   };
 
   build-system = with python.pkgs; [
@@ -46,7 +46,7 @@ python.pkgs.buildPythonApplication rec {
   ];
 
   # Relax version constraints — nixpkgs versions are newer but compatible.
-  # fastmcp: upstream vscode-v0.2.1 pins `<3` but main already moved to `>=3.2.4`
+  # fastmcp: upstream v2.3.5 pins `<3` but main already moved to `>=3.2.4`
   # (no API breaks for the tool/prompt decorators used here), so accept the
   # nixpkgs 3.x build until the next tagged release.
   pythonRelaxDeps = [
