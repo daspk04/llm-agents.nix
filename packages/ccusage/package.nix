@@ -1,6 +1,7 @@
 {
   lib,
   fetchFromGitHub,
+  fetchurl,
   rustPlatform,
   pkg-config,
   stdenv,
@@ -9,20 +10,30 @@
   versionCheckHomeHook,
 }:
 
+let
+  # build.rs embeds a LiteLLM pricing snapshot. Without a local file it
+  # downloads model_prices_and_context_window.json at build time, which the
+  # sandbox forbids. Pin the same litellm rev as upstream's flake.lock
+  # (nodes.litellm.locked) and pass it via CCUSAGE_PRICING_JSON_PATH.
+  litellm-pricing = fetchurl {
+    url = "https://raw.githubusercontent.com/BerriAI/litellm/e59e34bed3670a6894d43129c2af16af28057d03/model_prices_and_context_window.json";
+    hash = "sha256-aPue4NpPpTKAtAYCI8S8ojmVCDtYr+mxwtYkOASEg3w=";
+  };
+in
 rustPlatform.buildRustPackage rec {
   pname = "ccusage";
-  version = "20.0.4";
+  version = "20.0.5";
 
   src = fetchFromGitHub {
     owner = "ryoppippi";
     repo = "ccusage";
     rev = "v${version}";
-    hash = "sha256-9kH8a6ROQn221keCH2Z4kTSR/rCKS2HS0KJ9BMYc6jg=";
+    hash = "sha256-BbjNh3yHu/Cn6edKLMzj+2GfjZpZxplM56qYx0+SmJQ=";
   };
 
   sourceRoot = "${src.name}/rust";
 
-  cargoHash = "sha256-msgIcTW9v9GPL7sDtJsO1XCBqQOtRg/Ghab6IjV89Iw=";
+  cargoHash = "sha256-ce2Zq0w0tcpgsvt7UhokajBAIi3HX421AT6RWjhkxX8=";
 
   cargoBuildFlags = [
     "-p"
@@ -37,7 +48,7 @@ rustPlatform.buildRustPackage rec {
 
   buildInputs = lib.optionals stdenv.hostPlatform.isDarwin [ libiconv ];
 
-  env.CCUSAGE_SKIP_PRICING_FETCH = "1";
+  env.CCUSAGE_PRICING_JSON_PATH = litellm-pricing;
 
   doInstallCheck = true;
 
