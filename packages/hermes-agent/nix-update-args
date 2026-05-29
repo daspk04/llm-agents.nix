@@ -2,3 +2,5 @@
 ^v(\d+\.\d+\.\d+)$
 --subpackage
 hermes-tui
+--subpackage
+hermes-web
