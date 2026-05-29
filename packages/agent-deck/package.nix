@@ -10,13 +10,13 @@
 
 buildGoModule rec {
   pname = "agent-deck";
-  version = "1.9.42";
+  version = "1.9.43";
 
   src = fetchFromGitHub {
     owner = "asheshgoplani";
     repo = "agent-deck";
     rev = "v${version}";
-    hash = "sha256-7HKHhNixMIkZkHHAtp8zg66GGqc9ZUQKP/H6X/Go8LM=";
+    hash = "sha256-6squ1J7t6/OHBBaLnxWN9gd1AqKdj5Rln4ViM9UsDbs=";
   };
 
   vendorHash = "sha256-1YV8u505VY2XZ+SzIR3zX563pHmcxYJUxeSreK3glv4=";
@@ -39,9 +39,13 @@ buildGoModule rec {
   # TestValidatePluginFlags_EmptyCatalogActionableError leaks plugin catalog
   # state from TelegramForkAccepted (a package-level cache is not reset
   # between tests). Both are upstream test isolation bugs; skip them.
+  # TestVerifyPromptConsumedAfterLaunch_UnsentFirstWindow_RetryThenConsumed_OneRetry_NoWarning
+  # polls real wall-clock time with a 20ms window and 2ms interval; on loaded
+  # CI builders the window elapses before the consumed pane is observed and a
+  # spurious warning fails the test. Timing-sensitive; skip it.
   checkFlags = [
     "-short"
-    "-skip=TestValidatePluginFlags_TelegramForkAccepted|TestValidatePluginFlags_EmptyCatalogActionableError"
+    "-skip=TestValidatePluginFlags_TelegramForkAccepted|TestValidatePluginFlags_EmptyCatalogActionableError|TestVerifyPromptConsumedAfterLaunch_UnsentFirstWindow_RetryThenConsumed_OneRetry_NoWarning"
   ];
 
   preCheck = ''
