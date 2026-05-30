@@ -1851,9 +1851,9 @@
     url = "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.10.tgz";
     hash = "sha512-KGzahc7puUKkzyMt+IqAep+TVNbKP+k2Lmwhub39m1AsTSkaDutx56aDCo+HLDzf/D26BIHTJWNiTG1KAJiQCg==";
   };
-  "streamx@2.25.0" = fetchurl {
-    url = "https://registry.npmjs.org/streamx/-/streamx-2.25.0.tgz";
-    hash = "sha512-0nQuG6jf1w+wddNEEXCF4nTg3LtufWINB5eFEN+5TNZW7KWJp6x87+JFL43vaAUPyCfH1wID+mNVyW6OHtFamg==";
+  "streamx@2.26.0" = fetchurl {
+    url = "https://registry.npmjs.org/streamx/-/streamx-2.26.0.tgz";
+    hash = "sha512-VvNG1K72Po/xwJzxZFnZ++Tbrv4lwSptsbkFuzXCJAYZvCK5nnxsvXU6ajqkv7chyiI1Y0YXq2Jh8Iy8Y7NF/A==";
   };
   "string-argv@0.3.2" = fetchurl {
     url = "https://registry.npmjs.org/string-argv/-/string-argv-0.3.2.tgz";
