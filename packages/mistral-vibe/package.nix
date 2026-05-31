@@ -212,6 +212,7 @@ python.pkgs.buildPythonApplication rec {
     tomli-w
     tree-sitter
     tree-sitter-bash
+    truststore
     watchfiles
     websockets
     zstandard
