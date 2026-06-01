@@ -16,13 +16,13 @@
 
 buildGoModule rec {
   pname = "fence";
-  version = "0.1.59";
+  version = "0.1.60";
 
   src = fetchFromGitHub {
     owner = "Use-Tusk";
     repo = "fence";
     rev = "v${version}";
-    hash = "sha256-YdMw4h6+X7DhW8pZxxNQcSl+sqcy7+tDv5p2bnleIPo=";
+    hash = "sha256-4yRfU6fCTGOcA9IeFs9Sk9n1PqXi7E++reVDPlCwS1k=";
   };
 
   vendorHash = "sha256-rZ+ArTdr5GbW+nRzglNgxzsXjuTlTA0uInNWXgAVurM=";
