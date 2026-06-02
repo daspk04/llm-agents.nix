@@ -518,7 +518,7 @@ Nix packages for AI coding agents and development tools. Automatically updated d
 
 - **Source**: source
 - **License**: MIT
-- **Homepage**: https://github.com/wesm/agentsview
+- **Homepage**: https://github.com/kenn-io/agentsview
 - **Usage**: `nix run github:numtide/llm-agents.nix#agentsview -- --help`
 - **Nix**: [packages/agentsview/package.nix](packages/agentsview/package.nix)
 
