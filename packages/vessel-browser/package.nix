@@ -12,7 +12,7 @@
 buildNpmPackage rec {
   npmDepsFetcherVersion = 2;
   pname = "vessel-browser";
-  version = "0.1.124";
+  version = "0.1.125";
 
   src = fetchFromGitHub {
     owner = "unmodeled-tyler";
