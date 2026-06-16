@@ -111,7 +111,7 @@ rustPlatform.buildRustPackage {
 
   passthru = {
     inherit icm-web;
-    category = "Utilities";
+    category = "Memory & Code Intelligence";
   };
 
   meta = with lib; {
